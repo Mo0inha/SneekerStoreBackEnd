@@ -1,0 +1,763 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\concent\\Desktop\\Organizador\\Codigos Pessoais\\ApoloAPi\\src\\Services.API\\Services.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\concent\\Desktop\\Organizador\\Codigos Pessoais\\ApoloAPi\\src\\Application\\Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\concent\\Desktop\\Organizador\\Codigos Pessoais\\ApoloAPi\\src\\Application\\Application.csproj",
+        "projectName": "Concent.Athena.Application",
+        "projectPath": "C:\\Users\\concent\\Desktop\\Organizador\\Codigos Pessoais\\ApoloAPi\\src\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\concent\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\concent\\Desktop\\Organizador\\Codigos Pessoais\\ApoloAPi\\src\\Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\concent\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\concent\\Desktop\\Organizador\\Codigos Pessoais\\ApoloAPi\\src\\Domain.Core\\Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\concent\\Desktop\\Organizador\\Codigos Pessoais\\ApoloAPi\\src\\Domain.Core\\Domain.Core.csproj"
+              },
+              "C:\\Users\\concent\\Desktop\\Organizador\\Codigos Pessoais\\ApoloAPi\\src\\Domain.Shared\\Domain.Shared.csproj": {
+                "projectPath": "C:\\Users\\concent\\Desktop\\Organizador\\Codigos Pessoais\\ApoloAPi\\src\\Domain.Shared\\Domain.Shared.csproj"
+              },
+              "C:\\Users\\concent\\Desktop\\Organizador\\Codigos Pessoais\\ApoloAPi\\src\\Infrastructure.Data\\Infrastructure.Data.csproj": {
+                "projectPath": "C:\\Users\\concent\\Desktop\\Organizador\\Codigos Pessoais\\ApoloAPi\\src\\Infrastructure.Data\\Infrastructure.Data.csproj"
+              },
+              "C:\\Users\\concent\\Desktop\\Organizador\\Codigos Pessoais\\ApoloAPi\\src\\Infrastructure.Email\\Infrastructure.Email.csproj": {
+                "projectPath": "C:\\Users\\concent\\Desktop\\Organizador\\Codigos Pessoais\\ApoloAPi\\src\\Infrastructure.Email\\Infrastructure.Email.csproj"
+              },
+              "C:\\Users\\concent\\Desktop\\Organizador\\Codigos Pessoais\\ApoloAPi\\src\\Infrastructure.Util\\Infrastructure.Util.csproj": {
+                "projectPath": "C:\\Users\\concent\\Desktop\\Organizador\\Codigos Pessoais\\ApoloAPi\\src\\Infrastructure.Util\\Infrastructure.Util.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AWSSDK": {
+              "target": "Package",
+              "version": "[2.3.55.2, )"
+            },
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.2.1, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[10.3.6, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[107.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\concent\\Desktop\\Organizador\\Codigos Pessoais\\ApoloAPi\\src\\Domain.Core\\Domain.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\concent\\Desktop\\Organizador\\Codigos Pessoais\\ApoloAPi\\src\\Domain.Core\\Domain.Core.csproj",
+        "projectName": "Concent.Athena.Domain.Core",
+        "projectPath": "C:\\Users\\concent\\Desktop\\Organizador\\Codigos Pessoais\\ApoloAPi\\src\\Domain.Core\\Domain.Core.csproj",
+        "packagesPath": "C:\\Users\\concent\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\concent\\Desktop\\Organizador\\Codigos Pessoais\\ApoloAPi\\src\\Domain.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\concent\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\concent\\Desktop\\Organizador\\Codigos Pessoais\\ApoloAPi\\src\\Domain.Shared\\Domain.Shared.csproj": {
+                "projectPath": "C:\\Users\\concent\\Desktop\\Organizador\\Codigos Pessoais\\ApoloAPi\\src\\Domain.Shared\\Domain.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.17.1, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\concent\\Desktop\\Organizador\\Codigos Pessoais\\ApoloAPi\\src\\Domain.Shared\\Domain.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\concent\\Desktop\\Organizador\\Codigos Pessoais\\ApoloAPi\\src\\Domain.Shared\\Domain.Shared.csproj",
+        "projectName": "Concent.Athena.Domain.Shared",
+        "projectPath": "C:\\Users\\concent\\Desktop\\Organizador\\Codigos Pessoais\\ApoloAPi\\src\\Domain.Shared\\Domain.Shared.csproj",
+        "packagesPath": "C:\\Users\\concent\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\concent\\Desktop\\Organizador\\Codigos Pessoais\\ApoloAPi\\src\\Domain.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\concent\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\concent\\Desktop\\Organizador\\Codigos Pessoais\\ApoloAPi\\src\\Infrastructure.Util\\Infrastructure.Util.csproj": {
+                "projectPath": "C:\\Users\\concent\\Desktop\\Organizador\\Codigos Pessoais\\ApoloAPi\\src\\Infrastructure.Util\\Infrastructure.Util.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Extensions.FluentValidation.Br": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\concent\\Desktop\\Organizador\\Codigos Pessoais\\ApoloAPi\\src\\Infrastructure.Data\\Infrastructure.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\concent\\Desktop\\Organizador\\Codigos Pessoais\\ApoloAPi\\src\\Infrastructure.Data\\Infrastructure.Data.csproj",
+        "projectName": "Concent.Athena.Infrastructure.Data",
+        "projectPath": "C:\\Users\\concent\\Desktop\\Organizador\\Codigos Pessoais\\ApoloAPi\\src\\Infrastructure.Data\\Infrastructure.Data.csproj",
+        "packagesPath": "C:\\Users\\concent\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\concent\\Desktop\\Organizador\\Codigos Pessoais\\ApoloAPi\\src\\Infrastructure.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\concent\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\concent\\Desktop\\Organizador\\Codigos Pessoais\\ApoloAPi\\src\\Domain.Core\\Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\concent\\Desktop\\Organizador\\Codigos Pessoais\\ApoloAPi\\src\\Domain.Core\\Domain.Core.csproj"
+              },
+              "C:\\Users\\concent\\Desktop\\Organizador\\Codigos Pessoais\\ApoloAPi\\src\\Infrastructure.Security\\Infrastructure.Security.csproj": {
+                "projectPath": "C:\\Users\\concent\\Desktop\\Organizador\\Codigos Pessoais\\ApoloAPi\\src\\Infrastructure.Security\\Infrastructure.Security.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.90, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[5.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[5.0.16, )"
+            },
+            "Microsoft.Extensions.Caching.Redis": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.17.1, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.17.1, )"
+            },
+            "MongoDB.Driver.Core": {
+              "target": "Package",
+              "version": "[2.17.1, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
+            "prometheus-net.AspNetCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\concent\\Desktop\\Organizador\\Codigos Pessoais\\ApoloAPi\\src\\Infrastructure.Email\\Infrastructure.Email.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\concent\\Desktop\\Organizador\\Codigos Pessoais\\ApoloAPi\\src\\Infrastructure.Email\\Infrastructure.Email.csproj",
+        "projectName": "Concent.Athena.Infrastructure.Email",
+        "projectPath": "C:\\Users\\concent\\Desktop\\Organizador\\Codigos Pessoais\\ApoloAPi\\src\\Infrastructure.Email\\Infrastructure.Email.csproj",
+        "packagesPath": "C:\\Users\\concent\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\concent\\Desktop\\Organizador\\Codigos Pessoais\\ApoloAPi\\src\\Infrastructure.Email\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\concent\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\concent\\Desktop\\Organizador\\Codigos Pessoais\\ApoloAPi\\src\\Infrastructure.Security\\Infrastructure.Security.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\concent\\Desktop\\Organizador\\Codigos Pessoais\\ApoloAPi\\src\\Infrastructure.Security\\Infrastructure.Security.csproj",
+        "projectName": "Infrastructure.Security",
+        "projectPath": "C:\\Users\\concent\\Desktop\\Organizador\\Codigos Pessoais\\ApoloAPi\\src\\Infrastructure.Security\\Infrastructure.Security.csproj",
+        "packagesPath": "C:\\Users\\concent\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\concent\\Desktop\\Organizador\\Codigos Pessoais\\ApoloAPi\\src\\Infrastructure.Security\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\concent\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\concent\\Desktop\\Organizador\\Codigos Pessoais\\ApoloAPi\\src\\Domain.Core\\Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\concent\\Desktop\\Organizador\\Codigos Pessoais\\ApoloAPi\\src\\Domain.Core\\Domain.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "JWT": {
+              "target": "Package",
+              "version": "[8.8.1, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            },
+            "System.Collections": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\concent\\Desktop\\Organizador\\Codigos Pessoais\\ApoloAPi\\src\\Infrastructure.Util\\Infrastructure.Util.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\concent\\Desktop\\Organizador\\Codigos Pessoais\\ApoloAPi\\src\\Infrastructure.Util\\Infrastructure.Util.csproj",
+        "projectName": "Concent.Athena.Infrastructure.Util",
+        "projectPath": "C:\\Users\\concent\\Desktop\\Organizador\\Codigos Pessoais\\ApoloAPi\\src\\Infrastructure.Util\\Infrastructure.Util.csproj",
+        "packagesPath": "C:\\Users\\concent\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\concent\\Desktop\\Organizador\\Codigos Pessoais\\ApoloAPi\\src\\Infrastructure.Util\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\concent\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AWSSDK.S3": {
+              "target": "Package",
+              "version": "[3.7.8.3, )"
+            },
+            "AWSSDK.SecretsManager": {
+              "target": "Package",
+              "version": "[3.7.2.2, )"
+            },
+            "Microsoft.Extensions.Caching.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[107.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\concent\\Desktop\\Organizador\\Codigos Pessoais\\ApoloAPi\\src\\Services.API\\Services.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\concent\\Desktop\\Organizador\\Codigos Pessoais\\ApoloAPi\\src\\Services.API\\Services.API.csproj",
+        "projectName": "Concent.Athena.Services.API",
+        "projectPath": "C:\\Users\\concent\\Desktop\\Organizador\\Codigos Pessoais\\ApoloAPi\\src\\Services.API\\Services.API.csproj",
+        "packagesPath": "C:\\Users\\concent\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\concent\\Desktop\\Organizador\\Codigos Pessoais\\ApoloAPi\\src\\Services.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\concent\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\concent\\Desktop\\Organizador\\Codigos Pessoais\\ApoloAPi\\src\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\concent\\Desktop\\Organizador\\Codigos Pessoais\\ApoloAPi\\src\\Application\\Application.csproj"
+              },
+              "C:\\Users\\concent\\Desktop\\Organizador\\Codigos Pessoais\\ApoloAPi\\src\\Domain.Core\\Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\concent\\Desktop\\Organizador\\Codigos Pessoais\\ApoloAPi\\src\\Domain.Core\\Domain.Core.csproj"
+              },
+              "C:\\Users\\concent\\Desktop\\Organizador\\Codigos Pessoais\\ApoloAPi\\src\\Domain.Shared\\Domain.Shared.csproj": {
+                "projectPath": "C:\\Users\\concent\\Desktop\\Organizador\\Codigos Pessoais\\ApoloAPi\\src\\Domain.Shared\\Domain.Shared.csproj"
+              },
+              "C:\\Users\\concent\\Desktop\\Organizador\\Codigos Pessoais\\ApoloAPi\\src\\Infrastructure.Data\\Infrastructure.Data.csproj": {
+                "projectPath": "C:\\Users\\concent\\Desktop\\Organizador\\Codigos Pessoais\\ApoloAPi\\src\\Infrastructure.Data\\Infrastructure.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.Caching.StackExchangeRedis": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.10.14, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
+            "RabbitMQ.Client.Core.DependencyInjection": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Serilog.Enrichers.Environment": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Serilog.Enrichers.Thread": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Serilog.Settings.Configuration": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.5.61, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            },
+            "Swashbuckle.AspNetCore.Annotations": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            },
+            "prometheus-net.AspNetCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "prometheus-net.DotNetRuntime": {
+              "target": "Package",
+              "version": "[4.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

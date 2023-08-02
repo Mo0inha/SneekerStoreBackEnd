@@ -1,0 +1,1083 @@
+2023-06-29 14:26:27.191 -03:00 [DBG] Hosting starting
+2023-06-29 14:26:28.151 -03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 1ED06961E04A72F7E2C9617C51B22CBBFE7472A4)
+2023-06-29 14:26:28.289 -03:00 [INF] Now listening on: https://localhost:5002
+2023-06-29 14:26:28.301 -03:00 [DBG] Loaded hosting startup assembly Concent.Athena.Services.API
+2023-06-29 14:26:28.303 -03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-06-29 14:26:28.306 -03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-06-29 14:26:28.310 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-29 14:26:28.313 -03:00 [INF] Hosting environment: Local
+2023-06-29 14:26:28.319 -03:00 [INF] Content root path: C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API
+2023-06-29 14:26:28.323 -03:00 [DBG] Hosting started
+2023-06-29 14:26:28.457 -03:00 [DBG] Connection id "0HMROONSFVMCS" accepted.
+2023-06-29 14:26:28.461 -03:00 [DBG] Connection id "0HMROONSFVMCS" started.
+2023-06-29 14:26:28.471 -03:00 [DBG] Connection id "0HMROONSFVMCT" accepted.
+2023-06-29 14:26:28.474 -03:00 [DBG] Connection id "0HMROONSFVMCT" started.
+2023-06-29 14:26:28.475 -03:00 [DBG] Connection id "0HMROONSFVMCU" accepted.
+2023-06-29 14:26:28.480 -03:00 [DBG] Connection id "0HMROONSFVMCU" started.
+2023-06-29 14:26:28.563 -03:00 [DBG] Connection id "0HMROONSFVMCT" received FIN.
+2023-06-29 14:26:28.563 -03:00 [DBG] Connection id "0HMROONSFVMCU" received FIN.
+2023-06-29 14:26:28.581 -03:00 [DBG] Connection "0HMROONSFVMCS" established using the following protocol: "Tls12"
+2023-06-29 14:26:28.581 -03:00 [DBG] Connection "0HMROONSFVMCT" established using the following protocol: "Tls12"
+2023-06-29 14:26:28.581 -03:00 [DBG] Connection "0HMROONSFVMCU" established using the following protocol: "Tls12"
+2023-06-29 14:26:28.601 -03:00 [DBG] Connection id "0HMROONSFVMCT" is closed. The last processed stream ID was 0.
+2023-06-29 14:26:28.601 -03:00 [DBG] Connection id "0HMROONSFVMCU" is closed. The last processed stream ID was 0.
+2023-06-29 14:26:28.607 -03:00 [DBG] Connection id "0HMROONSFVMCU" sending FIN because: "The client closed the connection."
+2023-06-29 14:26:28.606 -03:00 [DBG] Connection id "0HMROONSFVMCT" sending FIN because: "The client closed the connection."
+2023-06-29 14:26:28.618 -03:00 [DBG] Connection id "0HMROONSFVMCU" stopped.
+2023-06-29 14:26:28.618 -03:00 [DBG] Connection id "0HMROONSFVMCT" stopped.
+2023-06-29 14:26:28.652 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5002/swagger/index.html - -
+2023-06-29 14:26:28.709 -03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-06-29 14:26:28.808 -03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-06-29 14:26:28.983 -03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-06-29 14:26:28.995 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5002/swagger/index.html - - - 200 - text/html;charset=utf-8 345.6040ms
+2023-06-29 14:26:29.011 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5002/_vs/browserLink - -
+2023-06-29 14:26:29.011 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5002/_framework/aspnetcore-browser-refresh.js - -
+2023-06-29 14:26:29.030 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5002/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 17.4662ms
+2023-06-29 14:26:29.074 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5002/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 63.2389ms
+2023-06-29 14:26:29.547 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5002/swagger/v1/swagger.json - -
+2023-06-29 14:26:29.738 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5002/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 190.6941ms
+2023-06-29 14:26:37.639 -03:00 [DBG] Connection id "0HMROONSFVMCS" received FIN.
+2023-06-29 14:26:37.644 -03:00 [DBG] Connection id "0HMROONSFVMCS" is closed. The last processed stream ID was 7.
+2023-06-29 14:26:37.646 -03:00 [DBG] Connection id "0HMROONSFVMCS" sending FIN because: "The client closed the connection."
+2023-06-29 14:26:37.654 -03:00 [DBG] Connection id "0HMROONSFVMCS" stopped.
+2023-06-29 14:26:42.386 -03:00 [DBG] Connection id "0HMROONSFVMCV" accepted.
+2023-06-29 14:26:42.389 -03:00 [DBG] Connection id "0HMROONSFVMCV" started.
+2023-06-29 14:26:42.398 -03:00 [DBG] Connection "0HMROONSFVMCV" established using the following protocol: "Tls12"
+2023-06-29 14:26:42.404 -03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:5002/api/v1/tenant/tenant - -
+2023-06-29 14:26:42.410 -03:00 [DBG] OPTIONS requests are not supported
+2023-06-29 14:26:42.455 -03:00 [DBG] 1 candidate(s) found for the request path '/api/v1/tenant/tenant'
+2023-06-29 14:26:42.459 -03:00 [DBG] Request matched endpoint '405 HTTP Method Not Supported'
+2023-06-29 14:26:42.469 -03:00 [DBG] The request has an origin header: 'http://localhost:4200'.
+2023-06-29 14:26:42.473 -03:00 [INF] CORS policy execution successful.
+2023-06-29 14:26:42.476 -03:00 [DBG] The request is a preflight request.
+2023-06-29 14:26:42.480 -03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:5002/api/v1/tenant/tenant - - - 204 - - 76.1160ms
+2023-06-29 14:26:42.482 -03:00 [INF] Request starting HTTP/2 POST https://localhost:5002/api/v1/tenant/tenant application/json 146
+2023-06-29 14:26:42.484 -03:00 [DBG] POST requests are not supported
+2023-06-29 14:26:42.487 -03:00 [DBG] 1 candidate(s) found for the request path '/api/v1/tenant/tenant'
+2023-06-29 14:26:42.495 -03:00 [DBG] Endpoint 'Concent.Athena.Services.API.Controllers.TenantController.Create (Concent.Athena.Services.API)' with route pattern 'api/v1/tenant/Tenant' is valid for the request path '/api/v1/tenant/tenant'
+2023-06-29 14:26:42.500 -03:00 [DBG] Request matched endpoint 'Concent.Athena.Services.API.Controllers.TenantController.Create (Concent.Athena.Services.API)'
+2023-06-29 14:26:42.503 -03:00 [DBG] The request has an origin header: 'http://localhost:4200'.
+2023-06-29 14:26:42.505 -03:00 [INF] CORS policy execution successful.
+2023-06-29 14:26:42.510 -03:00 [INF] Executing endpoint 'Concent.Athena.Services.API.Controllers.TenantController.Create (Concent.Athena.Services.API)'
+2023-06-29 14:26:42.525 -03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-06-29 14:26:42.600 -03:00 [INF] Route matched with {action = "Create", controller = "Tenant"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(Concent.Athena.Domain.Core.Requests.TenantRequests.CreateTenantRequest, System.Threading.CancellationToken) on controller Concent.Athena.Services.API.Controllers.TenantController (Concent.Athena.Services.API).
+2023-06-29 14:26:42.605 -03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-06-29 14:26:42.608 -03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-06-29 14:26:42.611 -03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-06-29 14:26:42.615 -03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-06-29 14:26:42.620 -03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-06-29 14:26:42.626 -03:00 [DBG] Executing controller factory for controller Concent.Athena.Services.API.Controllers.TenantController (Concent.Athena.Services.API)
+2023-06-29 14:26:42.632 -03:00 [DBG] Executed controller factory for controller Concent.Athena.Services.API.Controllers.TenantController (Concent.Athena.Services.API)
+2023-06-29 14:26:42.656 -03:00 [DBG] Attempting to bind parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.TenantRequests.CreateTenantRequest' ...
+2023-06-29 14:26:42.661 -03:00 [DBG] Attempting to bind parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.TenantRequests.CreateTenantRequest' using the name '' in request data ...
+2023-06-29 14:26:42.668 -03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2023-06-29 14:26:42.675 -03:00 [DBG] Connection id "0HMROONSFVMCV", Request id "0HMROONSFVMCV:00000003": started reading request body.
+2023-06-29 14:26:42.679 -03:00 [DBG] Connection id "0HMROONSFVMCV", Request id "0HMROONSFVMCV:00000003": done reading request body.
+2023-06-29 14:26:42.688 -03:00 [DBG] JSON input formatter succeeded, deserializing to type 'Concent.Athena.Domain.Core.Requests.TenantRequests.CreateTenantRequest'
+2023-06-29 14:26:42.691 -03:00 [DBG] Done attempting to bind parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.TenantRequests.CreateTenantRequest'.
+2023-06-29 14:26:42.694 -03:00 [DBG] Done attempting to bind parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.TenantRequests.CreateTenantRequest'.
+2023-06-29 14:26:42.697 -03:00 [DBG] Attempting to validate the bound parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.TenantRequests.CreateTenantRequest' ...
+2023-06-29 14:26:42.704 -03:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.TenantRequests.CreateTenantRequest'.
+2023-06-29 14:26:42.709 -03:00 [DBG] Attempting to bind parameter 'cancellationToken' of type 'System.Threading.CancellationToken' ...
+2023-06-29 14:26:42.712 -03:00 [DBG] Done attempting to bind parameter 'cancellationToken' of type 'System.Threading.CancellationToken'.
+2023-06-29 14:26:42.715 -03:00 [DBG] Attempting to validate the bound parameter 'cancellationToken' of type 'System.Threading.CancellationToken' ...
+2023-06-29 14:26:42.719 -03:00 [DBG] Done attempting to validate the bound parameter 'cancellationToken' of type 'System.Threading.CancellationToken'.
+2023-06-29 14:26:43.147 -03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-06-29 14:26:43.969 -03:00 [INF] Entity Framework Core 5.0.16 initialized 'AthenaContext' using provider 'Pomelo.EntityFrameworkCore.MySql' with options: ServerVersion 8.0.21-mysql 
+2023-06-29 14:26:43.998 -03:00 [DBG] Opening connection to database '' on server 'localhost'.
+2023-06-29 14:26:44.197 -03:00 [DBG] Opened connection to database '' on server 'localhost'.
+2023-06-29 14:26:44.348 -03:00 [DBG] Opening connection to database '' on server 'localhost'.
+2023-06-29 14:26:44.361 -03:00 [DBG] Opened connection to database '' on server 'localhost'.
+2023-06-29 14:26:44.368 -03:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-06-29 14:26:44.380 -03:00 [DBG] Began transaction with isolation level 'Unspecified'.
+2023-06-29 14:26:44.387 -03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-06-29 14:26:44.392 -03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (4ms).
+2023-06-29 14:26:44.403 -03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE DATABASE `Athenadb`;
+2023-06-29 14:26:44.469 -03:00 [INF] Executed DbCommand (65ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE DATABASE `Athenadb`;
+2023-06-29 14:26:44.477 -03:00 [DBG] Committing transaction.
+2023-06-29 14:26:44.481 -03:00 [DBG] Committed transaction.
+2023-06-29 14:26:44.484 -03:00 [DBG] Disposing transaction.
+2023-06-29 14:26:44.487 -03:00 [DBG] Closing connection to database '' on server 'localhost'.
+2023-06-29 14:26:44.493 -03:00 [DBG] Closed connection to database '' on server 'localhost'.
+2023-06-29 14:26:44.510 -03:00 [DBG] Opening connection to database '' on server 'localhost'.
+2023-06-29 14:26:44.517 -03:00 [DBG] Opened connection to database '' on server 'localhost'.
+2023-06-29 14:26:44.624 -03:00 [DBG] DetectChanges starting for 'AthenaContext'.
+2023-06-29 14:26:44.630 -03:00 [DBG] DetectChanges completed for 'AthenaContext'.
+2023-06-29 14:26:44.648 -03:00 [DBG] Opening connection to database 'Athenadb' on server 'localhost'.
+2023-06-29 14:26:44.661 -03:00 [DBG] Opened connection to database 'Athenadb' on server 'localhost'.
+2023-06-29 14:26:44.665 -03:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-06-29 14:26:44.668 -03:00 [DBG] Began transaction with isolation level 'Unspecified'.
+2023-06-29 14:26:44.671 -03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-06-29 14:26:44.674 -03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (3ms).
+2023-06-29 14:26:44.677 -03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER DATABASE CHARACTER SET utf8mb4;
+2023-06-29 14:26:44.803 -03:00 [INF] Executed DbCommand (126ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER DATABASE CHARACTER SET utf8mb4;
+2023-06-29 14:26:44.809 -03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-06-29 14:26:44.813 -03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (3ms).
+2023-06-29 14:26:44.816 -03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `TB_ADDRESS` (
+    `ID` char(36) COLLATE ascii_general_ci NOT NULL,
+    `DS_STREET` varchar(400) CHARACTER SET utf8mb4 NULL,
+    `DS_CITY` varchar(400) CHARACTER SET utf8mb4 NULL,
+    `DS_STATE` varchar(400) CHARACTER SET utf8mb4 NULL,
+    `DS_POSTAL_CODE` varchar(400) CHARACTER SET utf8mb4 NOT NULL,
+    `DS_COUNTRY` varchar(400) CHARACTER SET utf8mb4 NULL,
+    `CREATED_AT` datetime(6) NOT NULL,
+    `UPDATED_AT` datetime(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6) ON UPDATE CURRENT_TIMESTAMP(6),
+    `ST_ACTIVE` tinyint(1) NOT NULL,
+    CONSTRAINT `PK_TB_ADDRESS` PRIMARY KEY (`ID`)
+) CHARACTER SET utf8mb4;
+2023-06-29 14:26:44.968 -03:00 [INF] Executed DbCommand (152ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `TB_ADDRESS` (
+    `ID` char(36) COLLATE ascii_general_ci NOT NULL,
+    `DS_STREET` varchar(400) CHARACTER SET utf8mb4 NULL,
+    `DS_CITY` varchar(400) CHARACTER SET utf8mb4 NULL,
+    `DS_STATE` varchar(400) CHARACTER SET utf8mb4 NULL,
+    `DS_POSTAL_CODE` varchar(400) CHARACTER SET utf8mb4 NOT NULL,
+    `DS_COUNTRY` varchar(400) CHARACTER SET utf8mb4 NULL,
+    `CREATED_AT` datetime(6) NOT NULL,
+    `UPDATED_AT` datetime(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6) ON UPDATE CURRENT_TIMESTAMP(6),
+    `ST_ACTIVE` tinyint(1) NOT NULL,
+    CONSTRAINT `PK_TB_ADDRESS` PRIMARY KEY (`ID`)
+) CHARACTER SET utf8mb4;
+2023-06-29 14:26:44.976 -03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-06-29 14:26:44.979 -03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (2ms).
+2023-06-29 14:26:44.983 -03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `TB_PERSON` (
+    `ID` char(36) COLLATE ascii_general_ci NOT NULL,
+    `DS_PERSON_NAME` varchar(400) CHARACTER SET utf8mb4 NOT NULL,
+    `DS_CPF` varchar(400) CHARACTER SET utf8mb4 NOT NULL,
+    `CREATED_AT` datetime(6) NOT NULL,
+    `UPDATED_AT` datetime(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6) ON UPDATE CURRENT_TIMESTAMP(6),
+    `ST_ACTIVE` tinyint(1) NOT NULL,
+    CONSTRAINT `PK_TB_PERSON` PRIMARY KEY (`ID`)
+) CHARACTER SET utf8mb4;
+2023-06-29 14:26:45.017 -03:00 [INF] Executed DbCommand (34ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `TB_PERSON` (
+    `ID` char(36) COLLATE ascii_general_ci NOT NULL,
+    `DS_PERSON_NAME` varchar(400) CHARACTER SET utf8mb4 NOT NULL,
+    `DS_CPF` varchar(400) CHARACTER SET utf8mb4 NOT NULL,
+    `CREATED_AT` datetime(6) NOT NULL,
+    `UPDATED_AT` datetime(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6) ON UPDATE CURRENT_TIMESTAMP(6),
+    `ST_ACTIVE` tinyint(1) NOT NULL,
+    CONSTRAINT `PK_TB_PERSON` PRIMARY KEY (`ID`)
+) CHARACTER SET utf8mb4;
+2023-06-29 14:26:45.023 -03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-06-29 14:26:45.026 -03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (2ms).
+2023-06-29 14:26:45.029 -03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `TB_TENANT` (
+    `ID` char(36) COLLATE ascii_general_ci NOT NULL,
+    `NM_NAME` varchar(400) CHARACTER SET utf8mb4 NOT NULL,
+    `ST_TYPE_TENANT` tinyint NOT NULL,
+    `DS_CODE` varchar(400) CHARACTER SET utf8mb4 NULL,
+    `DS_PHONE` varchar(400) CHARACTER SET utf8mb4 NULL,
+    `ID_ADDRESS` char(36) COLLATE ascii_general_ci NULL,
+    `CREATED_AT` datetime(6) NOT NULL,
+    `UPDATED_AT` datetime(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6) ON UPDATE CURRENT_TIMESTAMP(6),
+    `ST_ACTIVE` tinyint(1) NOT NULL,
+    CONSTRAINT `PK_TB_TENANT` PRIMARY KEY (`ID`),
+    CONSTRAINT `FK_TB_TENANT_TB_ADDRESS_ID_ADDRESS` FOREIGN KEY (`ID_ADDRESS`) REFERENCES `TB_ADDRESS` (`ID`) ON DELETE RESTRICT
+) CHARACTER SET utf8mb4;
+2023-06-29 14:26:45.075 -03:00 [INF] Executed DbCommand (47ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `TB_TENANT` (
+    `ID` char(36) COLLATE ascii_general_ci NOT NULL,
+    `NM_NAME` varchar(400) CHARACTER SET utf8mb4 NOT NULL,
+    `ST_TYPE_TENANT` tinyint NOT NULL,
+    `DS_CODE` varchar(400) CHARACTER SET utf8mb4 NULL,
+    `DS_PHONE` varchar(400) CHARACTER SET utf8mb4 NULL,
+    `ID_ADDRESS` char(36) COLLATE ascii_general_ci NULL,
+    `CREATED_AT` datetime(6) NOT NULL,
+    `UPDATED_AT` datetime(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6) ON UPDATE CURRENT_TIMESTAMP(6),
+    `ST_ACTIVE` tinyint(1) NOT NULL,
+    CONSTRAINT `PK_TB_TENANT` PRIMARY KEY (`ID`),
+    CONSTRAINT `FK_TB_TENANT_TB_ADDRESS_ID_ADDRESS` FOREIGN KEY (`ID_ADDRESS`) REFERENCES `TB_ADDRESS` (`ID`) ON DELETE RESTRICT
+) CHARACTER SET utf8mb4;
+2023-06-29 14:26:45.083 -03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-06-29 14:26:45.085 -03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (2ms).
+2023-06-29 14:26:45.088 -03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `TB_USER` (
+    `ID` char(36) COLLATE ascii_general_ci NOT NULL,
+    `DS_USER_LOGIN` varchar(400) CHARACTER SET utf8mb4 NOT NULL,
+    `DS_USER_PASSWORD` varchar(400) CHARACTER SET utf8mb4 NOT NULL,
+    `DS_SALT` varchar(400) CHARACTER SET utf8mb4 NOT NULL,
+    `ID_PERSON` char(36) COLLATE ascii_general_ci NOT NULL,
+    `IE_ISLOGED` tinyint(1) NOT NULL,
+    `CREATED_AT` datetime(6) NOT NULL,
+    `UPDATED_AT` datetime(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6) ON UPDATE CURRENT_TIMESTAMP(6),
+    `ST_ACTIVE` tinyint(1) NOT NULL,
+    CONSTRAINT `PK_TB_USER` PRIMARY KEY (`ID`),
+    CONSTRAINT `FK_TB_USER_TB_PERSON_ID_PERSON` FOREIGN KEY (`ID_PERSON`) REFERENCES `TB_PERSON` (`ID`) ON DELETE CASCADE
+) CHARACTER SET utf8mb4;
+2023-06-29 14:26:45.132 -03:00 [INF] Executed DbCommand (44ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `TB_USER` (
+    `ID` char(36) COLLATE ascii_general_ci NOT NULL,
+    `DS_USER_LOGIN` varchar(400) CHARACTER SET utf8mb4 NOT NULL,
+    `DS_USER_PASSWORD` varchar(400) CHARACTER SET utf8mb4 NOT NULL,
+    `DS_SALT` varchar(400) CHARACTER SET utf8mb4 NOT NULL,
+    `ID_PERSON` char(36) COLLATE ascii_general_ci NOT NULL,
+    `IE_ISLOGED` tinyint(1) NOT NULL,
+    `CREATED_AT` datetime(6) NOT NULL,
+    `UPDATED_AT` datetime(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6) ON UPDATE CURRENT_TIMESTAMP(6),
+    `ST_ACTIVE` tinyint(1) NOT NULL,
+    CONSTRAINT `PK_TB_USER` PRIMARY KEY (`ID`),
+    CONSTRAINT `FK_TB_USER_TB_PERSON_ID_PERSON` FOREIGN KEY (`ID_PERSON`) REFERENCES `TB_PERSON` (`ID`) ON DELETE CASCADE
+) CHARACTER SET utf8mb4;
+2023-06-29 14:26:45.141 -03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-06-29 14:26:45.143 -03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (2ms).
+2023-06-29 14:26:45.146 -03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `TB_ACCOUNT` (
+    `ID` char(36) COLLATE ascii_general_ci NOT NULL,
+    `ID_PERSON` char(36) COLLATE ascii_general_ci NOT NULL,
+    `DS_BANKCODE` varchar(400) CHARACTER SET utf8mb4 NOT NULL,
+    `NR_ACCOUNT_NUMBER` varchar(400) CHARACTER SET utf8mb4 NOT NULL,
+    `NR_BRANCH` varchar(400) CHARACTER SET utf8mb4 NOT NULL,
+    `ST_TYPE_ACCOUNT` tinyint NOT NULL,
+    `DT_OPEN_DATE` datetime(6) NOT NULL,
+    `CloseDate` datetime(6) NOT NULL,
+    `NR_OPENING_BALANCE` decimal(65,30) NOT NULL,
+    `CREATED_AT` datetime(6) NOT NULL,
+    `UPDATED_AT` datetime(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6) ON UPDATE CURRENT_TIMESTAMP(6),
+    `ST_ACTIVE` tinyint(1) NOT NULL,
+    `TenantId` char(36) COLLATE ascii_general_ci NOT NULL,
+    CONSTRAINT `PK_TB_ACCOUNT` PRIMARY KEY (`ID`),
+    CONSTRAINT `FK_TB_ACCOUNT_TB_PERSON_ID_PERSON` FOREIGN KEY (`ID_PERSON`) REFERENCES `TB_PERSON` (`ID`) ON DELETE CASCADE,
+    CONSTRAINT `FK_TB_ACCOUNT_TB_TENANT_TenantId` FOREIGN KEY (`TenantId`) REFERENCES `TB_TENANT` (`ID`) ON DELETE CASCADE
+) CHARACTER SET utf8mb4;
+2023-06-29 14:26:45.189 -03:00 [INF] Executed DbCommand (43ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `TB_ACCOUNT` (
+    `ID` char(36) COLLATE ascii_general_ci NOT NULL,
+    `ID_PERSON` char(36) COLLATE ascii_general_ci NOT NULL,
+    `DS_BANKCODE` varchar(400) CHARACTER SET utf8mb4 NOT NULL,
+    `NR_ACCOUNT_NUMBER` varchar(400) CHARACTER SET utf8mb4 NOT NULL,
+    `NR_BRANCH` varchar(400) CHARACTER SET utf8mb4 NOT NULL,
+    `ST_TYPE_ACCOUNT` tinyint NOT NULL,
+    `DT_OPEN_DATE` datetime(6) NOT NULL,
+    `CloseDate` datetime(6) NOT NULL,
+    `NR_OPENING_BALANCE` decimal(65,30) NOT NULL,
+    `CREATED_AT` datetime(6) NOT NULL,
+    `UPDATED_AT` datetime(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6) ON UPDATE CURRENT_TIMESTAMP(6),
+    `ST_ACTIVE` tinyint(1) NOT NULL,
+    `TenantId` char(36) COLLATE ascii_general_ci NOT NULL,
+    CONSTRAINT `PK_TB_ACCOUNT` PRIMARY KEY (`ID`),
+    CONSTRAINT `FK_TB_ACCOUNT_TB_PERSON_ID_PERSON` FOREIGN KEY (`ID_PERSON`) REFERENCES `TB_PERSON` (`ID`) ON DELETE CASCADE,
+    CONSTRAINT `FK_TB_ACCOUNT_TB_TENANT_TenantId` FOREIGN KEY (`TenantId`) REFERENCES `TB_TENANT` (`ID`) ON DELETE CASCADE
+) CHARACTER SET utf8mb4;
+2023-06-29 14:26:45.203 -03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-06-29 14:26:45.206 -03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (3ms).
+2023-06-29 14:26:45.210 -03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `TB_INCOME_EXPENSES` (
+    `ID` char(36) COLLATE ascii_general_ci NOT NULL,
+    `NM_NAME` varchar(400) CHARACTER SET utf8mb4 NOT NULL,
+    `ST_TYPE` tinyint NOT NULL,
+    `CREATED_AT` datetime(6) NOT NULL,
+    `UPDATED_AT` datetime(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6) ON UPDATE CURRENT_TIMESTAMP(6),
+    `ST_ACTIVE` tinyint(1) NOT NULL,
+    `ID_TENANT` char(36) COLLATE ascii_general_ci NOT NULL,
+    CONSTRAINT `PK_TB_INCOME_EXPENSES` PRIMARY KEY (`ID`),
+    CONSTRAINT `FK_TB_INCOME_EXPENSES_TB_TENANT_ID_TENANT` FOREIGN KEY (`ID_TENANT`) REFERENCES `TB_TENANT` (`ID`) ON DELETE CASCADE
+) CHARACTER SET utf8mb4;
+2023-06-29 14:26:46.069 -03:00 [INF] Executed DbCommand (859ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `TB_INCOME_EXPENSES` (
+    `ID` char(36) COLLATE ascii_general_ci NOT NULL,
+    `NM_NAME` varchar(400) CHARACTER SET utf8mb4 NOT NULL,
+    `ST_TYPE` tinyint NOT NULL,
+    `CREATED_AT` datetime(6) NOT NULL,
+    `UPDATED_AT` datetime(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6) ON UPDATE CURRENT_TIMESTAMP(6),
+    `ST_ACTIVE` tinyint(1) NOT NULL,
+    `ID_TENANT` char(36) COLLATE ascii_general_ci NOT NULL,
+    CONSTRAINT `PK_TB_INCOME_EXPENSES` PRIMARY KEY (`ID`),
+    CONSTRAINT `FK_TB_INCOME_EXPENSES_TB_TENANT_ID_TENANT` FOREIGN KEY (`ID_TENANT`) REFERENCES `TB_TENANT` (`ID`) ON DELETE CASCADE
+) CHARACTER SET utf8mb4;
+2023-06-29 14:26:46.079 -03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-06-29 14:26:46.083 -03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (3ms).
+2023-06-29 14:26:46.104 -03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `TB_ACCOUNT_MOVES` (
+    `ID` char(36) COLLATE ascii_general_ci NOT NULL,
+    `ID_PERSON` char(36) COLLATE ascii_general_ci NOT NULL,
+    `ID_TYPE_INCOME_EXPENSES` char(36) COLLATE ascii_general_ci NOT NULL,
+    `ID_ACCOUNT` char(36) COLLATE ascii_general_ci NOT NULL,
+    `NR_VALUE` decimal(65,30) NOT NULL,
+    `DS_DESCRIPTION` varchar(400) CHARACTER SET utf8mb4 NOT NULL,
+    `CREATED_AT` datetime(6) NOT NULL,
+    `UPDATED_AT` datetime(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6) ON UPDATE CURRENT_TIMESTAMP(6),
+    `ST_ACTIVE` tinyint(1) NOT NULL,
+    `ID_TENANT` char(36) COLLATE ascii_general_ci NOT NULL,
+    CONSTRAINT `PK_TB_ACCOUNT_MOVES` PRIMARY KEY (`ID`),
+    CONSTRAINT `FK_TB_ACCOUNT_MOVES_TB_ACCOUNT_ID_ACCOUNT` FOREIGN KEY (`ID_ACCOUNT`) REFERENCES `TB_ACCOUNT` (`ID`) ON DELETE CASCADE,
+    CONSTRAINT `FK_TB_ACCOUNT_MOVES_TB_INCOME_EXPENSES_ID_TYPE_INCOME_EXPENSES` FOREIGN KEY (`ID_TYPE_INCOME_EXPENSES`) REFERENCES `TB_INCOME_EXPENSES` (`ID`) ON DELETE CASCADE,
+    CONSTRAINT `FK_TB_ACCOUNT_MOVES_TB_PERSON_ID_PERSON` FOREIGN KEY (`ID_PERSON`) REFERENCES `TB_PERSON` (`ID`) ON DELETE CASCADE,
+    CONSTRAINT `FK_TB_ACCOUNT_MOVES_TB_TENANT_ID_TENANT` FOREIGN KEY (`ID_TENANT`) REFERENCES `TB_TENANT` (`ID`) ON DELETE CASCADE
+) CHARACTER SET utf8mb4;
+2023-06-29 14:26:46.238 -03:00 [INF] Executed DbCommand (133ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `TB_ACCOUNT_MOVES` (
+    `ID` char(36) COLLATE ascii_general_ci NOT NULL,
+    `ID_PERSON` char(36) COLLATE ascii_general_ci NOT NULL,
+    `ID_TYPE_INCOME_EXPENSES` char(36) COLLATE ascii_general_ci NOT NULL,
+    `ID_ACCOUNT` char(36) COLLATE ascii_general_ci NOT NULL,
+    `NR_VALUE` decimal(65,30) NOT NULL,
+    `DS_DESCRIPTION` varchar(400) CHARACTER SET utf8mb4 NOT NULL,
+    `CREATED_AT` datetime(6) NOT NULL,
+    `UPDATED_AT` datetime(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6) ON UPDATE CURRENT_TIMESTAMP(6),
+    `ST_ACTIVE` tinyint(1) NOT NULL,
+    `ID_TENANT` char(36) COLLATE ascii_general_ci NOT NULL,
+    CONSTRAINT `PK_TB_ACCOUNT_MOVES` PRIMARY KEY (`ID`),
+    CONSTRAINT `FK_TB_ACCOUNT_MOVES_TB_ACCOUNT_ID_ACCOUNT` FOREIGN KEY (`ID_ACCOUNT`) REFERENCES `TB_ACCOUNT` (`ID`) ON DELETE CASCADE,
+    CONSTRAINT `FK_TB_ACCOUNT_MOVES_TB_INCOME_EXPENSES_ID_TYPE_INCOME_EXPENSES` FOREIGN KEY (`ID_TYPE_INCOME_EXPENSES`) REFERENCES `TB_INCOME_EXPENSES` (`ID`) ON DELETE CASCADE,
+    CONSTRAINT `FK_TB_ACCOUNT_MOVES_TB_PERSON_ID_PERSON` FOREIGN KEY (`ID_PERSON`) REFERENCES `TB_PERSON` (`ID`) ON DELETE CASCADE,
+    CONSTRAINT `FK_TB_ACCOUNT_MOVES_TB_TENANT_ID_TENANT` FOREIGN KEY (`ID_TENANT`) REFERENCES `TB_TENANT` (`ID`) ON DELETE CASCADE
+) CHARACTER SET utf8mb4;
+2023-06-29 14:26:46.257 -03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-06-29 14:26:46.280 -03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (23ms).
+2023-06-29 14:26:46.288 -03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_TB_ACCOUNT_ID_PERSON` ON `TB_ACCOUNT` (`ID_PERSON`);
+2023-06-29 14:26:46.369 -03:00 [INF] Executed DbCommand (81ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_TB_ACCOUNT_ID_PERSON` ON `TB_ACCOUNT` (`ID_PERSON`);
+2023-06-29 14:26:46.376 -03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-06-29 14:26:46.380 -03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (4ms).
+2023-06-29 14:26:46.383 -03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_TB_ACCOUNT_TenantId` ON `TB_ACCOUNT` (`TenantId`);
+2023-06-29 14:26:46.407 -03:00 [INF] Executed DbCommand (24ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_TB_ACCOUNT_TenantId` ON `TB_ACCOUNT` (`TenantId`);
+2023-06-29 14:26:46.412 -03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-06-29 14:26:46.415 -03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (2ms).
+2023-06-29 14:26:46.418 -03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_TB_ACCOUNT_MOVES_ID_ACCOUNT` ON `TB_ACCOUNT_MOVES` (`ID_ACCOUNT`);
+2023-06-29 14:26:46.456 -03:00 [INF] Executed DbCommand (37ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_TB_ACCOUNT_MOVES_ID_ACCOUNT` ON `TB_ACCOUNT_MOVES` (`ID_ACCOUNT`);
+2023-06-29 14:26:46.462 -03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-06-29 14:26:46.465 -03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (3ms).
+2023-06-29 14:26:46.469 -03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_TB_ACCOUNT_MOVES_ID_PERSON` ON `TB_ACCOUNT_MOVES` (`ID_PERSON`);
+2023-06-29 14:26:46.492 -03:00 [INF] Executed DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_TB_ACCOUNT_MOVES_ID_PERSON` ON `TB_ACCOUNT_MOVES` (`ID_PERSON`);
+2023-06-29 14:26:46.496 -03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-06-29 14:26:46.500 -03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (3ms).
+2023-06-29 14:26:46.505 -03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_TB_ACCOUNT_MOVES_ID_TENANT` ON `TB_ACCOUNT_MOVES` (`ID_TENANT`);
+2023-06-29 14:26:46.522 -03:00 [INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_TB_ACCOUNT_MOVES_ID_TENANT` ON `TB_ACCOUNT_MOVES` (`ID_TENANT`);
+2023-06-29 14:26:46.527 -03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-06-29 14:26:46.530 -03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (3ms).
+2023-06-29 14:26:46.535 -03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_TB_ACCOUNT_MOVES_ID_TYPE_INCOME_EXPENSES` ON `TB_ACCOUNT_MOVES` (`ID_TYPE_INCOME_EXPENSES`);
+2023-06-29 14:26:46.552 -03:00 [INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_TB_ACCOUNT_MOVES_ID_TYPE_INCOME_EXPENSES` ON `TB_ACCOUNT_MOVES` (`ID_TYPE_INCOME_EXPENSES`);
+2023-06-29 14:26:46.556 -03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-06-29 14:26:46.559 -03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (2ms).
+2023-06-29 14:26:46.561 -03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_TB_INCOME_EXPENSES_ID_TENANT` ON `TB_INCOME_EXPENSES` (`ID_TENANT`);
+2023-06-29 14:26:46.584 -03:00 [INF] Executed DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_TB_INCOME_EXPENSES_ID_TENANT` ON `TB_INCOME_EXPENSES` (`ID_TENANT`);
+2023-06-29 14:26:46.589 -03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-06-29 14:26:46.592 -03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (2ms).
+2023-06-29 14:26:46.597 -03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_TB_TENANT_ID_ADDRESS` ON `TB_TENANT` (`ID_ADDRESS`);
+2023-06-29 14:26:46.642 -03:00 [INF] Executed DbCommand (45ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_TB_TENANT_ID_ADDRESS` ON `TB_TENANT` (`ID_ADDRESS`);
+2023-06-29 14:26:46.650 -03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-06-29 14:26:46.653 -03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (3ms).
+2023-06-29 14:26:46.656 -03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX `IX_TB_USER_ID_PERSON` ON `TB_USER` (`ID_PERSON`);
+2023-06-29 14:26:46.675 -03:00 [INF] Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX `IX_TB_USER_ID_PERSON` ON `TB_USER` (`ID_PERSON`);
+2023-06-29 14:26:46.681 -03:00 [DBG] Committing transaction.
+2023-06-29 14:26:46.684 -03:00 [DBG] Committed transaction.
+2023-06-29 14:26:46.688 -03:00 [DBG] Disposing transaction.
+2023-06-29 14:26:46.691 -03:00 [DBG] Closing connection to database 'Athenadb' on server 'localhost'.
+2023-06-29 14:26:46.698 -03:00 [DBG] Closed connection to database 'Athenadb' on server 'localhost'.
+2023-06-29 14:26:47.217 -03:00 [DBG] Compiling query expression: 
+'DbSet<Tenant>()
+    .Any(x => x.Name.ToUpper() == __ToUpper_0)'
+2023-06-29 14:26:47.506 -03:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleAsync<bool>(
+    asyncEnumerable: new SingleQueryingEnumerable<bool>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.SelectExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> 0
+            SELECT EXISTS (
+                Projection Mapping:
+                SELECT 1
+                FROM TB_TENANT AS t
+                WHERE UPPER(t.NM_NAME) == @__ToUpper_0)), 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, bool>, 
+        Concent.Athena.Infrastructure.Data.Contexts.AthenaContext, 
+        False, 
+        False
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2023-06-29 14:26:47.581 -03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-06-29 14:26:47.590 -03:00 [DBG] Created DbCommand for 'ExecuteReader' (8ms).
+2023-06-29 14:26:47.623 -03:00 [DBG] Opening connection to database 'Athenadb' on server 'localhost'.
+2023-06-29 14:26:47.643 -03:00 [DBG] Opened connection to database 'Athenadb' on server 'localhost'.
+2023-06-29 14:26:47.649 -03:00 [DBG] Executing DbCommand [Parameters=[@__ToUpper_0='?' (Size = 400)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM `TB_TENANT` AS `t`
+    WHERE UPPER(`t`.`NM_NAME`) = @__ToUpper_0)
+2023-06-29 14:26:47.689 -03:00 [INF] Executed DbCommand (43ms) [Parameters=[@__ToUpper_0='?' (Size = 400)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM `TB_TENANT` AS `t`
+    WHERE UPPER(`t`.`NM_NAME`) = @__ToUpper_0)
+2023-06-29 14:26:47.706 -03:00 [DBG] A data reader was disposed.
+2023-06-29 14:26:47.711 -03:00 [DBG] Closing connection to database 'Athenadb' on server 'localhost'.
+2023-06-29 14:26:47.714 -03:00 [DBG] Closed connection to database 'Athenadb' on server 'localhost'.
+2023-06-29 14:26:47.807 -03:00 [DBG] 'AthenaContext' generated a value for the property 'Id.Tenant'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-29 14:26:48.556 -03:00 [DBG] Context 'AthenaContext' started tracking 'Tenant' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-29 14:26:48.563 -03:00 [DBG] DetectChanges starting for 'AthenaContext'.
+2023-06-29 14:26:48.582 -03:00 [DBG] DetectChanges completed for 'AthenaContext'.
+2023-06-29 14:26:48.585 -03:00 [DBG] DetectChanges starting for 'AthenaContext'.
+2023-06-29 14:26:48.591 -03:00 [DBG] DetectChanges completed for 'AthenaContext'.
+2023-06-29 14:26:48.599 -03:00 [DBG] SaveChanges starting for 'AthenaContext'.
+2023-06-29 14:26:48.605 -03:00 [DBG] DetectChanges starting for 'AthenaContext'.
+2023-06-29 14:26:48.608 -03:00 [DBG] DetectChanges completed for 'AthenaContext'.
+2023-06-29 14:26:48.631 -03:00 [DBG] Opening connection to database 'Athenadb' on server 'localhost'.
+2023-06-29 14:26:48.642 -03:00 [DBG] Opened connection to database 'Athenadb' on server 'localhost'.
+2023-06-29 14:26:48.645 -03:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-06-29 14:26:48.651 -03:00 [DBG] Began transaction with isolation level 'Unspecified'.
+2023-06-29 14:26:48.717 -03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-06-29 14:26:48.719 -03:00 [DBG] Created DbCommand for 'ExecuteReader' (2ms).
+2023-06-29 14:26:48.723 -03:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Guid), @p2='?' (Size = 400), @p3='?' (DbType = DateTime), @p4='?' (DbType = Boolean), @p5='?' (Size = 400), @p6='?' (Size = 400), @p7='?' (DbType = SByte)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `TB_TENANT` (`ID`, `ID_ADDRESS`, `DS_CODE`, `CREATED_AT`, `ST_ACTIVE`, `NM_NAME`, `DS_PHONE`, `ST_TYPE_TENANT`)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);
+SELECT `UPDATED_AT`
+FROM `TB_TENANT`
+WHERE ROW_COUNT() = 1 AND `ID` = @p0;
+2023-06-29 14:26:48.753 -03:00 [INF] Executed DbCommand (30ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Guid), @p2='?' (Size = 400), @p3='?' (DbType = DateTime), @p4='?' (DbType = Boolean), @p5='?' (Size = 400), @p6='?' (Size = 400), @p7='?' (DbType = SByte)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `TB_TENANT` (`ID`, `ID_ADDRESS`, `DS_CODE`, `CREATED_AT`, `ST_ACTIVE`, `NM_NAME`, `DS_PHONE`, `ST_TYPE_TENANT`)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);
+SELECT `UPDATED_AT`
+FROM `TB_TENANT`
+WHERE ROW_COUNT() = 1 AND `ID` = @p0;
+2023-06-29 14:26:48.780 -03:00 [DBG] A data reader was disposed.
+2023-06-29 14:26:48.786 -03:00 [DBG] Committing transaction.
+2023-06-29 14:26:48.815 -03:00 [DBG] Committed transaction.
+2023-06-29 14:26:48.818 -03:00 [DBG] Closing connection to database 'Athenadb' on server 'localhost'.
+2023-06-29 14:26:48.821 -03:00 [DBG] Closed connection to database 'Athenadb' on server 'localhost'.
+2023-06-29 14:26:48.825 -03:00 [DBG] Disposing transaction.
+2023-06-29 14:26:48.837 -03:00 [DBG] An entity of type 'Tenant' tracked by 'AthenaContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-29 14:26:48.843 -03:00 [DBG] SaveChanges completed for 'AthenaContext' with 1 entities written to the database.
+2023-06-29 14:26:48.863 -03:00 [DBG] Compiling query expression: 
+'DbSet<Tenant>()
+    .Include(x => x.TypeIE
+        .Where(x => x.Name.ToUpper() == __ToUpper_0))
+    .SingleOrDefault(x => x.Id == __GetTenantId_1)'
+2023-06-29 14:26:48.890 -03:00 [DBG] Including navigation: 'Tenant.TypeIE'.
+2023-06-29 14:26:48.974 -03:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<Tenant>(
+    asyncEnumerable: new SingleQueryingEnumerable<Tenant>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.SelectExpression(
+            Projection Mapping:
+            SELECT t0.ID, t0.ID_ADDRESS, t0.DS_CODE, t0.CREATED_AT, t0.ST_ACTIVE, t0.NM_NAME, t0.DS_PHONE, t0.ST_TYPE_TENANT, t0.UPDATED_AT, t2.ID, t2.CREATED_AT, t2.ST_ACTIVE, t2.NM_NAME, t2.ID_TENANT, t2.ST_TYPE, t2.UPDATED_AT
+            FROM Projection Mapping:
+            (
+                SELECT TOP(2) t.ID, t.ID_ADDRESS, t.DS_CODE, t.CREATED_AT, t.ST_ACTIVE, t.NM_NAME, t.DS_PHONE, t.ST_TYPE_TENANT, t.UPDATED_AT
+                FROM TB_TENANT AS t
+                WHERE t.ID == @__GetTenantId_1
+            ) AS t0
+            LEFT JOIN Projection Mapping:
+            (
+                SELECT t1.ID, t1.CREATED_AT, t1.ST_ACTIVE, t1.NM_NAME, t1.ID_TENANT, t1.ST_TYPE, t1.UPDATED_AT
+                FROM TB_INCOME_EXPENSES AS t1
+                WHERE UPPER(t1.NM_NAME) == @__ToUpper_0
+            ) AS t2 ON t0.ID == t2.ID_TENANT
+            ORDER BY t0.ID ASC, t2.ID ASC), 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Tenant>, 
+        Concent.Athena.Infrastructure.Data.Contexts.AthenaContext, 
+        False, 
+        False
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2023-06-29 14:26:48.987 -03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-06-29 14:26:48.989 -03:00 [DBG] Created DbCommand for 'ExecuteReader' (2ms).
+2023-06-29 14:26:48.991 -03:00 [DBG] Opening connection to database 'Athenadb' on server 'localhost'.
+2023-06-29 14:26:49.002 -03:00 [DBG] Opened connection to database 'Athenadb' on server 'localhost'.
+2023-06-29 14:26:49.007 -03:00 [DBG] Executing DbCommand [Parameters=[@__GetTenantId_1='?' (DbType = Guid), @__ToUpper_0='?' (Size = 400)], CommandType='"Text"', CommandTimeout='30']
+SELECT `t0`.`ID`, `t0`.`ID_ADDRESS`, `t0`.`DS_CODE`, `t0`.`CREATED_AT`, `t0`.`ST_ACTIVE`, `t0`.`NM_NAME`, `t0`.`DS_PHONE`, `t0`.`ST_TYPE_TENANT`, `t0`.`UPDATED_AT`, `t2`.`ID`, `t2`.`CREATED_AT`, `t2`.`ST_ACTIVE`, `t2`.`NM_NAME`, `t2`.`ID_TENANT`, `t2`.`ST_TYPE`, `t2`.`UPDATED_AT`
+FROM (
+    SELECT `t`.`ID`, `t`.`ID_ADDRESS`, `t`.`DS_CODE`, `t`.`CREATED_AT`, `t`.`ST_ACTIVE`, `t`.`NM_NAME`, `t`.`DS_PHONE`, `t`.`ST_TYPE_TENANT`, `t`.`UPDATED_AT`
+    FROM `TB_TENANT` AS `t`
+    WHERE `t`.`ID` = @__GetTenantId_1
+    LIMIT 2
+) AS `t0`
+LEFT JOIN (
+    SELECT `t1`.`ID`, `t1`.`CREATED_AT`, `t1`.`ST_ACTIVE`, `t1`.`NM_NAME`, `t1`.`ID_TENANT`, `t1`.`ST_TYPE`, `t1`.`UPDATED_AT`
+    FROM `TB_INCOME_EXPENSES` AS `t1`
+    WHERE UPPER(`t1`.`NM_NAME`) = @__ToUpper_0
+) AS `t2` ON `t0`.`ID` = `t2`.`ID_TENANT`
+ORDER BY `t0`.`ID`, `t2`.`ID`
+2023-06-29 14:26:49.021 -03:00 [INF] Executed DbCommand (14ms) [Parameters=[@__GetTenantId_1='?' (DbType = Guid), @__ToUpper_0='?' (Size = 400)], CommandType='"Text"', CommandTimeout='30']
+SELECT `t0`.`ID`, `t0`.`ID_ADDRESS`, `t0`.`DS_CODE`, `t0`.`CREATED_AT`, `t0`.`ST_ACTIVE`, `t0`.`NM_NAME`, `t0`.`DS_PHONE`, `t0`.`ST_TYPE_TENANT`, `t0`.`UPDATED_AT`, `t2`.`ID`, `t2`.`CREATED_AT`, `t2`.`ST_ACTIVE`, `t2`.`NM_NAME`, `t2`.`ID_TENANT`, `t2`.`ST_TYPE`, `t2`.`UPDATED_AT`
+FROM (
+    SELECT `t`.`ID`, `t`.`ID_ADDRESS`, `t`.`DS_CODE`, `t`.`CREATED_AT`, `t`.`ST_ACTIVE`, `t`.`NM_NAME`, `t`.`DS_PHONE`, `t`.`ST_TYPE_TENANT`, `t`.`UPDATED_AT`
+    FROM `TB_TENANT` AS `t`
+    WHERE `t`.`ID` = @__GetTenantId_1
+    LIMIT 2
+) AS `t0`
+LEFT JOIN (
+    SELECT `t1`.`ID`, `t1`.`CREATED_AT`, `t1`.`ST_ACTIVE`, `t1`.`NM_NAME`, `t1`.`ID_TENANT`, `t1`.`ST_TYPE`, `t1`.`UPDATED_AT`
+    FROM `TB_INCOME_EXPENSES` AS `t1`
+    WHERE UPPER(`t1`.`NM_NAME`) = @__ToUpper_0
+) AS `t2` ON `t0`.`ID` = `t2`.`ID_TENANT`
+ORDER BY `t0`.`ID`, `t2`.`ID`
+2023-06-29 14:26:49.037 -03:00 [DBG] A data reader was disposed.
+2023-06-29 14:26:49.041 -03:00 [DBG] Closing connection to database 'Athenadb' on server 'localhost'.
+2023-06-29 14:26:49.044 -03:00 [DBG] Closed connection to database 'Athenadb' on server 'localhost'.
+2023-06-29 14:26:49.051 -03:00 [DBG] DetectChanges starting for 'AthenaContext'.
+2023-06-29 14:26:49.060 -03:00 [DBG] 1 entities were added and 0 entities were removed from navigation 'Tenant.TypeIE'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-29 14:26:49.068 -03:00 [DBG] 'AthenaContext' generated a value for the property 'Id.TypeIE'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-29 14:26:49.096 -03:00 [DBG] Context 'AthenaContext' started tracking 'TypeIE' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-29 14:26:49.099 -03:00 [DBG] DetectChanges completed for 'AthenaContext'.
+2023-06-29 14:26:49.103 -03:00 [DBG] DetectChanges starting for 'AthenaContext'.
+2023-06-29 14:26:49.111 -03:00 [DBG] DetectChanges completed for 'AthenaContext'.
+2023-06-29 14:26:49.114 -03:00 [DBG] SaveChanges starting for 'AthenaContext'.
+2023-06-29 14:26:49.117 -03:00 [DBG] DetectChanges starting for 'AthenaContext'.
+2023-06-29 14:26:49.120 -03:00 [DBG] DetectChanges completed for 'AthenaContext'.
+2023-06-29 14:26:49.122 -03:00 [DBG] Opening connection to database 'Athenadb' on server 'localhost'.
+2023-06-29 14:26:49.126 -03:00 [DBG] Opened connection to database 'Athenadb' on server 'localhost'.
+2023-06-29 14:26:49.130 -03:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-06-29 14:26:49.140 -03:00 [DBG] Began transaction with isolation level 'Unspecified'.
+2023-06-29 14:26:49.145 -03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-06-29 14:26:49.148 -03:00 [DBG] Created DbCommand for 'ExecuteReader' (3ms).
+2023-06-29 14:26:49.155 -03:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime), @p2='?' (DbType = Boolean), @p3='?' (Size = 400), @p4='?' (DbType = Guid), @p5='?' (DbType = SByte)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `TB_INCOME_EXPENSES` (`ID`, `CREATED_AT`, `ST_ACTIVE`, `NM_NAME`, `ID_TENANT`, `ST_TYPE`)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+SELECT `UPDATED_AT`
+FROM `TB_INCOME_EXPENSES`
+WHERE ROW_COUNT() = 1 AND `ID` = @p0;
+2023-06-29 14:26:49.162 -03:00 [INF] Executed DbCommand (7ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime), @p2='?' (DbType = Boolean), @p3='?' (Size = 400), @p4='?' (DbType = Guid), @p5='?' (DbType = SByte)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `TB_INCOME_EXPENSES` (`ID`, `CREATED_AT`, `ST_ACTIVE`, `NM_NAME`, `ID_TENANT`, `ST_TYPE`)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+SELECT `UPDATED_AT`
+FROM `TB_INCOME_EXPENSES`
+WHERE ROW_COUNT() = 1 AND `ID` = @p0;
+2023-06-29 14:26:49.170 -03:00 [DBG] A data reader was disposed.
+2023-06-29 14:26:49.172 -03:00 [DBG] Committing transaction.
+2023-06-29 14:26:49.175 -03:00 [DBG] Committed transaction.
+2023-06-29 14:26:49.177 -03:00 [DBG] Closing connection to database 'Athenadb' on server 'localhost'.
+2023-06-29 14:26:49.180 -03:00 [DBG] Closed connection to database 'Athenadb' on server 'localhost'.
+2023-06-29 14:26:49.183 -03:00 [DBG] Disposing transaction.
+2023-06-29 14:26:49.185 -03:00 [DBG] An entity of type 'TypeIE' tracked by 'AthenaContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-29 14:26:49.189 -03:00 [DBG] SaveChanges completed for 'AthenaContext' with 1 entities written to the database.
+2023-06-29 14:26:49.205 -03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2023-06-29 14:26:49.212 -03:00 [DBG] No information found on request to perform content negotiation.
+2023-06-29 14:26:49.215 -03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-06-29 14:26:49.216 -03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-06-29 14:26:49.219 -03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-06-29 14:26:49.222 -03:00 [INF] Executing ObjectResult, writing value of type 'Concent.Athena.Domain.Core.Responses.TenantResponses.CreateTenantResponse'.
+2023-06-29 14:26:49.246 -03:00 [INF] Executed action Concent.Athena.Services.API.Controllers.TenantController.Create (Concent.Athena.Services.API) in 6615.8814ms
+2023-06-29 14:26:49.250 -03:00 [INF] Executed endpoint 'Concent.Athena.Services.API.Controllers.TenantController.Create (Concent.Athena.Services.API)'
+2023-06-29 14:26:49.257 -03:00 [DBG] 'AthenaContext' disposed.
+2023-06-29 14:26:49.265 -03:00 [INF] Request finished HTTP/2 POST https://localhost:5002/api/v1/tenant/tenant application/json 146 - 201 - application/json;+charset=utf-8 6783.2367ms
+2023-06-29 14:26:49.284 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5002/api/v1/tenant/tenant - -
+2023-06-29 14:26:49.289 -03:00 [DBG] The request path  does not match the path filter
+2023-06-29 14:26:49.293 -03:00 [DBG] 1 candidate(s) found for the request path '/api/v1/tenant/tenant'
+2023-06-29 14:26:49.295 -03:00 [DBG] Endpoint 'Concent.Athena.Services.API.Controllers.TenantController.GetAll (Concent.Athena.Services.API)' with route pattern 'api/v1/tenant/Tenant' is valid for the request path '/api/v1/tenant/tenant'
+2023-06-29 14:26:49.298 -03:00 [DBG] Request matched endpoint 'Concent.Athena.Services.API.Controllers.TenantController.GetAll (Concent.Athena.Services.API)'
+2023-06-29 14:26:49.300 -03:00 [DBG] The request has an origin header: 'http://localhost:4200'.
+2023-06-29 14:26:49.302 -03:00 [INF] CORS policy execution successful.
+2023-06-29 14:26:49.307 -03:00 [INF] Executing endpoint 'Concent.Athena.Services.API.Controllers.TenantController.GetAll (Concent.Athena.Services.API)'
+2023-06-29 14:26:49.314 -03:00 [INF] Route matched with {action = "GetAll", controller = "Tenant"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.String, System.Threading.CancellationToken) on controller Concent.Athena.Services.API.Controllers.TenantController (Concent.Athena.Services.API).
+2023-06-29 14:26:49.318 -03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-06-29 14:26:49.323 -03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-06-29 14:26:49.326 -03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-06-29 14:26:49.329 -03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-06-29 14:26:49.332 -03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-06-29 14:26:49.334 -03:00 [DBG] Executing controller factory for controller Concent.Athena.Services.API.Controllers.TenantController (Concent.Athena.Services.API)
+2023-06-29 14:26:49.339 -03:00 [DBG] Executed controller factory for controller Concent.Athena.Services.API.Controllers.TenantController (Concent.Athena.Services.API)
+2023-06-29 14:26:49.343 -03:00 [DBG] Attempting to bind parameter 'name' of type 'System.String' ...
+2023-06-29 14:26:49.346 -03:00 [DBG] Attempting to bind parameter 'name' of type 'System.String' using the name '' in request data ...
+2023-06-29 14:26:49.349 -03:00 [DBG] Could not find a value in the request with name '' for binding parameter 'name' of type 'System.String'.
+2023-06-29 14:26:49.354 -03:00 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2023-06-29 14:26:49.359 -03:00 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2023-06-29 14:26:49.363 -03:00 [DBG] Attempting to validate the bound parameter 'name' of type 'System.String' ...
+2023-06-29 14:26:49.366 -03:00 [DBG] Done attempting to validate the bound parameter 'name' of type 'System.String'.
+2023-06-29 14:26:49.371 -03:00 [DBG] Attempting to bind parameter 'cancellationToken' of type 'System.Threading.CancellationToken' ...
+2023-06-29 14:26:49.374 -03:00 [DBG] Done attempting to bind parameter 'cancellationToken' of type 'System.Threading.CancellationToken'.
+2023-06-29 14:26:49.377 -03:00 [DBG] Attempting to validate the bound parameter 'cancellationToken' of type 'System.Threading.CancellationToken' ...
+2023-06-29 14:26:49.379 -03:00 [DBG] Done attempting to validate the bound parameter 'cancellationToken' of type 'System.Threading.CancellationToken'.
+2023-06-29 14:26:49.385 -03:00 [INF] Entity Framework Core 5.0.16 initialized 'AthenaContext' using provider 'Pomelo.EntityFrameworkCore.MySql' with options: ServerVersion 8.0.21-mysql 
+2023-06-29 14:26:49.391 -03:00 [DBG] Opening connection to database '' on server 'localhost'.
+2023-06-29 14:26:49.444 -03:00 [DBG] Opened connection to database '' on server 'localhost'.
+2023-06-29 14:26:49.450 -03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-06-29 14:26:49.452 -03:00 [DBG] Created DbCommand for 'ExecuteScalar' (2ms).
+2023-06-29 14:26:49.454 -03:00 [DBG] Opening connection to database 'Athenadb' on server 'localhost'.
+2023-06-29 14:26:49.457 -03:00 [DBG] Opened connection to database 'Athenadb' on server 'localhost'.
+2023-06-29 14:26:49.461 -03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+FROM information_schema.tables
+WHERE table_type = 'BASE TABLE' AND table_schema = 'Athenadb'
+2023-06-29 14:26:49.488 -03:00 [INF] Executed DbCommand (27ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+FROM information_schema.tables
+WHERE table_type = 'BASE TABLE' AND table_schema = 'Athenadb'
+2023-06-29 14:26:49.496 -03:00 [DBG] Closing connection to database 'Athenadb' on server 'localhost'.
+2023-06-29 14:26:49.500 -03:00 [DBG] Closed connection to database 'Athenadb' on server 'localhost'.
+2023-06-29 14:26:49.517 -03:00 [DBG] Compiling query expression: 
+'DbSet<Tenant>()
+    .AsNoTracking()
+    .Where(f => True && Invoke(x => x.IsActive, f)
+    )
+    .Select(x => new { 
+        Id = x.Id, 
+        Name = x.Name, 
+        Phone = x.Phone, 
+        TypeTenant = x.TypeTenant, 
+        Code = x.Code
+     })'
+2023-06-29 14:26:49.531 -03:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<<>f__AnonymousType8<Guid, string, string, ETypeTenant, string>>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            Id -> 0
+            Name -> 1
+            Phone -> 2
+            TypeTenant -> 3
+            Code -> 4
+        SELECT t.ID AS Id, t.NM_NAME AS Name, t.DS_PHONE AS Phone, t.ST_TYPE_TENANT AS TypeTenant, t.DS_CODE AS Code
+        FROM TB_TENANT AS t
+        WHERE TRUE && t.ST_ACTIVE), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, <>f__AnonymousType8<Guid, string, string, ETypeTenant, string>>, 
+    Concent.Athena.Infrastructure.Data.Contexts.AthenaContext, 
+    False, 
+    False
+)'
+2023-06-29 14:26:49.541 -03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-06-29 14:26:49.544 -03:00 [DBG] Created DbCommand for 'ExecuteReader' (3ms).
+2023-06-29 14:26:49.547 -03:00 [DBG] Opening connection to database 'Athenadb' on server 'localhost'.
+2023-06-29 14:26:49.549 -03:00 [DBG] Opened connection to database 'Athenadb' on server 'localhost'.
+2023-06-29 14:26:49.553 -03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `t`.`ID` AS `Id`, `t`.`NM_NAME` AS `Name`, `t`.`DS_PHONE` AS `Phone`, `t`.`ST_TYPE_TENANT` AS `TypeTenant`, `t`.`DS_CODE` AS `Code`
+FROM `TB_TENANT` AS `t`
+WHERE `t`.`ST_ACTIVE`
+2023-06-29 14:26:49.560 -03:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `t`.`ID` AS `Id`, `t`.`NM_NAME` AS `Name`, `t`.`DS_PHONE` AS `Phone`, `t`.`ST_TYPE_TENANT` AS `TypeTenant`, `t`.`DS_CODE` AS `Code`
+FROM `TB_TENANT` AS `t`
+WHERE `t`.`ST_ACTIVE`
+2023-06-29 14:26:49.568 -03:00 [DBG] A data reader was disposed.
+2023-06-29 14:26:49.571 -03:00 [DBG] Closing connection to database 'Athenadb' on server 'localhost'.
+2023-06-29 14:26:49.575 -03:00 [DBG] Closed connection to database 'Athenadb' on server 'localhost'.
+2023-06-29 14:26:49.622 -03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2023-06-29 14:26:49.627 -03:00 [DBG] No information found on request to perform content negotiation.
+2023-06-29 14:26:49.628 -03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-06-29 14:26:49.631 -03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-06-29 14:26:49.632 -03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-06-29 14:26:49.635 -03:00 [INF] Executing ObjectResult, writing value of type 'Concent.Athena.Domain.Core.Responses.TenantResponses.GetTenantResponse'.
+2023-06-29 14:26:49.644 -03:00 [INF] Executed action Concent.Athena.Services.API.Controllers.TenantController.GetAll (Concent.Athena.Services.API) in 310.0584ms
+2023-06-29 14:26:49.649 -03:00 [INF] Executed endpoint 'Concent.Athena.Services.API.Controllers.TenantController.GetAll (Concent.Athena.Services.API)'
+2023-06-29 14:26:49.653 -03:00 [DBG] 'AthenaContext' disposed.
+2023-06-29 14:26:49.658 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5002/api/v1/tenant/tenant - - - 200 - application/json;+charset=utf-8 373.4421ms
+2023-06-29 14:26:57.662 -03:00 [DBG] Connection id "0HMROONSFVMCV" received FIN.
+2023-06-29 14:26:57.666 -03:00 [DBG] Connection id "0HMROONSFVMCV" is closed. The last processed stream ID was 5.
+2023-06-29 14:26:57.669 -03:00 [DBG] Connection id "0HMROONSFVMCV" sending FIN because: "The client closed the connection."
+2023-06-29 14:26:57.678 -03:00 [DBG] Connection id "0HMROONSFVMCV" stopped.
+2023-06-29 14:27:52.929 -03:00 [DBG] Connection id "0HMROONSFVMD0" accepted.
+2023-06-29 14:27:52.935 -03:00 [DBG] Connection id "0HMROONSFVMD0" started.
+2023-06-29 14:27:52.954 -03:00 [DBG] Connection "0HMROONSFVMD0" established using the following protocol: "Tls12"
+2023-06-29 14:27:52.962 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5002/api/v1/tenant/tenant/08db78c6-0489-4941-89df-f4dab93100be - -
+2023-06-29 14:27:52.964 -03:00 [DBG] The request path  does not match the path filter
+2023-06-29 14:27:52.968 -03:00 [DBG] 1 candidate(s) found for the request path '/api/v1/tenant/tenant/08db78c6-0489-4941-89df-f4dab93100be'
+2023-06-29 14:27:52.973 -03:00 [DBG] Endpoint 'Concent.Athena.Services.API.Controllers.TenantController.GetById (Concent.Athena.Services.API)' with route pattern 'api/v1/tenant/Tenant/{id}' is valid for the request path '/api/v1/tenant/tenant/08db78c6-0489-4941-89df-f4dab93100be'
+2023-06-29 14:27:52.977 -03:00 [DBG] Request matched endpoint 'Concent.Athena.Services.API.Controllers.TenantController.GetById (Concent.Athena.Services.API)'
+2023-06-29 14:27:52.979 -03:00 [DBG] The request has an origin header: 'http://localhost:4200'.
+2023-06-29 14:27:52.981 -03:00 [INF] CORS policy execution successful.
+2023-06-29 14:27:52.983 -03:00 [INF] Executing endpoint 'Concent.Athena.Services.API.Controllers.TenantController.GetById (Concent.Athena.Services.API)'
+2023-06-29 14:27:52.988 -03:00 [INF] Route matched with {action = "GetById", controller = "Tenant"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetById(System.Guid, System.Threading.CancellationToken) on controller Concent.Athena.Services.API.Controllers.TenantController (Concent.Athena.Services.API).
+2023-06-29 14:27:52.995 -03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-06-29 14:27:52.997 -03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-06-29 14:27:53.000 -03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-06-29 14:27:53.004 -03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-06-29 14:27:53.008 -03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-06-29 14:27:53.012 -03:00 [DBG] Executing controller factory for controller Concent.Athena.Services.API.Controllers.TenantController (Concent.Athena.Services.API)
+2023-06-29 14:27:53.017 -03:00 [DBG] Executed controller factory for controller Concent.Athena.Services.API.Controllers.TenantController (Concent.Athena.Services.API)
+2023-06-29 14:27:53.020 -03:00 [DBG] Attempting to bind parameter 'id' of type 'System.Guid' ...
+2023-06-29 14:27:53.024 -03:00 [DBG] Attempting to bind parameter 'id' of type 'System.Guid' using the name 'id' in request data ...
+2023-06-29 14:27:53.027 -03:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Guid'.
+2023-06-29 14:27:53.029 -03:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Guid'.
+2023-06-29 14:27:53.032 -03:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Guid' ...
+2023-06-29 14:27:53.035 -03:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Guid'.
+2023-06-29 14:27:53.039 -03:00 [DBG] Attempting to bind parameter 'cancellationToken' of type 'System.Threading.CancellationToken' ...
+2023-06-29 14:27:53.042 -03:00 [DBG] Done attempting to bind parameter 'cancellationToken' of type 'System.Threading.CancellationToken'.
+2023-06-29 14:27:53.044 -03:00 [DBG] Attempting to validate the bound parameter 'cancellationToken' of type 'System.Threading.CancellationToken' ...
+2023-06-29 14:27:53.047 -03:00 [DBG] Done attempting to validate the bound parameter 'cancellationToken' of type 'System.Threading.CancellationToken'.
+2023-06-29 14:27:53.089 -03:00 [INF] Entity Framework Core 5.0.16 initialized 'AthenaContext' using provider 'Pomelo.EntityFrameworkCore.MySql' with options: ServerVersion 8.0.21-mysql 
+2023-06-29 14:27:53.100 -03:00 [DBG] Opening connection to database '' on server 'localhost'.
+2023-06-29 14:27:53.110 -03:00 [DBG] Opened connection to database '' on server 'localhost'.
+2023-06-29 14:27:53.116 -03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-06-29 14:27:53.119 -03:00 [DBG] Created DbCommand for 'ExecuteScalar' (3ms).
+2023-06-29 14:27:53.121 -03:00 [DBG] Opening connection to database 'Athenadb' on server 'localhost'.
+2023-06-29 14:27:53.124 -03:00 [DBG] Opened connection to database 'Athenadb' on server 'localhost'.
+2023-06-29 14:27:53.127 -03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+FROM information_schema.tables
+WHERE table_type = 'BASE TABLE' AND table_schema = 'Athenadb'
+2023-06-29 14:27:53.134 -03:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+FROM information_schema.tables
+WHERE table_type = 'BASE TABLE' AND table_schema = 'Athenadb'
+2023-06-29 14:27:53.139 -03:00 [DBG] Closing connection to database 'Athenadb' on server 'localhost'.
+2023-06-29 14:27:53.141 -03:00 [DBG] Closed connection to database 'Athenadb' on server 'localhost'.
+2023-06-29 14:27:53.149 -03:00 [DBG] Compiling query expression: 
+'DbSet<Tenant>()
+    .AsNoTracking()
+    .Where(x => x.Id == __GetId_0)
+    .Select(x => new { 
+        Id = x.Id, 
+        Name = x.Name, 
+        Phone = x.Phone, 
+        TypeTenant = x.TypeTenant, 
+        Code = x.Code, 
+        TypeIE = x.TypeIE
+            .Select(x => new { 
+                Id = x.Id, 
+                Name = x.Name, 
+                Type = x.Type
+             })
+            .ToList()
+     })'
+2023-06-29 14:27:53.176 -03:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<<>f__AnonymousType6<Guid, string, string, ETypeTenant, string, List<<>f__AnonymousType7<Guid, string, ETypeIE>>>>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+        SELECT t.ID, t.NM_NAME, t.DS_PHONE, t.ST_TYPE_TENANT, t.DS_CODE, t0.ID, t0.NM_NAME, t0.ST_TYPE
+        FROM TB_TENANT AS t
+        LEFT JOIN TB_INCOME_EXPENSES AS t0 ON t.ID == t0.ID_TENANT
+        WHERE t.ID == @__GetId_0
+        ORDER BY t.ID ASC, t0.ID ASC), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, <>f__AnonymousType6<Guid, string, string, ETypeTenant, string, List<<>f__AnonymousType7<Guid, string, ETypeIE>>>>, 
+    Concent.Athena.Infrastructure.Data.Contexts.AthenaContext, 
+    False, 
+    False
+)'
+2023-06-29 14:27:53.183 -03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-06-29 14:27:53.185 -03:00 [DBG] Created DbCommand for 'ExecuteReader' (2ms).
+2023-06-29 14:27:53.187 -03:00 [DBG] Opening connection to database 'Athenadb' on server 'localhost'.
+2023-06-29 14:27:53.190 -03:00 [DBG] Opened connection to database 'Athenadb' on server 'localhost'.
+2023-06-29 14:27:53.195 -03:00 [DBG] Executing DbCommand [Parameters=[@__GetId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT `t`.`ID`, `t`.`NM_NAME`, `t`.`DS_PHONE`, `t`.`ST_TYPE_TENANT`, `t`.`DS_CODE`, `t0`.`ID`, `t0`.`NM_NAME`, `t0`.`ST_TYPE`
+FROM `TB_TENANT` AS `t`
+LEFT JOIN `TB_INCOME_EXPENSES` AS `t0` ON `t`.`ID` = `t0`.`ID_TENANT`
+WHERE `t`.`ID` = @__GetId_0
+ORDER BY `t`.`ID`, `t0`.`ID`
+2023-06-29 14:27:53.200 -03:00 [INF] Executed DbCommand (5ms) [Parameters=[@__GetId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT `t`.`ID`, `t`.`NM_NAME`, `t`.`DS_PHONE`, `t`.`ST_TYPE_TENANT`, `t`.`DS_CODE`, `t0`.`ID`, `t0`.`NM_NAME`, `t0`.`ST_TYPE`
+FROM `TB_TENANT` AS `t`
+LEFT JOIN `TB_INCOME_EXPENSES` AS `t0` ON `t`.`ID` = `t0`.`ID_TENANT`
+WHERE `t`.`ID` = @__GetId_0
+ORDER BY `t`.`ID`, `t0`.`ID`
+2023-06-29 14:27:53.207 -03:00 [DBG] A data reader was disposed.
+2023-06-29 14:27:53.209 -03:00 [DBG] Closing connection to database 'Athenadb' on server 'localhost'.
+2023-06-29 14:27:53.213 -03:00 [DBG] Closed connection to database 'Athenadb' on server 'localhost'.
+2023-06-29 14:27:53.217 -03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2023-06-29 14:27:53.223 -03:00 [DBG] No information found on request to perform content negotiation.
+2023-06-29 14:27:53.225 -03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-06-29 14:27:53.227 -03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-06-29 14:27:53.229 -03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-06-29 14:27:53.231 -03:00 [INF] Executing ObjectResult, writing value of type 'Concent.Athena.Domain.Core.Responses.TenantResponses.GetByIdTenantResponse'.
+2023-06-29 14:27:53.240 -03:00 [INF] Executed action Concent.Athena.Services.API.Controllers.TenantController.GetById (Concent.Athena.Services.API) in 227.4988ms
+2023-06-29 14:27:53.244 -03:00 [INF] Executed endpoint 'Concent.Athena.Services.API.Controllers.TenantController.GetById (Concent.Athena.Services.API)'
+2023-06-29 14:27:53.246 -03:00 [DBG] 'AthenaContext' disposed.
+2023-06-29 14:27:53.250 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5002/api/v1/tenant/tenant/08db78c6-0489-4941-89df-f4dab93100be - - - 200 - application/json;+charset=utf-8 288.3274ms
+2023-06-29 14:27:57.763 -03:00 [DBG] Connection id "0HMROONSFVMD0" received FIN.
+2023-06-29 14:27:57.767 -03:00 [DBG] Connection id "0HMROONSFVMD0" is closed. The last processed stream ID was 1.
+2023-06-29 14:27:57.771 -03:00 [DBG] Connection id "0HMROONSFVMD0" sending FIN because: "The client closed the connection."
+2023-06-29 14:27:57.778 -03:00 [DBG] Connection id "0HMROONSFVMD0" stopped.
+2023-06-29 14:30:16.214 -03:00 [DBG] Connection id "0HMROONSFVMD1" accepted.
+2023-06-29 14:30:16.221 -03:00 [DBG] Connection id "0HMROONSFVMD1" started.
+2023-06-29 14:30:16.233 -03:00 [DBG] Connection "0HMROONSFVMD1" established using the following protocol: "Tls12"
+2023-06-29 14:30:16.238 -03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:5002/api/v1/person/person - -
+2023-06-29 14:30:16.245 -03:00 [DBG] OPTIONS requests are not supported
+2023-06-29 14:30:16.247 -03:00 [DBG] 1 candidate(s) found for the request path '/api/v1/person/person'
+2023-06-29 14:30:16.251 -03:00 [DBG] Request matched endpoint '405 HTTP Method Not Supported'
+2023-06-29 14:30:16.253 -03:00 [DBG] The request has an origin header: 'http://localhost:4200'.
+2023-06-29 14:30:16.257 -03:00 [INF] CORS policy execution successful.
+2023-06-29 14:30:16.259 -03:00 [DBG] The request is a preflight request.
+2023-06-29 14:30:16.262 -03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:5002/api/v1/person/person - - - 204 - - 24.1591ms
+2023-06-29 14:30:16.268 -03:00 [INF] Request starting HTTP/2 POST https://localhost:5002/api/v1/person/person application/json 130
+2023-06-29 14:30:16.274 -03:00 [DBG] POST requests are not supported
+2023-06-29 14:30:16.277 -03:00 [DBG] 1 candidate(s) found for the request path '/api/v1/person/person'
+2023-06-29 14:30:16.280 -03:00 [DBG] Endpoint 'Concent.Athena.Services.API.Controllers.PersonController.Create (Concent.Athena.Services.API)' with route pattern 'api/v1/Person/Person' is valid for the request path '/api/v1/person/person'
+2023-06-29 14:30:16.283 -03:00 [DBG] Request matched endpoint 'Concent.Athena.Services.API.Controllers.PersonController.Create (Concent.Athena.Services.API)'
+2023-06-29 14:30:16.287 -03:00 [DBG] The request has an origin header: 'http://localhost:4200'.
+2023-06-29 14:30:16.290 -03:00 [INF] CORS policy execution successful.
+2023-06-29 14:30:16.292 -03:00 [INF] Executing endpoint 'Concent.Athena.Services.API.Controllers.PersonController.Create (Concent.Athena.Services.API)'
+2023-06-29 14:30:16.298 -03:00 [INF] Route matched with {action = "Create", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(Concent.Athena.Domain.Core.Requests.PersonRequests.CreatePersonRequest, System.Threading.CancellationToken) on controller Concent.Athena.Services.API.Controllers.PersonController (Concent.Athena.Services.API).
+2023-06-29 14:30:16.305 -03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-06-29 14:30:16.307 -03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-06-29 14:30:16.310 -03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-06-29 14:30:16.313 -03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-06-29 14:30:16.318 -03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-06-29 14:30:16.322 -03:00 [DBG] Executing controller factory for controller Concent.Athena.Services.API.Controllers.PersonController (Concent.Athena.Services.API)
+2023-06-29 14:30:16.327 -03:00 [DBG] Executed controller factory for controller Concent.Athena.Services.API.Controllers.PersonController (Concent.Athena.Services.API)
+2023-06-29 14:30:16.329 -03:00 [DBG] Attempting to bind parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.PersonRequests.CreatePersonRequest' ...
+2023-06-29 14:30:16.332 -03:00 [DBG] Attempting to bind parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.PersonRequests.CreatePersonRequest' using the name '' in request data ...
+2023-06-29 14:30:16.337 -03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2023-06-29 14:30:16.340 -03:00 [DBG] Connection id "0HMROONSFVMD1", Request id "0HMROONSFVMD1:00000003": started reading request body.
+2023-06-29 14:30:16.343 -03:00 [DBG] Connection id "0HMROONSFVMD1", Request id "0HMROONSFVMD1:00000003": done reading request body.
+2023-06-29 14:30:16.347 -03:00 [DBG] JSON input formatter succeeded, deserializing to type 'Concent.Athena.Domain.Core.Requests.PersonRequests.CreatePersonRequest'
+2023-06-29 14:30:16.351 -03:00 [DBG] Done attempting to bind parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.PersonRequests.CreatePersonRequest'.
+2023-06-29 14:30:16.354 -03:00 [DBG] Done attempting to bind parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.PersonRequests.CreatePersonRequest'.
+2023-06-29 14:30:16.356 -03:00 [DBG] Attempting to validate the bound parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.PersonRequests.CreatePersonRequest' ...
+2023-06-29 14:30:16.359 -03:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.PersonRequests.CreatePersonRequest'.
+2023-06-29 14:30:16.363 -03:00 [DBG] Attempting to bind parameter 'cancellationToken' of type 'System.Threading.CancellationToken' ...
+2023-06-29 14:30:16.367 -03:00 [DBG] Done attempting to bind parameter 'cancellationToken' of type 'System.Threading.CancellationToken'.
+2023-06-29 14:30:16.370 -03:00 [DBG] Attempting to validate the bound parameter 'cancellationToken' of type 'System.Threading.CancellationToken' ...
+2023-06-29 14:30:16.374 -03:00 [DBG] Done attempting to validate the bound parameter 'cancellationToken' of type 'System.Threading.CancellationToken'.
+2023-06-29 14:30:16.388 -03:00 [INF] Entity Framework Core 5.0.16 initialized 'AthenaContext' using provider 'Pomelo.EntityFrameworkCore.MySql' with options: ServerVersion 8.0.21-mysql 
+2023-06-29 14:30:16.393 -03:00 [DBG] Opening connection to database '' on server 'localhost'.
+2023-06-29 14:30:16.402 -03:00 [DBG] Opened connection to database '' on server 'localhost'.
+2023-06-29 14:30:16.407 -03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-06-29 14:30:16.410 -03:00 [DBG] Created DbCommand for 'ExecuteScalar' (2ms).
+2023-06-29 14:30:16.412 -03:00 [DBG] Opening connection to database 'Athenadb' on server 'localhost'.
+2023-06-29 14:30:16.416 -03:00 [DBG] Opened connection to database 'Athenadb' on server 'localhost'.
+2023-06-29 14:30:16.418 -03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+FROM information_schema.tables
+WHERE table_type = 'BASE TABLE' AND table_schema = 'Athenadb'
+2023-06-29 14:30:16.422 -03:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+FROM information_schema.tables
+WHERE table_type = 'BASE TABLE' AND table_schema = 'Athenadb'
+2023-06-29 14:30:16.427 -03:00 [DBG] Closing connection to database 'Athenadb' on server 'localhost'.
+2023-06-29 14:30:16.431 -03:00 [DBG] Closed connection to database 'Athenadb' on server 'localhost'.
+2023-06-29 14:30:16.435 -03:00 [DBG] Compiling query expression: 
+'DbSet<Person>()
+    .Any(x => x.CPF == __request_CPF_0)'
+2023-06-29 14:30:16.439 -03:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleAsync<bool>(
+    asyncEnumerable: new SingleQueryingEnumerable<bool>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.SelectExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> 0
+            SELECT EXISTS (
+                Projection Mapping:
+                SELECT 1
+                FROM TB_PERSON AS t
+                WHERE t.DS_CPF == @__request_CPF_0)), 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, bool>, 
+        Concent.Athena.Infrastructure.Data.Contexts.AthenaContext, 
+        False, 
+        False
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2023-06-29 14:30:16.444 -03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-06-29 14:30:16.446 -03:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2023-06-29 14:30:16.449 -03:00 [DBG] Opening connection to database 'Athenadb' on server 'localhost'.
+2023-06-29 14:30:16.452 -03:00 [DBG] Opened connection to database 'Athenadb' on server 'localhost'.
+2023-06-29 14:30:16.456 -03:00 [DBG] Executing DbCommand [Parameters=[@__request_CPF_0='?' (Size = 400)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM `TB_PERSON` AS `t`
+    WHERE `t`.`DS_CPF` = @__request_CPF_0)
+2023-06-29 14:30:16.478 -03:00 [INF] Executed DbCommand (23ms) [Parameters=[@__request_CPF_0='?' (Size = 400)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM `TB_PERSON` AS `t`
+    WHERE `t`.`DS_CPF` = @__request_CPF_0)
+2023-06-29 14:30:16.485 -03:00 [DBG] A data reader was disposed.
+2023-06-29 14:30:16.487 -03:00 [DBG] Closing connection to database 'Athenadb' on server 'localhost'.
+2023-06-29 14:30:16.492 -03:00 [DBG] Closed connection to database 'Athenadb' on server 'localhost'.
+2023-06-29 14:30:16.499 -03:00 [DBG] 'AthenaContext' generated a value for the property 'Id.Person'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-29 14:30:16.522 -03:00 [DBG] Context 'AthenaContext' started tracking 'Person' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-29 14:30:16.526 -03:00 [DBG] DetectChanges starting for 'AthenaContext'.
+2023-06-29 14:30:16.530 -03:00 [DBG] DetectChanges completed for 'AthenaContext'.
+2023-06-29 14:30:16.532 -03:00 [DBG] DetectChanges starting for 'AthenaContext'.
+2023-06-29 14:30:16.535 -03:00 [DBG] DetectChanges completed for 'AthenaContext'.
+2023-06-29 14:30:16.538 -03:00 [DBG] SaveChanges starting for 'AthenaContext'.
+2023-06-29 14:30:16.540 -03:00 [DBG] DetectChanges starting for 'AthenaContext'.
+2023-06-29 14:30:16.542 -03:00 [DBG] DetectChanges completed for 'AthenaContext'.
+2023-06-29 14:30:16.544 -03:00 [DBG] Opening connection to database 'Athenadb' on server 'localhost'.
+2023-06-29 14:30:16.549 -03:00 [DBG] Opened connection to database 'Athenadb' on server 'localhost'.
+2023-06-29 14:30:16.552 -03:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-06-29 14:30:16.556 -03:00 [DBG] Began transaction with isolation level 'Unspecified'.
+2023-06-29 14:30:16.558 -03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-06-29 14:30:16.560 -03:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2023-06-29 14:30:16.562 -03:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 400), @p2='?' (DbType = DateTime), @p3='?' (DbType = Boolean), @p4='?' (Size = 400)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `TB_PERSON` (`ID`, `DS_CPF`, `CREATED_AT`, `ST_ACTIVE`, `DS_PERSON_NAME`)
+VALUES (@p0, @p1, @p2, @p3, @p4);
+SELECT `UPDATED_AT`
+FROM `TB_PERSON`
+WHERE ROW_COUNT() = 1 AND `ID` = @p0;
+2023-06-29 14:30:16.573 -03:00 [INF] Executed DbCommand (11ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 400), @p2='?' (DbType = DateTime), @p3='?' (DbType = Boolean), @p4='?' (Size = 400)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `TB_PERSON` (`ID`, `DS_CPF`, `CREATED_AT`, `ST_ACTIVE`, `DS_PERSON_NAME`)
+VALUES (@p0, @p1, @p2, @p3, @p4);
+SELECT `UPDATED_AT`
+FROM `TB_PERSON`
+WHERE ROW_COUNT() = 1 AND `ID` = @p0;
+2023-06-29 14:30:16.578 -03:00 [DBG] A data reader was disposed.
+2023-06-29 14:30:16.580 -03:00 [DBG] Committing transaction.
+2023-06-29 14:30:16.588 -03:00 [DBG] Committed transaction.
+2023-06-29 14:30:16.589 -03:00 [DBG] Closing connection to database 'Athenadb' on server 'localhost'.
+2023-06-29 14:30:16.592 -03:00 [DBG] Closed connection to database 'Athenadb' on server 'localhost'.
+2023-06-29 14:30:16.594 -03:00 [DBG] Disposing transaction.
+2023-06-29 14:30:16.596 -03:00 [DBG] An entity of type 'Person' tracked by 'AthenaContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-29 14:30:16.601 -03:00 [DBG] SaveChanges completed for 'AthenaContext' with 1 entities written to the database.
+2023-06-29 14:30:16.610 -03:00 [DBG] Compiling query expression: 
+'DbSet<User>()
+    .Any(x => x.UserLogin.ToUpper().Trim() == __Trim_0)'
+2023-06-29 14:30:16.619 -03:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleAsync<bool>(
+    asyncEnumerable: new SingleQueryingEnumerable<bool>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.SelectExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> 0
+            SELECT EXISTS (
+                Projection Mapping:
+                SELECT 1
+                FROM TB_USER AS t
+                WHERE TRIM([SqlExpressions.SqlFunctionExpression]) == @__Trim_0)), 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, bool>, 
+        Concent.Athena.Infrastructure.Data.Contexts.AthenaContext, 
+        False, 
+        False
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2023-06-29 14:30:16.626 -03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-06-29 14:30:16.628 -03:00 [DBG] Created DbCommand for 'ExecuteReader' (2ms).
+2023-06-29 14:30:16.633 -03:00 [DBG] Opening connection to database 'Athenadb' on server 'localhost'.
+2023-06-29 14:30:16.639 -03:00 [DBG] Opened connection to database 'Athenadb' on server 'localhost'.
+2023-06-29 14:30:16.642 -03:00 [DBG] Executing DbCommand [Parameters=[@__Trim_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM `TB_USER` AS `t`
+    WHERE TRIM(UPPER(`t`.`DS_USER_LOGIN`)) = @__Trim_0)
+2023-06-29 14:30:16.648 -03:00 [INF] Executed DbCommand (6ms) [Parameters=[@__Trim_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM `TB_USER` AS `t`
+    WHERE TRIM(UPPER(`t`.`DS_USER_LOGIN`)) = @__Trim_0)
+2023-06-29 14:30:16.654 -03:00 [DBG] A data reader was disposed.
+2023-06-29 14:30:16.656 -03:00 [DBG] Closing connection to database 'Athenadb' on server 'localhost'.
+2023-06-29 14:30:16.658 -03:00 [DBG] Closed connection to database 'Athenadb' on server 'localhost'.
+2023-06-29 14:30:16.895 -03:00 [DBG] 'AthenaContext' generated a value for the property 'Id.User'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-29 14:30:16.931 -03:00 [DBG] Context 'AthenaContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-29 14:30:16.935 -03:00 [DBG] DetectChanges starting for 'AthenaContext'.
+2023-06-29 14:30:16.942 -03:00 [DBG] DetectChanges completed for 'AthenaContext'.
+2023-06-29 14:30:16.944 -03:00 [DBG] DetectChanges starting for 'AthenaContext'.
+2023-06-29 14:30:16.948 -03:00 [DBG] DetectChanges completed for 'AthenaContext'.
+2023-06-29 14:30:16.951 -03:00 [DBG] SaveChanges starting for 'AthenaContext'.
+2023-06-29 14:30:16.954 -03:00 [DBG] DetectChanges starting for 'AthenaContext'.
+2023-06-29 14:30:16.959 -03:00 [DBG] DetectChanges completed for 'AthenaContext'.
+2023-06-29 14:30:16.963 -03:00 [DBG] Opening connection to database 'Athenadb' on server 'localhost'.
+2023-06-29 14:30:16.967 -03:00 [DBG] Opened connection to database 'Athenadb' on server 'localhost'.
+2023-06-29 14:30:16.970 -03:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-06-29 14:30:16.975 -03:00 [DBG] Began transaction with isolation level 'Unspecified'.
+2023-06-29 14:30:16.977 -03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-06-29 14:30:16.979 -03:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2023-06-29 14:30:16.982 -03:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime), @p2='?' (DbType = Boolean), @p3='?' (DbType = Boolean), @p4='?' (DbType = Guid), @p5='?' (Size = 400), @p6='?' (Size = 400), @p7='?' (Size = 400)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `TB_USER` (`ID`, `CREATED_AT`, `ST_ACTIVE`, `IE_ISLOGED`, `ID_PERSON`, `DS_SALT`, `DS_USER_LOGIN`, `DS_USER_PASSWORD`)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);
+SELECT `UPDATED_AT`
+FROM `TB_USER`
+WHERE ROW_COUNT() = 1 AND `ID` = @p0;
+2023-06-29 14:30:16.988 -03:00 [INF] Executed DbCommand (6ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime), @p2='?' (DbType = Boolean), @p3='?' (DbType = Boolean), @p4='?' (DbType = Guid), @p5='?' (Size = 400), @p6='?' (Size = 400), @p7='?' (Size = 400)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `TB_USER` (`ID`, `CREATED_AT`, `ST_ACTIVE`, `IE_ISLOGED`, `ID_PERSON`, `DS_SALT`, `DS_USER_LOGIN`, `DS_USER_PASSWORD`)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);
+SELECT `UPDATED_AT`
+FROM `TB_USER`
+WHERE ROW_COUNT() = 1 AND `ID` = @p0;
+2023-06-29 14:30:16.996 -03:00 [DBG] A data reader was disposed.
+2023-06-29 14:30:16.999 -03:00 [DBG] Committing transaction.
+2023-06-29 14:30:17.004 -03:00 [DBG] Committed transaction.
+2023-06-29 14:30:17.007 -03:00 [DBG] Closing connection to database 'Athenadb' on server 'localhost'.
+2023-06-29 14:30:17.010 -03:00 [DBG] Closed connection to database 'Athenadb' on server 'localhost'.
+2023-06-29 14:30:17.012 -03:00 [DBG] Disposing transaction.
+2023-06-29 14:30:17.015 -03:00 [DBG] An entity of type 'User' tracked by 'AthenaContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-06-29 14:30:17.019 -03:00 [DBG] SaveChanges completed for 'AthenaContext' with 1 entities written to the database.
+2023-06-29 14:30:17.026 -03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2023-06-29 14:30:17.031 -03:00 [DBG] No information found on request to perform content negotiation.
+2023-06-29 14:30:17.033 -03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-06-29 14:30:17.035 -03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-06-29 14:30:17.038 -03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-06-29 14:30:17.041 -03:00 [INF] Executing ObjectResult, writing value of type 'Concent.Athena.Domain.Core.Responses.Person.CreatePersonResponse'.
+2023-06-29 14:30:17.044 -03:00 [INF] Executed action Concent.Athena.Services.API.Controllers.PersonController.Create (Concent.Athena.Services.API) in 721.9123ms
+2023-06-29 14:30:17.047 -03:00 [INF] Executed endpoint 'Concent.Athena.Services.API.Controllers.PersonController.Create (Concent.Athena.Services.API)'
+2023-06-29 14:30:17.050 -03:00 [DBG] 'AthenaContext' disposed.
+2023-06-29 14:30:17.054 -03:00 [INF] Request finished HTTP/2 POST https://localhost:5002/api/v1/person/person application/json 130 - 201 - application/json;+charset=utf-8 786.2404ms
+2023-06-29 14:30:17.315 -03:00 [INF] Request starting HTTP/2 POST https://localhost:5002/api/v1/person/person application/json 130
+2023-06-29 14:30:17.318 -03:00 [DBG] POST requests are not supported
+2023-06-29 14:30:17.320 -03:00 [DBG] 1 candidate(s) found for the request path '/api/v1/person/person'
+2023-06-29 14:30:17.324 -03:00 [DBG] Endpoint 'Concent.Athena.Services.API.Controllers.PersonController.Create (Concent.Athena.Services.API)' with route pattern 'api/v1/Person/Person' is valid for the request path '/api/v1/person/person'
+2023-06-29 14:30:17.330 -03:00 [DBG] Request matched endpoint 'Concent.Athena.Services.API.Controllers.PersonController.Create (Concent.Athena.Services.API)'
+2023-06-29 14:30:17.334 -03:00 [DBG] The request has an origin header: 'http://localhost:4200'.
+2023-06-29 14:30:17.336 -03:00 [INF] CORS policy execution successful.
+2023-06-29 14:30:17.337 -03:00 [INF] Executing endpoint 'Concent.Athena.Services.API.Controllers.PersonController.Create (Concent.Athena.Services.API)'
+2023-06-29 14:30:17.340 -03:00 [INF] Route matched with {action = "Create", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(Concent.Athena.Domain.Core.Requests.PersonRequests.CreatePersonRequest, System.Threading.CancellationToken) on controller Concent.Athena.Services.API.Controllers.PersonController (Concent.Athena.Services.API).
+2023-06-29 14:30:17.343 -03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-06-29 14:30:17.347 -03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-06-29 14:30:17.352 -03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-06-29 14:30:17.355 -03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-06-29 14:30:17.358 -03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-06-29 14:30:17.360 -03:00 [DBG] Executing controller factory for controller Concent.Athena.Services.API.Controllers.PersonController (Concent.Athena.Services.API)
+2023-06-29 14:30:17.363 -03:00 [DBG] Executed controller factory for controller Concent.Athena.Services.API.Controllers.PersonController (Concent.Athena.Services.API)
+2023-06-29 14:30:17.368 -03:00 [DBG] Attempting to bind parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.PersonRequests.CreatePersonRequest' ...
+2023-06-29 14:30:17.372 -03:00 [DBG] Attempting to bind parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.PersonRequests.CreatePersonRequest' using the name '' in request data ...
+2023-06-29 14:30:17.375 -03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2023-06-29 14:30:17.378 -03:00 [DBG] Connection id "0HMROONSFVMD1", Request id "0HMROONSFVMD1:00000005": started reading request body.
+2023-06-29 14:30:17.382 -03:00 [DBG] Connection id "0HMROONSFVMD1", Request id "0HMROONSFVMD1:00000005": done reading request body.
+2023-06-29 14:30:17.385 -03:00 [DBG] JSON input formatter succeeded, deserializing to type 'Concent.Athena.Domain.Core.Requests.PersonRequests.CreatePersonRequest'
+2023-06-29 14:30:17.387 -03:00 [DBG] Done attempting to bind parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.PersonRequests.CreatePersonRequest'.
+2023-06-29 14:30:17.389 -03:00 [DBG] Done attempting to bind parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.PersonRequests.CreatePersonRequest'.
+2023-06-29 14:30:17.392 -03:00 [DBG] Attempting to validate the bound parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.PersonRequests.CreatePersonRequest' ...
+2023-06-29 14:30:17.396 -03:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.PersonRequests.CreatePersonRequest'.
+2023-06-29 14:30:17.399 -03:00 [DBG] Attempting to bind parameter 'cancellationToken' of type 'System.Threading.CancellationToken' ...
+2023-06-29 14:30:17.401 -03:00 [DBG] Done attempting to bind parameter 'cancellationToken' of type 'System.Threading.CancellationToken'.
+2023-06-29 14:30:17.404 -03:00 [DBG] Attempting to validate the bound parameter 'cancellationToken' of type 'System.Threading.CancellationToken' ...
+2023-06-29 14:30:17.407 -03:00 [DBG] Done attempting to validate the bound parameter 'cancellationToken' of type 'System.Threading.CancellationToken'.
+2023-06-29 14:30:17.411 -03:00 [INF] Entity Framework Core 5.0.16 initialized 'AthenaContext' using provider 'Pomelo.EntityFrameworkCore.MySql' with options: ServerVersion 8.0.21-mysql 
+2023-06-29 14:30:17.416 -03:00 [DBG] Opening connection to database '' on server 'localhost'.
+2023-06-29 14:30:17.424 -03:00 [DBG] Opened connection to database '' on server 'localhost'.
+2023-06-29 14:30:17.429 -03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-06-29 14:30:17.434 -03:00 [DBG] Created DbCommand for 'ExecuteScalar' (4ms).
+2023-06-29 14:30:17.436 -03:00 [DBG] Opening connection to database 'Athenadb' on server 'localhost'.
+2023-06-29 14:30:17.440 -03:00 [DBG] Opened connection to database 'Athenadb' on server 'localhost'.
+2023-06-29 14:30:17.443 -03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+FROM information_schema.tables
+WHERE table_type = 'BASE TABLE' AND table_schema = 'Athenadb'
+2023-06-29 14:30:17.449 -03:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+FROM information_schema.tables
+WHERE table_type = 'BASE TABLE' AND table_schema = 'Athenadb'
+2023-06-29 14:30:17.453 -03:00 [DBG] Closing connection to database 'Athenadb' on server 'localhost'.
+2023-06-29 14:30:17.457 -03:00 [DBG] Closed connection to database 'Athenadb' on server 'localhost'.
+2023-06-29 14:30:17.461 -03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-06-29 14:30:17.465 -03:00 [DBG] Created DbCommand for 'ExecuteReader' (3ms).
+2023-06-29 14:30:17.475 -03:00 [DBG] Opening connection to database 'Athenadb' on server 'localhost'.
+2023-06-29 14:30:17.507 -03:00 [DBG] Opened connection to database 'Athenadb' on server 'localhost'.
+2023-06-29 14:30:17.660 -03:00 [DBG] Executing DbCommand [Parameters=[@__request_CPF_0='?' (Size = 400)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM `TB_PERSON` AS `t`
+    WHERE `t`.`DS_CPF` = @__request_CPF_0)
+2023-06-29 14:30:17.754 -03:00 [INF] Executed DbCommand (93ms) [Parameters=[@__request_CPF_0='?' (Size = 400)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM `TB_PERSON` AS `t`
+    WHERE `t`.`DS_CPF` = @__request_CPF_0)
+2023-06-29 14:30:17.772 -03:00 [DBG] A data reader was disposed.
+2023-06-29 14:30:17.774 -03:00 [DBG] Closing connection to database 'Athenadb' on server 'localhost'.
+2023-06-29 14:30:17.777 -03:00 [DBG] Closed connection to database 'Athenadb' on server 'localhost'.
+2023-06-29 14:30:17.786 -03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2023-06-29 14:30:17.792 -03:00 [DBG] No information found on request to perform content negotiation.
+2023-06-29 14:30:17.795 -03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-06-29 14:30:17.799 -03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-06-29 14:30:17.802 -03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-06-29 14:30:17.805 -03:00 [INF] Executing ObjectResult, writing value of type 'Concent.Athena.Domain.Core.Responses.Person.CreatePersonResponse'.
+2023-06-29 14:30:17.809 -03:00 [INF] Executed action Concent.Athena.Services.API.Controllers.PersonController.Create (Concent.Athena.Services.API) in 448.7548ms
+2023-06-29 14:30:17.820 -03:00 [INF] Executed endpoint 'Concent.Athena.Services.API.Controllers.PersonController.Create (Concent.Athena.Services.API)'
+2023-06-29 14:30:17.825 -03:00 [DBG] 'AthenaContext' disposed.
+2023-06-29 14:30:17.833 -03:00 [INF] Request finished HTTP/2 POST https://localhost:5002/api/v1/person/person application/json 130 - 400 - application/json;+charset=utf-8 516.6829ms
+2023-06-29 14:30:17.983 -03:00 [DBG] Connection id "0HMROONSFVMD1" received FIN.
+2023-06-29 14:30:17.986 -03:00 [DBG] Connection id "0HMROONSFVMD1" is closed. The last processed stream ID was 5.
+2023-06-29 14:30:17.989 -03:00 [DBG] Connection id "0HMROONSFVMD1" sending FIN because: "The client closed the connection."
+2023-06-29 14:30:18.005 -03:00 [DBG] Connection id "0HMROONSFVMD1" stopped.

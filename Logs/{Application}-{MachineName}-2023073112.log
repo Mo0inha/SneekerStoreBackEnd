@@ -1,0 +1,28 @@
+2023-07-31 12:35:13.929 -03:00 [DBG] Hosting starting
+2023-07-31 12:35:14.916 -03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 1ED06961E04A72F7E2C9617C51B22CBBFE7472A4)
+2023-07-31 12:35:15.303 -03:00 [INF] Now listening on: https://localhost:5004
+2023-07-31 12:35:15.306 -03:00 [DBG] Loaded hosting startup assembly Concent.Athena.Services.API
+2023-07-31 12:35:15.309 -03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-07-31 12:35:15.311 -03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-07-31 12:35:15.323 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-31 12:35:15.326 -03:00 [INF] Hosting environment: Local
+2023-07-31 12:35:15.330 -03:00 [INF] Content root path: C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API
+2023-07-31 12:35:15.332 -03:00 [DBG] Hosting started
+2023-07-31 12:43:14.361 -03:00 [DBG] Connection id "0HMSHRJD3QDDO" accepted.
+2023-07-31 12:43:14.381 -03:00 [DBG] Connection id "0HMSHRJD3QDDO" started.
+2023-07-31 12:43:14.745 -03:00 [DBG] Connection "0HMSHRJD3QDDO" established using the following protocol: "Tls12"
+2023-07-31 12:43:14.874 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5004/swagger/index.html - -
+2023-07-31 12:43:14.942 -03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-07-31 12:43:15.075 -03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-07-31 12:43:15.415 -03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-07-31 12:43:15.429 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5004/swagger/index.html - - - 200 - text/html;charset=utf-8 560.5259ms
+2023-07-31 12:43:15.439 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5004/_vs/browserLink - -
+2023-07-31 12:43:15.439 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2023-07-31 12:43:15.455 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 12356 application/javascript;+charset=utf-8 11.0089ms
+2023-07-31 12:43:15.587 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5004/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 148.3153ms
+2023-07-31 12:43:15.778 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5004/swagger/v1/swagger.json - -
+2023-07-31 12:43:15.996 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5004/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 218.0956ms
+2023-07-31 12:43:18.477 -03:00 [DBG] Connection id "0HMSHRJD3QDDO" received FIN.
+2023-07-31 12:43:18.482 -03:00 [DBG] Connection id "0HMSHRJD3QDDO" sending FIN because: "The client closed the connection."
+2023-07-31 12:43:18.490 -03:00 [DBG] Connection id "0HMSHRJD3QDDO" is closed. The last processed stream ID was 7.
+2023-07-31 12:43:18.499 -03:00 [DBG] Connection id "0HMSHRJD3QDDO" stopped.
