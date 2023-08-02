@@ -1,0 +1,91 @@
+2023-07-07 15:46:04.484 -03:00 [DBG] Hosting starting
+2023-07-07 15:46:05.766 -03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 1ED06961E04A72F7E2C9617C51B22CBBFE7472A4)
+2023-07-07 15:46:08.674 -03:00 [INF] Now listening on: https://localhost:5002
+2023-07-07 15:46:08.972 -03:00 [DBG] Loaded hosting startup assembly Concent.Athena.Services.API
+2023-07-07 15:46:08.979 -03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-07-07 15:46:08.987 -03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-07-07 15:46:09.372 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-07 15:46:09.561 -03:00 [INF] Hosting environment: Local
+2023-07-07 15:46:09.572 -03:00 [INF] Content root path: C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API
+2023-07-07 15:46:09.576 -03:00 [DBG] Hosting started
+2023-07-07 15:46:09.956 -03:00 [DBG] Connection id "0HMRV39N4N8MM" accepted.
+2023-07-07 15:46:10.018 -03:00 [DBG] Connection id "0HMRV39N4N8MN" accepted.
+2023-07-07 15:46:10.021 -03:00 [DBG] Connection id "0HMRV39N4N8MM" started.
+2023-07-07 15:46:10.069 -03:00 [DBG] Connection id "0HMRV39N4N8MN" started.
+2023-07-07 15:46:10.319 -03:00 [DBG] Connection id "0HMRV39N4N8MM" received FIN.
+2023-07-07 15:46:10.348 -03:00 [DBG] Connection "0HMRV39N4N8MM" established using the following protocol: "Tls12"
+2023-07-07 15:46:10.348 -03:00 [DBG] Connection "0HMRV39N4N8MN" established using the following protocol: "Tls12"
+2023-07-07 15:46:10.383 -03:00 [DBG] Connection id "0HMRV39N4N8MM" is closed. The last processed stream ID was 0.
+2023-07-07 15:46:10.391 -03:00 [DBG] Connection id "0HMRV39N4N8MM" sending FIN because: "The client closed the connection."
+2023-07-07 15:46:10.404 -03:00 [DBG] Connection id "0HMRV39N4N8MM" stopped.
+2023-07-07 15:46:10.462 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5002/swagger/index.html - -
+2023-07-07 15:46:10.528 -03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-07-07 15:46:10.708 -03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-07-07 15:46:11.887 -03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-07-07 15:46:11.891 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5002/swagger/swagger-ui-standalone-preset.js - -
+2023-07-07 15:46:11.891 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5002/swagger/swagger-ui.css - -
+2023-07-07 15:46:11.891 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5002/swagger/swagger-ui-bundle.js - -
+2023-07-07 15:46:11.891 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5002/_framework/aspnetcore-browser-refresh.js - -
+2023-07-07 15:46:11.907 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5002/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 15.6943ms
+2023-07-07 15:46:11.907 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5002/swagger/index.html - - - 200 - text/html;charset=utf-8 1450.7253ms
+2023-07-07 15:46:11.930 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5002/_vs/browserLink - -
+2023-07-07 15:46:11.969 -03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-07-07 15:46:11.983 -03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-07-07 15:46:11.987 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5002/swagger/swagger-ui.css - - - 200 143632 text/css 96.2816ms
+2023-07-07 15:46:12.058 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5002/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 167.7550ms
+2023-07-07 15:46:12.067 -03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-07-07 15:46:12.080 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5002/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 150.3042ms
+2023-07-07 15:46:12.084 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5002/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 193.6592ms
+2023-07-07 15:46:12.436 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5002/swagger/v1/swagger.json - -
+2023-07-07 15:46:12.681 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5002/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 245.2253ms
+2023-07-07 15:46:13.183 -03:00 [DBG] Connection id "0HMRV39N4N8MN" received FIN.
+2023-07-07 15:46:13.199 -03:00 [DBG] Connection id "0HMRV39N4N8MN" is closed. The last processed stream ID was 13.
+2023-07-07 15:46:13.202 -03:00 [DBG] Connection id "0HMRV39N4N8MN" sending FIN because: "The client closed the connection."
+2023-07-07 15:46:13.212 -03:00 [DBG] Connection id "0HMRV39N4N8MN" stopped.
+2023-07-07 15:46:56.490 -03:00 [DBG] Hosting starting
+2023-07-07 15:46:57.435 -03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 1ED06961E04A72F7E2C9617C51B22CBBFE7472A4)
+2023-07-07 15:46:57.846 -03:00 [INF] Now listening on: https://localhost:5004
+2023-07-07 15:46:57.849 -03:00 [DBG] Loaded hosting startup assembly Concent.Athena.Services.API
+2023-07-07 15:46:57.852 -03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-07-07 15:46:57.856 -03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-07-07 15:46:57.858 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-07 15:46:57.860 -03:00 [INF] Hosting environment: Local
+2023-07-07 15:46:57.862 -03:00 [INF] Content root path: C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API
+2023-07-07 15:46:57.864 -03:00 [DBG] Hosting started
+2023-07-07 15:47:04.559 -03:00 [DBG] Connection id "0HMRV3A7DGCVI" accepted.
+2023-07-07 15:47:04.567 -03:00 [DBG] Connection id "0HMRV3A7DGCVI" started.
+2023-07-07 15:47:04.567 -03:00 [DBG] Connection id "0HMRV3A7DGCVJ" accepted.
+2023-07-07 15:47:04.574 -03:00 [DBG] Connection id "0HMRV3A7DGCVJ" started.
+2023-07-07 15:47:04.671 -03:00 [DBG] Connection id "0HMRV3A7DGCVJ" received FIN.
+2023-07-07 15:47:04.697 -03:00 [DBG] Connection "0HMRV3A7DGCVJ" established using the following protocol: "Tls12"
+2023-07-07 15:47:04.697 -03:00 [DBG] Connection "0HMRV3A7DGCVI" established using the following protocol: "Tls12"
+2023-07-07 15:47:04.714 -03:00 [DBG] Connection id "0HMRV3A7DGCVJ" is closed. The last processed stream ID was 0.
+2023-07-07 15:47:04.717 -03:00 [DBG] Connection id "0HMRV3A7DGCVJ" sending FIN because: "The client closed the connection."
+2023-07-07 15:47:04.725 -03:00 [DBG] Connection id "0HMRV3A7DGCVJ" stopped.
+2023-07-07 15:47:04.754 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5004/swagger/index.html - -
+2023-07-07 15:47:04.793 -03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-07-07 15:47:04.877 -03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-07-07 15:47:05.019 -03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-07-07 15:47:05.020 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5004/swagger/swagger-ui.css - -
+2023-07-07 15:47:05.020 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5004/swagger/swagger-ui-bundle.js - -
+2023-07-07 15:47:05.020 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5004/swagger/swagger-ui-standalone-preset.js - -
+2023-07-07 15:47:05.021 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5004/_vs/browserLink - -
+2023-07-07 15:47:05.033 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5004/swagger/index.html - - - 200 - text/html;charset=utf-8 282.2461ms
+2023-07-07 15:47:05.037 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5004/_framework/aspnetcore-browser-refresh.js - -
+2023-07-07 15:47:05.115 -03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-07-07 15:47:05.110 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5004/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 64.7097ms
+2023-07-07 15:47:05.092 -03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-07-07 15:47:05.170 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5004/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 150.2876ms
+2023-07-07 15:47:05.178 -03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-07-07 15:47:05.179 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5004/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 158.3293ms
+2023-07-07 15:47:05.181 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5004/swagger/swagger-ui.css - - - 200 143632 text/css 161.7875ms
+2023-07-07 15:47:05.188 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5004/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 168.0631ms
+2023-07-07 15:47:05.428 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5004/swagger/v1/swagger.json - -
+2023-07-07 15:47:05.454 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5004/swagger/favicon-32x32.png - -
+2023-07-07 15:47:05.461 -03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-07-07 15:47:05.467 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5004/swagger/favicon-32x32.png - - - 200 628 image/png 13.1611ms
+2023-07-07 15:47:05.606 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5004/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 178.3324ms
+2023-07-07 15:47:08.241 -03:00 [DBG] Connection id "0HMRV3A7DGCVI" received FIN.
+2023-07-07 15:47:08.244 -03:00 [DBG] Connection id "0HMRV3A7DGCVI" is closed. The last processed stream ID was 15.
+2023-07-07 15:47:08.247 -03:00 [DBG] Connection id "0HMRV3A7DGCVI" sending FIN because: "The client closed the connection."
+2023-07-07 15:47:08.263 -03:00 [DBG] Connection id "0HMRV3A7DGCVI" stopped.

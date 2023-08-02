@@ -1,0 +1,132 @@
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Infrastructure.Data\bin\Debug\net5.0\libzstd.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Infrastructure.Data\bin\Debug\net5.0\snappy32.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Infrastructure.Data\bin\Debug\net5.0\snappy64.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Infrastructure.Data\bin\Debug\net5.0\libsnappy64.so
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Infrastructure.Data\bin\Debug\net5.0\libzstd.so
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Infrastructure.Data\bin\Debug\net5.0\libsnappy64.dylib
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Infrastructure.Data\bin\Debug\net5.0\libzstd.dylib
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Infrastructure.Data\bin\Debug\net5.0\Concent.Athena.Infrastructure.Data.deps.json
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Infrastructure.Data\bin\Debug\net5.0\Concent.Athena.Infrastructure.Data.runtimeconfig.json
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Infrastructure.Data\bin\Debug\net5.0\Concent.Athena.Infrastructure.Data.runtimeconfig.dev.json
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Infrastructure.Data\bin\Debug\net5.0\Concent.Athena.Infrastructure.Data.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Infrastructure.Data\bin\Debug\net5.0\Concent.Athena.Infrastructure.Data.pdb
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Infrastructure.Data\bin\Debug\net5.0\Concent.Athena.Domain.Core.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Infrastructure.Data\bin\Debug\net5.0\Concent.Athena.Domain.Shared.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Infrastructure.Data\bin\Debug\net5.0\Concent.Athena.Infrastructure.Util.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Infrastructure.Data\bin\Debug\net5.0\Infrastructure.Security.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Infrastructure.Data\bin\Debug\net5.0\Concent.Athena.Domain.Core.pdb
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Infrastructure.Data\bin\Debug\net5.0\Infrastructure.Security.pdb
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Infrastructure.Data\bin\Debug\net5.0\Concent.Athena.Domain.Shared.pdb
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Infrastructure.Data\bin\Debug\net5.0\Concent.Athena.Infrastructure.Util.pdb
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Infrastructure.Data\obj\Debug\net5.0\Infrastructure.Data.csproj.AssemblyReference.cache
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Infrastructure.Data\obj\Debug\net5.0\Infrastructure.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Infrastructure.Data\obj\Debug\net5.0\Infrastructure.Data.AssemblyInfoInputs.cache
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Infrastructure.Data\obj\Debug\net5.0\Infrastructure.Data.AssemblyInfo.cs
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Infrastructure.Data\obj\Debug\net5.0\Infrastructure.Data.csproj.CoreCompileInputs.cache
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Infrastructure.Data\obj\Debug\net5.0\Infrastructure.Data.csproj.CopyComplete
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Infrastructure.Data\obj\Debug\net5.0\Concent.Athena.Infrastructure.Data.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Infrastructure.Data\obj\Debug\net5.0\refint\Concent.Athena.Infrastructure.Data.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Infrastructure.Data\obj\Debug\net5.0\Concent.Athena.Infrastructure.Data.pdb
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Infrastructure.Data\obj\Debug\net5.0\Infrastructure.Data.genruntimeconfig.cache
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Infrastructure.Data\obj\Debug\net5.0\ref\Concent.Athena.Infrastructure.Data.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Infrastructure.Data\bin\Debug\net5.0\libzstd.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Infrastructure.Data\bin\Debug\net5.0\snappy32.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Infrastructure.Data\bin\Debug\net5.0\snappy64.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Infrastructure.Data\bin\Debug\net5.0\libsnappy64.so
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Infrastructure.Data\bin\Debug\net5.0\libzstd.so
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Infrastructure.Data\bin\Debug\net5.0\libsnappy64.dylib
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Infrastructure.Data\bin\Debug\net5.0\libzstd.dylib
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Infrastructure.Data\bin\Debug\net5.0\Concent.Athena.Infrastructure.Data.deps.json
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Infrastructure.Data\bin\Debug\net5.0\Concent.Athena.Infrastructure.Data.runtimeconfig.json
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Infrastructure.Data\bin\Debug\net5.0\Concent.Athena.Infrastructure.Data.runtimeconfig.dev.json
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Infrastructure.Data\bin\Debug\net5.0\Concent.Athena.Infrastructure.Data.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Infrastructure.Data\bin\Debug\net5.0\Concent.Athena.Infrastructure.Data.pdb
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Infrastructure.Data\bin\Debug\net5.0\Concent.Athena.Domain.Core.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Infrastructure.Data\bin\Debug\net5.0\Concent.Athena.Domain.Shared.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Infrastructure.Data\bin\Debug\net5.0\Concent.Athena.Infrastructure.Util.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Infrastructure.Data\bin\Debug\net5.0\Infrastructure.Security.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Infrastructure.Data\bin\Debug\net5.0\Concent.Athena.Domain.Core.pdb
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Infrastructure.Data\bin\Debug\net5.0\Infrastructure.Security.pdb
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Infrastructure.Data\bin\Debug\net5.0\Concent.Athena.Domain.Shared.pdb
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Infrastructure.Data\bin\Debug\net5.0\Concent.Athena.Infrastructure.Util.pdb
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Infrastructure.Data\obj\Debug\net5.0\Infrastructure.Data.csproj.AssemblyReference.cache
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Infrastructure.Data\obj\Debug\net5.0\Infrastructure.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Infrastructure.Data\obj\Debug\net5.0\Infrastructure.Data.AssemblyInfoInputs.cache
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Infrastructure.Data\obj\Debug\net5.0\Infrastructure.Data.AssemblyInfo.cs
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Infrastructure.Data\obj\Debug\net5.0\Infrastructure.Data.csproj.CoreCompileInputs.cache
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Infrastructure.Data\obj\Debug\net5.0\Infrastructure.Data.csproj.CopyComplete
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Infrastructure.Data\obj\Debug\net5.0\Concent.Athena.Infrastructure.Data.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Infrastructure.Data\obj\Debug\net5.0\refint\Concent.Athena.Infrastructure.Data.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Infrastructure.Data\obj\Debug\net5.0\Concent.Athena.Infrastructure.Data.pdb
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Infrastructure.Data\obj\Debug\net5.0\Infrastructure.Data.genruntimeconfig.cache
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Infrastructure.Data\obj\Debug\net5.0\ref\Concent.Athena.Infrastructure.Data.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\Store\Apolo\Apolo\src\Infrastructure.Data\obj\Debug\net5.0\Infrastructure.Data.csproj.AssemblyReference.cache
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\Store\Apolo\Apolo\src\Infrastructure.Data\obj\Debug\net5.0\Infrastructure.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\Store\Apolo\Apolo\src\Infrastructure.Data\obj\Debug\net5.0\Infrastructure.Data.AssemblyInfoInputs.cache
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\Store\Apolo\Apolo\src\Infrastructure.Data\obj\Debug\net5.0\Infrastructure.Data.AssemblyInfo.cs
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\Store\Apolo\Apolo\src\Infrastructure.Data\obj\Debug\net5.0\Infrastructure.Data.csproj.CoreCompileInputs.cache
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\Store\Apolo\Apolo\src\Infrastructure.Data\obj\Debug\net5.0\Concent.Athena.Infrastructure.Data.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\Store\Apolo\Apolo\src\Infrastructure.Data\obj\Debug\net5.0\refint\Concent.Athena.Infrastructure.Data.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\Store\Apolo\Apolo\src\Infrastructure.Data\obj\Debug\net5.0\Concent.Athena.Infrastructure.Data.pdb
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Infrastructure.Data\bin\Debug\net5.0\libzstd.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Infrastructure.Data\bin\Debug\net5.0\snappy32.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Infrastructure.Data\bin\Debug\net5.0\snappy64.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Infrastructure.Data\bin\Debug\net5.0\libsnappy64.so
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Infrastructure.Data\bin\Debug\net5.0\libzstd.so
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Infrastructure.Data\bin\Debug\net5.0\libsnappy64.dylib
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Infrastructure.Data\bin\Debug\net5.0\libzstd.dylib
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Infrastructure.Data\bin\Debug\net5.0\Concent.Athena.Infrastructure.Data.deps.json
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Infrastructure.Data\bin\Debug\net5.0\Concent.Athena.Infrastructure.Data.runtimeconfig.json
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Infrastructure.Data\bin\Debug\net5.0\Concent.Athena.Infrastructure.Data.runtimeconfig.dev.json
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Infrastructure.Data\bin\Debug\net5.0\Concent.Athena.Infrastructure.Data.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Infrastructure.Data\bin\Debug\net5.0\Concent.Athena.Infrastructure.Data.pdb
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Infrastructure.Data\bin\Debug\net5.0\Concent.Athena.Domain.Core.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Infrastructure.Data\bin\Debug\net5.0\Concent.Athena.Domain.Shared.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Infrastructure.Data\bin\Debug\net5.0\Concent.Athena.Infrastructure.Util.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Infrastructure.Data\bin\Debug\net5.0\Infrastructure.Security.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Infrastructure.Data\bin\Debug\net5.0\Concent.Athena.Domain.Core.pdb
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Infrastructure.Data\bin\Debug\net5.0\Infrastructure.Security.pdb
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Infrastructure.Data\bin\Debug\net5.0\Concent.Athena.Domain.Shared.pdb
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Infrastructure.Data\bin\Debug\net5.0\Concent.Athena.Infrastructure.Util.pdb
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Infrastructure.Data\obj\Debug\net5.0\Infrastructure.Data.csproj.AssemblyReference.cache
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Infrastructure.Data\obj\Debug\net5.0\Infrastructure.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Infrastructure.Data\obj\Debug\net5.0\Infrastructure.Data.AssemblyInfoInputs.cache
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Infrastructure.Data\obj\Debug\net5.0\Infrastructure.Data.AssemblyInfo.cs
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Infrastructure.Data\obj\Debug\net5.0\Infrastructure.Data.csproj.CoreCompileInputs.cache
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Infrastructure.Data\obj\Debug\net5.0\Infrastructure.Data.csproj.CopyComplete
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Infrastructure.Data\obj\Debug\net5.0\Concent.Athena.Infrastructure.Data.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Infrastructure.Data\obj\Debug\net5.0\refint\Concent.Athena.Infrastructure.Data.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Infrastructure.Data\obj\Debug\net5.0\Concent.Athena.Infrastructure.Data.pdb
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Infrastructure.Data\obj\Debug\net5.0\Infrastructure.Data.genruntimeconfig.cache
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Infrastructure.Data\obj\Debug\net5.0\ref\Concent.Athena.Infrastructure.Data.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Infrastructure.Data\bin\Debug\net5.0\libzstd.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Infrastructure.Data\bin\Debug\net5.0\snappy32.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Infrastructure.Data\bin\Debug\net5.0\snappy64.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Infrastructure.Data\bin\Debug\net5.0\libsnappy64.so
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Infrastructure.Data\bin\Debug\net5.0\libzstd.so
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Infrastructure.Data\bin\Debug\net5.0\libsnappy64.dylib
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Infrastructure.Data\bin\Debug\net5.0\libzstd.dylib
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Infrastructure.Data\bin\Debug\net5.0\Concent.Athena.Infrastructure.Data.deps.json
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Infrastructure.Data\bin\Debug\net5.0\Concent.Athena.Infrastructure.Data.runtimeconfig.json
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Infrastructure.Data\bin\Debug\net5.0\Concent.Athena.Infrastructure.Data.runtimeconfig.dev.json
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Infrastructure.Data\bin\Debug\net5.0\Concent.Athena.Infrastructure.Data.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Infrastructure.Data\bin\Debug\net5.0\Concent.Athena.Infrastructure.Data.pdb
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Infrastructure.Data\bin\Debug\net5.0\Concent.Athena.Domain.Core.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Infrastructure.Data\bin\Debug\net5.0\Concent.Athena.Domain.Shared.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Infrastructure.Data\bin\Debug\net5.0\Concent.Athena.Infrastructure.Util.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Infrastructure.Data\bin\Debug\net5.0\Infrastructure.Security.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Infrastructure.Data\bin\Debug\net5.0\Concent.Athena.Domain.Core.pdb
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Infrastructure.Data\bin\Debug\net5.0\Infrastructure.Security.pdb
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Infrastructure.Data\bin\Debug\net5.0\Concent.Athena.Domain.Shared.pdb
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Infrastructure.Data\bin\Debug\net5.0\Concent.Athena.Infrastructure.Util.pdb
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Infrastructure.Data\obj\Debug\net5.0\Infrastructure.Data.csproj.AssemblyReference.cache
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Infrastructure.Data\obj\Debug\net5.0\Infrastructure.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Infrastructure.Data\obj\Debug\net5.0\Infrastructure.Data.AssemblyInfoInputs.cache
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Infrastructure.Data\obj\Debug\net5.0\Infrastructure.Data.AssemblyInfo.cs
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Infrastructure.Data\obj\Debug\net5.0\Infrastructure.Data.csproj.CoreCompileInputs.cache
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Infrastructure.Data\obj\Debug\net5.0\Infrastructure.Data.csproj.CopyComplete
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Infrastructure.Data\obj\Debug\net5.0\Concent.Athena.Infrastructure.Data.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Infrastructure.Data\obj\Debug\net5.0\refint\Concent.Athena.Infrastructure.Data.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Infrastructure.Data\obj\Debug\net5.0\Concent.Athena.Infrastructure.Data.pdb
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Infrastructure.Data\obj\Debug\net5.0\Infrastructure.Data.genruntimeconfig.cache
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Infrastructure.Data\obj\Debug\net5.0\ref\Concent.Athena.Infrastructure.Data.dll

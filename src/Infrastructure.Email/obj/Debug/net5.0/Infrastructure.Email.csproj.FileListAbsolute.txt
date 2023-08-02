@@ -1,0 +1,60 @@
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Infrastructure.Email\bin\Debug\net5.0\Concent.Athena.Infrastructure.Email.deps.json
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Infrastructure.Email\bin\Debug\net5.0\Concent.Athena.Infrastructure.Email.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Infrastructure.Email\bin\Debug\net5.0\Concent.Athena.Infrastructure.Email.pdb
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Infrastructure.Email\obj\Debug\net5.0\Infrastructure.Email.csproj.AssemblyReference.cache
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Infrastructure.Email\obj\Debug\net5.0\Infrastructure.Email.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Infrastructure.Email\obj\Debug\net5.0\Infrastructure.Email.AssemblyInfoInputs.cache
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Infrastructure.Email\obj\Debug\net5.0\Infrastructure.Email.AssemblyInfo.cs
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Infrastructure.Email\obj\Debug\net5.0\Infrastructure.Email.csproj.CoreCompileInputs.cache
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Infrastructure.Email\obj\Debug\net5.0\Concent.Athena.Infrastructure.Email.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Infrastructure.Email\obj\Debug\net5.0\refint\Concent.Athena.Infrastructure.Email.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Infrastructure.Email\obj\Debug\net5.0\Concent.Athena.Infrastructure.Email.pdb
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Infrastructure.Email\obj\Debug\net5.0\ref\Concent.Athena.Infrastructure.Email.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Infrastructure.Email\bin\Debug\net5.0\Concent.Athena.Infrastructure.Email.deps.json
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Infrastructure.Email\bin\Debug\net5.0\Concent.Athena.Infrastructure.Email.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Infrastructure.Email\bin\Debug\net5.0\Concent.Athena.Infrastructure.Email.pdb
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Infrastructure.Email\obj\Debug\net5.0\Infrastructure.Email.csproj.AssemblyReference.cache
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Infrastructure.Email\obj\Debug\net5.0\Infrastructure.Email.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Infrastructure.Email\obj\Debug\net5.0\Infrastructure.Email.AssemblyInfoInputs.cache
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Infrastructure.Email\obj\Debug\net5.0\Infrastructure.Email.AssemblyInfo.cs
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Infrastructure.Email\obj\Debug\net5.0\Infrastructure.Email.csproj.CoreCompileInputs.cache
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Infrastructure.Email\obj\Debug\net5.0\Concent.Athena.Infrastructure.Email.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Infrastructure.Email\obj\Debug\net5.0\refint\Concent.Athena.Infrastructure.Email.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Infrastructure.Email\obj\Debug\net5.0\Concent.Athena.Infrastructure.Email.pdb
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Infrastructure.Email\obj\Debug\net5.0\ref\Concent.Athena.Infrastructure.Email.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\Store\Apolo\Apolo\src\Infrastructure.Email\bin\Debug\net5.0\Concent.Athena.Infrastructure.Email.deps.json
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\Store\Apolo\Apolo\src\Infrastructure.Email\bin\Debug\net5.0\Concent.Athena.Infrastructure.Email.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\Store\Apolo\Apolo\src\Infrastructure.Email\bin\Debug\net5.0\Concent.Athena.Infrastructure.Email.pdb
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\Store\Apolo\Apolo\src\Infrastructure.Email\obj\Debug\net5.0\Infrastructure.Email.csproj.AssemblyReference.cache
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\Store\Apolo\Apolo\src\Infrastructure.Email\obj\Debug\net5.0\Infrastructure.Email.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\Store\Apolo\Apolo\src\Infrastructure.Email\obj\Debug\net5.0\Infrastructure.Email.AssemblyInfoInputs.cache
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\Store\Apolo\Apolo\src\Infrastructure.Email\obj\Debug\net5.0\Infrastructure.Email.AssemblyInfo.cs
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\Store\Apolo\Apolo\src\Infrastructure.Email\obj\Debug\net5.0\Infrastructure.Email.csproj.CoreCompileInputs.cache
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\Store\Apolo\Apolo\src\Infrastructure.Email\obj\Debug\net5.0\Concent.Athena.Infrastructure.Email.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\Store\Apolo\Apolo\src\Infrastructure.Email\obj\Debug\net5.0\refint\Concent.Athena.Infrastructure.Email.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\Store\Apolo\Apolo\src\Infrastructure.Email\obj\Debug\net5.0\Concent.Athena.Infrastructure.Email.pdb
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\Store\Apolo\Apolo\src\Infrastructure.Email\obj\Debug\net5.0\ref\Concent.Athena.Infrastructure.Email.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Infrastructure.Email\bin\Debug\net5.0\Concent.Athena.Infrastructure.Email.deps.json
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Infrastructure.Email\bin\Debug\net5.0\Concent.Athena.Infrastructure.Email.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Infrastructure.Email\bin\Debug\net5.0\Concent.Athena.Infrastructure.Email.pdb
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Infrastructure.Email\obj\Debug\net5.0\Infrastructure.Email.csproj.AssemblyReference.cache
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Infrastructure.Email\obj\Debug\net5.0\Infrastructure.Email.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Infrastructure.Email\obj\Debug\net5.0\Infrastructure.Email.AssemblyInfoInputs.cache
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Infrastructure.Email\obj\Debug\net5.0\Infrastructure.Email.AssemblyInfo.cs
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Infrastructure.Email\obj\Debug\net5.0\Infrastructure.Email.csproj.CoreCompileInputs.cache
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Infrastructure.Email\obj\Debug\net5.0\Concent.Athena.Infrastructure.Email.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Infrastructure.Email\obj\Debug\net5.0\refint\Concent.Athena.Infrastructure.Email.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Infrastructure.Email\obj\Debug\net5.0\Concent.Athena.Infrastructure.Email.pdb
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Infrastructure.Email\obj\Debug\net5.0\ref\Concent.Athena.Infrastructure.Email.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Infrastructure.Email\bin\Debug\net5.0\Concent.Athena.Infrastructure.Email.deps.json
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Infrastructure.Email\bin\Debug\net5.0\Concent.Athena.Infrastructure.Email.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Infrastructure.Email\bin\Debug\net5.0\Concent.Athena.Infrastructure.Email.pdb
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Infrastructure.Email\obj\Debug\net5.0\Infrastructure.Email.csproj.AssemblyReference.cache
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Infrastructure.Email\obj\Debug\net5.0\Infrastructure.Email.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Infrastructure.Email\obj\Debug\net5.0\Infrastructure.Email.AssemblyInfoInputs.cache
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Infrastructure.Email\obj\Debug\net5.0\Infrastructure.Email.AssemblyInfo.cs
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Infrastructure.Email\obj\Debug\net5.0\Infrastructure.Email.csproj.CoreCompileInputs.cache
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Infrastructure.Email\obj\Debug\net5.0\Concent.Athena.Infrastructure.Email.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Infrastructure.Email\obj\Debug\net5.0\refint\Concent.Athena.Infrastructure.Email.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Infrastructure.Email\obj\Debug\net5.0\Concent.Athena.Infrastructure.Email.pdb
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Infrastructure.Email\obj\Debug\net5.0\ref\Concent.Athena.Infrastructure.Email.dll

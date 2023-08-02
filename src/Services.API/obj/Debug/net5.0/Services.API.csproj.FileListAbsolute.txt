@@ -1,0 +1,569 @@
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\libzstd.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\snappy32.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\snappy64.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\libsnappy64.so
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\libzstd.so
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\libsnappy64.dylib
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\libzstd.dylib
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\appsettings.Homolog.json
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\appsettings.json
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\appsettings.Local.json
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\appsettings.Production.json
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\aws-ecs-tools-defaults.json
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Concent.Athena.Services.API.exe
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Concent.Athena.Services.API.deps.json
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Concent.Athena.Services.API.runtimeconfig.json
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Concent.Athena.Services.API.runtimeconfig.dev.json
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Concent.Athena.Services.API.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Concent.Athena.Services.API.pdb
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\AWSSDK.Core.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\AWSSDK.S3.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\AWSSDK.SecretsManager.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\BCrypt.Net-Next.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Dapper.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\DnsClient.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\FluentValidation.Extensions.Br.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\FluentValidation.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Humanizer.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\JWT.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\MediatR.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Microsoft.Extensions.Caching.Redis.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Microsoft.Extensions.Caching.StackExchangeRedis.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Microsoft.Extensions.Configuration.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\MongoDB.Bson.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\MongoDB.Driver.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\MongoDB.Driver.Core.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\MongoDB.Libmongocrypt.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\MySqlConnector.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Pipelines.Sockets.Unofficial.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Prometheus.NetCore.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Prometheus.NetStandard.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Prometheus.AspNetCore.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\prometheus-net.DotNetRuntime.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\RabbitMQ.Client.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\RabbitMQ.Client.Core.DependencyInjection.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\RestSharp.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\WebDriver.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Serilog.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Serilog.AspNetCore.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Serilog.Enrichers.Environment.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Serilog.Enrichers.Thread.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Serilog.Extensions.Hosting.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Serilog.Extensions.Logging.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Serilog.Formatting.Compact.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Serilog.Settings.Configuration.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Serilog.Sinks.Console.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Serilog.Sinks.Debug.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Serilog.Sinks.File.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\SharpCompress.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\StackExchange.Redis.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\StackExchange.Redis.StrongName.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.Annotations.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\System.IO.Pipelines.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\runtimes\linux\native\libsnappy64.so
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\runtimes\linux\native\libzstd.so
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\runtimes\osx\native\libsnappy64.dylib
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\runtimes\osx\native\libzstd.dylib
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\runtimes\win\native\libzstd.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\runtimes\win\native\snappy32.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\runtimes\win\native\snappy64.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\runtimes\linux\native\libmongocrypt.so
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\runtimes\osx\native\libmongocrypt.dylib
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\runtimes\win\native\mongocrypt.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Concent.Athena.Application.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Concent.Athena.Domain.Core.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Concent.Athena.Domain.Shared.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Concent.Athena.Infrastructure.Data.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Concent.Athena.Infrastructure.Email.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Concent.Athena.Infrastructure.Util.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Infrastructure.Security.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Concent.Athena.Application.pdb
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Concent.Athena.Domain.Shared.pdb
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Concent.Athena.Domain.Core.pdb
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Concent.Athena.Infrastructure.Data.pdb
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Concent.Athena.Infrastructure.Email.pdb
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Concent.Athena.Infrastructure.Util.pdb
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Infrastructure.Security.pdb
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\obj\Debug\net5.0\Services.API.csproj.AssemblyReference.cache
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\obj\Debug\net5.0\Services.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\obj\Debug\net5.0\Services.API.AssemblyInfoInputs.cache
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\obj\Debug\net5.0\Services.API.AssemblyInfo.cs
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\obj\Debug\net5.0\Services.API.csproj.CoreCompileInputs.cache
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\obj\Debug\net5.0\Concent.Athena.Services.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\obj\Debug\net5.0\Concent.Athena.Services.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\obj\Debug\net5.0\scopedcss\bundle\Concent.Athena.Services.API.styles.css
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\obj\Debug\net5.0\staticwebassets\Concent.Athena.Services.API.StaticWebAssets.Manifest.cache
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\obj\Debug\net5.0\staticwebassets\Concent.Athena.Services.API.StaticWebAssets.Pack.cache
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\obj\Debug\net5.0\staticwebassets\msbuild.Concent.Athena.Services.API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\obj\Debug\net5.0\staticwebassets\msbuild.build.Concent.Athena.Services.API.props
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.Concent.Athena.Services.API.props
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.Concent.Athena.Services.API.props
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\obj\Debug\net5.0\Services.API.RazorTargetAssemblyInfo.cache
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\obj\Debug\net5.0\Services.API.csproj.CopyComplete
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\obj\Debug\net5.0\Concent.Athena.Services.API.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\obj\Debug\net5.0\refint\Concent.Athena.Services.API.dll
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\obj\Debug\net5.0\Concent.Athena.Services.API.pdb
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\obj\Debug\net5.0\Services.API.genruntimeconfig.cache
+C:\Users\concent\Desktop\Organizador\Athena\concent.athena\src\Services.API\obj\Debug\net5.0\ref\Concent.Athena.Services.API.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\libzstd.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\snappy32.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\snappy64.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\libsnappy64.so
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\libzstd.so
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\libsnappy64.dylib
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\libzstd.dylib
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\appsettings.Homolog.json
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\appsettings.json
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\appsettings.Local.json
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\appsettings.Production.json
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\aws-ecs-tools-defaults.json
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Concent.Athena.Services.API.exe
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Concent.Athena.Services.API.deps.json
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Concent.Athena.Services.API.runtimeconfig.json
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Concent.Athena.Services.API.runtimeconfig.dev.json
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Concent.Athena.Services.API.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Concent.Athena.Services.API.pdb
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\AWSSDK.Core.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\AWSSDK.S3.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\AWSSDK.SecretsManager.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\BCrypt.Net-Next.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Dapper.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\DnsClient.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\FluentValidation.Extensions.Br.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\FluentValidation.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Humanizer.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\JWT.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\MediatR.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Microsoft.Extensions.Caching.Redis.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Microsoft.Extensions.Caching.StackExchangeRedis.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Microsoft.Extensions.Configuration.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\MongoDB.Bson.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\MongoDB.Driver.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\MongoDB.Driver.Core.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\MongoDB.Libmongocrypt.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\MySqlConnector.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Pipelines.Sockets.Unofficial.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Prometheus.NetCore.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Prometheus.NetStandard.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Prometheus.AspNetCore.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\prometheus-net.DotNetRuntime.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\RabbitMQ.Client.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\RabbitMQ.Client.Core.DependencyInjection.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\RestSharp.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\WebDriver.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Serilog.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Serilog.AspNetCore.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Serilog.Enrichers.Environment.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Serilog.Enrichers.Thread.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Serilog.Extensions.Hosting.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Serilog.Extensions.Logging.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Serilog.Formatting.Compact.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Serilog.Settings.Configuration.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Serilog.Sinks.Console.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Serilog.Sinks.Debug.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Serilog.Sinks.File.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\SharpCompress.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\StackExchange.Redis.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\StackExchange.Redis.StrongName.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.Annotations.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\System.IO.Pipelines.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\runtimes\linux\native\libsnappy64.so
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\runtimes\linux\native\libzstd.so
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\runtimes\osx\native\libsnappy64.dylib
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\runtimes\osx\native\libzstd.dylib
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\runtimes\win\native\libzstd.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\runtimes\win\native\snappy32.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\runtimes\win\native\snappy64.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\runtimes\linux\native\libmongocrypt.so
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\runtimes\osx\native\libmongocrypt.dylib
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\runtimes\win\native\mongocrypt.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Concent.Athena.Application.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Concent.Athena.Domain.Core.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Concent.Athena.Domain.Shared.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Concent.Athena.Infrastructure.Data.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Concent.Athena.Infrastructure.Email.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Concent.Athena.Infrastructure.Util.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Infrastructure.Security.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Concent.Athena.Application.pdb
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Concent.Athena.Domain.Shared.pdb
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Concent.Athena.Domain.Core.pdb
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Concent.Athena.Infrastructure.Data.pdb
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Concent.Athena.Infrastructure.Email.pdb
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Concent.Athena.Infrastructure.Util.pdb
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\Infrastructure.Security.pdb
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\obj\Debug\net5.0\Services.API.csproj.AssemblyReference.cache
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\obj\Debug\net5.0\Services.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\obj\Debug\net5.0\Services.API.AssemblyInfoInputs.cache
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\obj\Debug\net5.0\Services.API.AssemblyInfo.cs
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\obj\Debug\net5.0\Services.API.csproj.CoreCompileInputs.cache
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\obj\Debug\net5.0\Concent.Athena.Services.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\obj\Debug\net5.0\Concent.Athena.Services.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\obj\Debug\net5.0\scopedcss\bundle\Concent.Athena.Services.API.styles.css
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\obj\Debug\net5.0\staticwebassets\Concent.Athena.Services.API.StaticWebAssets.Manifest.cache
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\obj\Debug\net5.0\staticwebassets\Concent.Athena.Services.API.StaticWebAssets.Pack.cache
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\obj\Debug\net5.0\staticwebassets\msbuild.Concent.Athena.Services.API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\obj\Debug\net5.0\staticwebassets\msbuild.build.Concent.Athena.Services.API.props
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.Concent.Athena.Services.API.props
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.Concent.Athena.Services.API.props
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\obj\Debug\net5.0\Services.API.RazorTargetAssemblyInfo.cache
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\obj\Debug\net5.0\Services.API.csproj.CopyComplete
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\obj\Debug\net5.0\Concent.Athena.Services.API.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\obj\Debug\net5.0\refint\Concent.Athena.Services.API.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\obj\Debug\net5.0\Concent.Athena.Services.API.pdb
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\obj\Debug\net5.0\Services.API.genruntimeconfig.cache
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\obj\Debug\net5.0\ref\Concent.Athena.Services.API.dll
+C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\bin\Debug\net5.0\AWSSDK.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\Store\Apolo\Apolo\src\Services.API\obj\Debug\net5.0\Services.API.csproj.AssemblyReference.cache
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\Store\Apolo\Apolo\src\Services.API\obj\Debug\net5.0\Services.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\Store\Apolo\Apolo\src\Services.API\obj\Debug\net5.0\Services.API.AssemblyInfoInputs.cache
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\Store\Apolo\Apolo\src\Services.API\obj\Debug\net5.0\Services.API.AssemblyInfo.cs
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\Store\Apolo\Apolo\src\Services.API\obj\Debug\net5.0\Services.API.csproj.CoreCompileInputs.cache
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\Store\Apolo\Apolo\src\Services.API\obj\Debug\net5.0\Concent.Athena.Services.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\Store\Apolo\Apolo\src\Services.API\obj\Debug\net5.0\Concent.Athena.Services.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\Store\Apolo\Apolo\src\Services.API\obj\Debug\net5.0\Concent.Athena.Services.API.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\Store\Apolo\Apolo\src\Services.API\obj\Debug\net5.0\refint\Concent.Athena.Services.API.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\Store\Apolo\Apolo\src\Services.API\obj\Debug\net5.0\Concent.Athena.Services.API.pdb
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\libzstd.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\snappy32.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\snappy64.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\libsnappy64.so
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\libzstd.so
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\libsnappy64.dylib
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\libzstd.dylib
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\appsettings.Homolog.json
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\appsettings.json
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\appsettings.Local.json
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\appsettings.Production.json
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\aws-ecs-tools-defaults.json
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\Concent.Athena.Services.API.exe
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\Concent.Athena.Services.API.deps.json
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\Concent.Athena.Services.API.runtimeconfig.json
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\Concent.Athena.Services.API.runtimeconfig.dev.json
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\Concent.Athena.Services.API.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\Concent.Athena.Services.API.pdb
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\AWSSDK.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\AWSSDK.Core.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\AWSSDK.S3.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\AWSSDK.SecretsManager.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\BCrypt.Net-Next.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\Dapper.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\DnsClient.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\FluentValidation.Extensions.Br.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\FluentValidation.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\Humanizer.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\JWT.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\MediatR.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\Microsoft.Extensions.Caching.Redis.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\Microsoft.Extensions.Caching.StackExchangeRedis.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\Microsoft.Extensions.Configuration.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\MongoDB.Bson.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\MongoDB.Driver.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\MongoDB.Driver.Core.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\MongoDB.Libmongocrypt.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\MySqlConnector.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\Pipelines.Sockets.Unofficial.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\Prometheus.NetCore.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\Prometheus.NetStandard.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\Prometheus.AspNetCore.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\prometheus-net.DotNetRuntime.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\RabbitMQ.Client.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\RabbitMQ.Client.Core.DependencyInjection.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\RestSharp.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\WebDriver.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\Serilog.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\Serilog.AspNetCore.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\Serilog.Enrichers.Environment.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\Serilog.Enrichers.Thread.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\Serilog.Extensions.Hosting.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\Serilog.Extensions.Logging.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\Serilog.Formatting.Compact.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\Serilog.Settings.Configuration.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\Serilog.Sinks.Console.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\Serilog.Sinks.Debug.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\Serilog.Sinks.File.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\SharpCompress.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\StackExchange.Redis.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\StackExchange.Redis.StrongName.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.Annotations.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\System.IO.Pipelines.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\runtimes\linux\native\libsnappy64.so
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\runtimes\linux\native\libzstd.so
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\runtimes\osx\native\libsnappy64.dylib
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\runtimes\osx\native\libzstd.dylib
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\runtimes\win\native\libzstd.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\runtimes\win\native\snappy32.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\runtimes\win\native\snappy64.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\runtimes\linux\native\libmongocrypt.so
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\runtimes\osx\native\libmongocrypt.dylib
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\runtimes\win\native\mongocrypt.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\Concent.Athena.Application.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\Concent.Athena.Domain.Core.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\Concent.Athena.Domain.Shared.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\Concent.Athena.Infrastructure.Data.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\Concent.Athena.Infrastructure.Email.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\Concent.Athena.Infrastructure.Util.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\Infrastructure.Security.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\Concent.Athena.Application.pdb
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\Concent.Athena.Domain.Shared.pdb
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\Concent.Athena.Domain.Core.pdb
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\Concent.Athena.Infrastructure.Data.pdb
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\Concent.Athena.Infrastructure.Email.pdb
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\Concent.Athena.Infrastructure.Util.pdb
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\bin\Debug\net5.0\Infrastructure.Security.pdb
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\obj\Debug\net5.0\Services.API.csproj.AssemblyReference.cache
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\obj\Debug\net5.0\Services.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\obj\Debug\net5.0\Services.API.AssemblyInfoInputs.cache
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\obj\Debug\net5.0\Services.API.AssemblyInfo.cs
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\obj\Debug\net5.0\Services.API.csproj.CoreCompileInputs.cache
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\obj\Debug\net5.0\Concent.Athena.Services.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\obj\Debug\net5.0\Concent.Athena.Services.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\obj\Debug\net5.0\scopedcss\bundle\Concent.Athena.Services.API.styles.css
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\obj\Debug\net5.0\staticwebassets\Concent.Athena.Services.API.StaticWebAssets.Manifest.cache
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\obj\Debug\net5.0\staticwebassets\Concent.Athena.Services.API.StaticWebAssets.Pack.cache
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\obj\Debug\net5.0\staticwebassets\msbuild.Concent.Athena.Services.API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\obj\Debug\net5.0\staticwebassets\msbuild.build.Concent.Athena.Services.API.props
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.Concent.Athena.Services.API.props
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.Concent.Athena.Services.API.props
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\obj\Debug\net5.0\Services.API.RazorTargetAssemblyInfo.cache
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\obj\Debug\net5.0\Services.API.csproj.CopyComplete
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\obj\Debug\net5.0\Concent.Athena.Services.API.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\obj\Debug\net5.0\refint\Concent.Athena.Services.API.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\obj\Debug\net5.0\Concent.Athena.Services.API.pdb
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\obj\Debug\net5.0\Services.API.genruntimeconfig.cache
+C:\Users\concent\Desktop\Organizador\Codigos Pessois\ApoloAPi\src\Services.API\obj\Debug\net5.0\ref\Concent.Athena.Services.API.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\libzstd.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\snappy32.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\snappy64.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\libsnappy64.so
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\libzstd.so
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\libsnappy64.dylib
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\libzstd.dylib
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\appsettings.Homolog.json
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\appsettings.json
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\appsettings.Local.json
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\appsettings.Production.json
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\aws-ecs-tools-defaults.json
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\Concent.Athena.Services.API.exe
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\Concent.Athena.Services.API.deps.json
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\Concent.Athena.Services.API.runtimeconfig.json
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\Concent.Athena.Services.API.runtimeconfig.dev.json
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\Concent.Athena.Services.API.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\Concent.Athena.Services.API.pdb
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\AWSSDK.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\AWSSDK.Core.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\AWSSDK.S3.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\AWSSDK.SecretsManager.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\BCrypt.Net-Next.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\Dapper.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\DnsClient.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\FluentValidation.Extensions.Br.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\FluentValidation.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\Humanizer.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\JWT.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\MediatR.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\Microsoft.Extensions.Caching.Redis.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\Microsoft.Extensions.Caching.StackExchangeRedis.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\Microsoft.Extensions.Configuration.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\MongoDB.Bson.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\MongoDB.Driver.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\MongoDB.Driver.Core.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\MongoDB.Libmongocrypt.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\MySqlConnector.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\Pipelines.Sockets.Unofficial.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\Prometheus.NetCore.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\Prometheus.NetStandard.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\Prometheus.AspNetCore.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\prometheus-net.DotNetRuntime.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\RabbitMQ.Client.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\RabbitMQ.Client.Core.DependencyInjection.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\RestSharp.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\WebDriver.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\Serilog.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\Serilog.AspNetCore.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\Serilog.Enrichers.Environment.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\Serilog.Enrichers.Thread.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\Serilog.Extensions.Hosting.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\Serilog.Extensions.Logging.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\Serilog.Formatting.Compact.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\Serilog.Settings.Configuration.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\Serilog.Sinks.Console.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\Serilog.Sinks.Debug.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\Serilog.Sinks.File.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\SharpCompress.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\StackExchange.Redis.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\StackExchange.Redis.StrongName.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.Annotations.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\System.IO.Pipelines.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\runtimes\linux\native\libsnappy64.so
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\runtimes\linux\native\libzstd.so
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\runtimes\osx\native\libsnappy64.dylib
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\runtimes\osx\native\libzstd.dylib
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\runtimes\win\native\libzstd.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\runtimes\win\native\snappy32.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\runtimes\win\native\snappy64.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\runtimes\linux\native\libmongocrypt.so
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\runtimes\osx\native\libmongocrypt.dylib
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\runtimes\win\native\mongocrypt.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\Concent.Athena.Application.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\Concent.Athena.Domain.Core.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\Concent.Athena.Domain.Shared.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\Concent.Athena.Infrastructure.Data.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\Concent.Athena.Infrastructure.Email.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\Concent.Athena.Infrastructure.Util.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\Infrastructure.Security.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\Concent.Athena.Application.pdb
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\Concent.Athena.Domain.Shared.pdb
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\Concent.Athena.Domain.Core.pdb
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\Concent.Athena.Infrastructure.Data.pdb
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\Concent.Athena.Infrastructure.Email.pdb
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\Concent.Athena.Infrastructure.Util.pdb
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\bin\Debug\net5.0\Infrastructure.Security.pdb
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\obj\Debug\net5.0\Services.API.csproj.AssemblyReference.cache
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\obj\Debug\net5.0\Services.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\obj\Debug\net5.0\Services.API.AssemblyInfoInputs.cache
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\obj\Debug\net5.0\Services.API.AssemblyInfo.cs
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\obj\Debug\net5.0\Services.API.csproj.CoreCompileInputs.cache
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\obj\Debug\net5.0\Concent.Athena.Services.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\obj\Debug\net5.0\Concent.Athena.Services.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\obj\Debug\net5.0\scopedcss\bundle\Concent.Athena.Services.API.styles.css
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\obj\Debug\net5.0\staticwebassets\Concent.Athena.Services.API.StaticWebAssets.Manifest.cache
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\obj\Debug\net5.0\staticwebassets\Concent.Athena.Services.API.StaticWebAssets.Pack.cache
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\obj\Debug\net5.0\staticwebassets\msbuild.Concent.Athena.Services.API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\obj\Debug\net5.0\staticwebassets\msbuild.build.Concent.Athena.Services.API.props
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.Concent.Athena.Services.API.props
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.Concent.Athena.Services.API.props
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\obj\Debug\net5.0\Services.API.RazorTargetAssemblyInfo.cache
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\obj\Debug\net5.0\Services.API.csproj.CopyComplete
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\obj\Debug\net5.0\Concent.Athena.Services.API.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\obj\Debug\net5.0\refint\Concent.Athena.Services.API.dll
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\obj\Debug\net5.0\Concent.Athena.Services.API.pdb
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\obj\Debug\net5.0\Services.API.genruntimeconfig.cache
+C:\Users\concent\Desktop\Organizador\Codigos Pessoais\ApoloAPi\src\Services.API\obj\Debug\net5.0\ref\Concent.Athena.Services.API.dll

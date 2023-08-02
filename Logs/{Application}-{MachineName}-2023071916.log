@@ -1,0 +1,1332 @@
+2023-07-19 16:35:53.749 -03:00 [DBG] Hosting starting
+2023-07-19 16:35:54.573 -03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 1ED06961E04A72F7E2C9617C51B22CBBFE7472A4)
+2023-07-19 16:35:54.700 -03:00 [INF] Now listening on: https://localhost:5004
+2023-07-19 16:35:54.704 -03:00 [DBG] Loaded hosting startup assembly Concent.Athena.Services.API
+2023-07-19 16:35:54.706 -03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-07-19 16:35:54.710 -03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-07-19 16:35:54.713 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-19 16:35:54.715 -03:00 [INF] Hosting environment: Local
+2023-07-19 16:35:54.716 -03:00 [INF] Content root path: C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API
+2023-07-19 16:35:54.719 -03:00 [DBG] Hosting started
+2023-07-19 16:37:02.944 -03:00 [DBG] Connection id "0HMS8HU3FLK06" accepted.
+2023-07-19 16:37:02.949 -03:00 [DBG] Connection id "0HMS8HU3FLK06" started.
+2023-07-19 16:37:03.077 -03:00 [DBG] Connection "0HMS8HU3FLK06" established using the following protocol: "Tls12"
+2023-07-19 16:37:03.167 -03:00 [INF] Request starting HTTP/2 POST https://localhost:5004/api/v1/tenant/produtosalmoxarifados application/json 138
+2023-07-19 16:37:03.208 -03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-07-19 16:37:03.232 -03:00 [DBG] POST requests are not supported
+2023-07-19 16:37:03.292 -03:00 [DBG] 1 candidate(s) found for the request path '/api/v1/tenant/produtosalmoxarifados'
+2023-07-19 16:37:03.302 -03:00 [DBG] Endpoint 'Concent.Athena.Services.API.Controllers.ProdutosAlmoxarifadosController.Create (Concent.Athena.Services.API)' with route pattern 'api/v1/tenant/ProdutosAlmoxarifados' is valid for the request path '/api/v1/tenant/produtosalmoxarifados'
+2023-07-19 16:37:03.305 -03:00 [DBG] Request matched endpoint 'Concent.Athena.Services.API.Controllers.ProdutosAlmoxarifadosController.Create (Concent.Athena.Services.API)'
+2023-07-19 16:37:03.316 -03:00 [DBG] The request has an origin header: 'https://localhost:5004'.
+2023-07-19 16:37:03.319 -03:00 [INF] CORS policy execution successful.
+2023-07-19 16:37:03.324 -03:00 [INF] Executing endpoint 'Concent.Athena.Services.API.Controllers.ProdutosAlmoxarifadosController.Create (Concent.Athena.Services.API)'
+2023-07-19 16:37:03.338 -03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-07-19 16:37:03.416 -03:00 [INF] Route matched with {action = "Create", controller = "ProdutosAlmoxarifados"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(Concent.Athena.Domain.Core.Requests.ProdutosAlmoxarifadosRequest.CreateProdutosAlmoxarifadosRequest, System.Threading.CancellationToken) on controller Concent.Athena.Services.API.Controllers.ProdutosAlmoxarifadosController (Concent.Athena.Services.API).
+2023-07-19 16:37:03.422 -03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-07-19 16:37:03.426 -03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-07-19 16:37:03.430 -03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-07-19 16:37:03.434 -03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-07-19 16:37:03.439 -03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-07-19 16:37:03.444 -03:00 [DBG] Executing controller factory for controller Concent.Athena.Services.API.Controllers.ProdutosAlmoxarifadosController (Concent.Athena.Services.API)
+2023-07-19 16:37:03.450 -03:00 [DBG] Executed controller factory for controller Concent.Athena.Services.API.Controllers.ProdutosAlmoxarifadosController (Concent.Athena.Services.API)
+2023-07-19 16:37:03.481 -03:00 [DBG] Attempting to bind parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.ProdutosAlmoxarifadosRequest.CreateProdutosAlmoxarifadosRequest' ...
+2023-07-19 16:37:03.491 -03:00 [DBG] Attempting to bind parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.ProdutosAlmoxarifadosRequest.CreateProdutosAlmoxarifadosRequest' using the name '' in request data ...
+2023-07-19 16:37:03.495 -03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2023-07-19 16:37:03.516 -03:00 [DBG] Connection id "0HMS8HU3FLK06", Request id "0HMS8HU3FLK06:00000001": started reading request body.
+2023-07-19 16:37:03.519 -03:00 [DBG] Connection id "0HMS8HU3FLK06", Request id "0HMS8HU3FLK06:00000001": done reading request body.
+2023-07-19 16:37:03.526 -03:00 [DBG] JSON input formatter succeeded, deserializing to type 'Concent.Athena.Domain.Core.Requests.ProdutosAlmoxarifadosRequest.CreateProdutosAlmoxarifadosRequest'
+2023-07-19 16:37:03.529 -03:00 [DBG] Done attempting to bind parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.ProdutosAlmoxarifadosRequest.CreateProdutosAlmoxarifadosRequest'.
+2023-07-19 16:37:03.532 -03:00 [DBG] Done attempting to bind parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.ProdutosAlmoxarifadosRequest.CreateProdutosAlmoxarifadosRequest'.
+2023-07-19 16:37:03.536 -03:00 [DBG] Attempting to validate the bound parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.ProdutosAlmoxarifadosRequest.CreateProdutosAlmoxarifadosRequest' ...
+2023-07-19 16:37:03.542 -03:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.ProdutosAlmoxarifadosRequest.CreateProdutosAlmoxarifadosRequest'.
+2023-07-19 16:37:03.546 -03:00 [DBG] Attempting to bind parameter 'cancellationToken' of type 'System.Threading.CancellationToken' ...
+2023-07-19 16:37:03.550 -03:00 [DBG] Done attempting to bind parameter 'cancellationToken' of type 'System.Threading.CancellationToken'.
+2023-07-19 16:37:03.553 -03:00 [DBG] Attempting to validate the bound parameter 'cancellationToken' of type 'System.Threading.CancellationToken' ...
+2023-07-19 16:37:03.555 -03:00 [DBG] Done attempting to validate the bound parameter 'cancellationToken' of type 'System.Threading.CancellationToken'.
+2023-07-19 16:37:03.850 -03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-07-19 16:37:04.800 -03:00 [INF] Entity Framework Core 5.0.16 initialized 'AthenaContext' using provider 'Pomelo.EntityFrameworkCore.MySql' with options: ServerVersion 8.0.21-mysql 
+2023-07-19 16:37:04.832 -03:00 [DBG] Opening connection to database '' on server 'localhost'.
+2023-07-19 16:37:05.020 -03:00 [DBG] Opened connection to database '' on server 'localhost'.
+2023-07-19 16:37:05.168 -03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-07-19 16:37:05.178 -03:00 [DBG] Created DbCommand for 'ExecuteScalar' (4ms).
+2023-07-19 16:37:05.183 -03:00 [DBG] Opening connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:37:05.216 -03:00 [DBG] Opened connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:37:05.233 -03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+FROM information_schema.tables
+WHERE table_type = 'BASE TABLE' AND table_schema = 'Athenadb'
+2023-07-19 16:37:05.287 -03:00 [INF] Executed DbCommand (60ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+FROM information_schema.tables
+WHERE table_type = 'BASE TABLE' AND table_schema = 'Athenadb'
+2023-07-19 16:37:05.298 -03:00 [DBG] Closing connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:37:05.306 -03:00 [DBG] Closed connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:37:05.617 -03:00 [DBG] Compiling query expression: 
+'DbSet<ProdutosAlmoxarifados>()
+    .Any(x => x.AlmoxarifadosId == __request_AlmoxarifadoId_0)'
+2023-07-19 16:37:05.769 -03:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleAsync<bool>(
+    asyncEnumerable: new SingleQueryingEnumerable<bool>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.SelectExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> 0
+            SELECT EXISTS (
+                Projection Mapping:
+                SELECT 1
+                FROM TB_ProdutosAlmoxatrifados AS t
+                WHERE t.ID_alMOXarIFADO == @__request_AlmoxarifadoId_0)), 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, bool>, 
+        Concent.Athena.Infrastructure.Data.Contexts.AthenaContext, 
+        False, 
+        False
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2023-07-19 16:37:05.819 -03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-07-19 16:37:05.823 -03:00 [DBG] Created DbCommand for 'ExecuteReader' (3ms).
+2023-07-19 16:37:05.846 -03:00 [DBG] Opening connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:37:05.862 -03:00 [DBG] Opened connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:37:05.870 -03:00 [DBG] Executing DbCommand [Parameters=[@__request_AlmoxarifadoId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM `TB_ProdutosAlmoxatrifados` AS `t`
+    WHERE `t`.`ID_alMOXarIFADO` = @__request_AlmoxarifadoId_0)
+2023-07-19 16:37:05.919 -03:00 [INF] Executed DbCommand (50ms) [Parameters=[@__request_AlmoxarifadoId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM `TB_ProdutosAlmoxatrifados` AS `t`
+    WHERE `t`.`ID_alMOXarIFADO` = @__request_AlmoxarifadoId_0)
+2023-07-19 16:37:05.936 -03:00 [DBG] A data reader was disposed.
+2023-07-19 16:37:05.945 -03:00 [DBG] Closing connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:37:05.950 -03:00 [DBG] Closed connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:37:05.956 -03:00 [DBG] Compiling query expression: 
+'DbSet<ProdutosAlmoxarifados>()
+    .Any(x => x.ProdutosId == __request_ProdutosId_0)'
+2023-07-19 16:37:05.968 -03:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleAsync<bool>(
+    asyncEnumerable: new SingleQueryingEnumerable<bool>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.SelectExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> 0
+            SELECT EXISTS (
+                Projection Mapping:
+                SELECT 1
+                FROM TB_ProdutosAlmoxatrifados AS t
+                WHERE t.ID_PRODUTO == @__request_ProdutosId_0)), 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, bool>, 
+        Concent.Athena.Infrastructure.Data.Contexts.AthenaContext, 
+        False, 
+        False
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2023-07-19 16:37:05.979 -03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-07-19 16:37:05.981 -03:00 [DBG] Created DbCommand for 'ExecuteReader' (2ms).
+2023-07-19 16:37:05.984 -03:00 [DBG] Opening connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:37:06.004 -03:00 [DBG] Opened connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:37:06.010 -03:00 [DBG] Executing DbCommand [Parameters=[@__request_ProdutosId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM `TB_ProdutosAlmoxatrifados` AS `t`
+    WHERE `t`.`ID_PRODUTO` = @__request_ProdutosId_0)
+2023-07-19 16:37:06.020 -03:00 [INF] Executed DbCommand (10ms) [Parameters=[@__request_ProdutosId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM `TB_ProdutosAlmoxatrifados` AS `t`
+    WHERE `t`.`ID_PRODUTO` = @__request_ProdutosId_0)
+2023-07-19 16:37:06.027 -03:00 [DBG] A data reader was disposed.
+2023-07-19 16:37:06.029 -03:00 [DBG] Closing connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:37:06.032 -03:00 [DBG] Closed connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:37:06.045 -03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2023-07-19 16:37:06.052 -03:00 [DBG] No information found on request to perform content negotiation.
+2023-07-19 16:37:06.053 -03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-07-19 16:37:06.055 -03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-07-19 16:37:06.058 -03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-07-19 16:37:06.063 -03:00 [INF] Executing ObjectResult, writing value of type 'Concent.Athena.Domain.Core.Responses.ProdutisAlmoxarifadosResponses.CreateProdutosAlmoxarifadosResponse'.
+2023-07-19 16:37:06.115 -03:00 [INF] Executed action Concent.Athena.Services.API.Controllers.ProdutosAlmoxarifadosController.Create (Concent.Athena.Services.API) in 2663.2259ms
+2023-07-19 16:37:06.118 -03:00 [INF] Executed endpoint 'Concent.Athena.Services.API.Controllers.ProdutosAlmoxarifadosController.Create (Concent.Athena.Services.API)'
+2023-07-19 16:37:06.134 -03:00 [DBG] 'AthenaContext' disposed.
+2023-07-19 16:37:06.145 -03:00 [INF] Request finished HTTP/2 POST https://localhost:5004/api/v1/tenant/produtosalmoxarifados application/json 138 - 404 - application/json;+charset=utf-8 2981.7610ms
+2023-07-19 16:37:12.979 -03:00 [DBG] Connection id "0HMS8HU3FLK06" received FIN.
+2023-07-19 16:37:12.987 -03:00 [DBG] Connection id "0HMS8HU3FLK06" is closed. The last processed stream ID was 1.
+2023-07-19 16:37:12.991 -03:00 [DBG] Connection id "0HMS8HU3FLK06" sending FIN because: "The client closed the connection."
+2023-07-19 16:37:13.011 -03:00 [DBG] Connection id "0HMS8HU3FLK06" stopped.
+2023-07-19 16:44:16.245 -03:00 [DBG] Connection id "0HMS8HU3FLK07" accepted.
+2023-07-19 16:44:16.249 -03:00 [DBG] Connection id "0HMS8HU3FLK07" started.
+2023-07-19 16:44:16.272 -03:00 [DBG] Connection "0HMS8HU3FLK07" established using the following protocol: "Tls12"
+2023-07-19 16:44:16.281 -03:00 [INF] Request starting HTTP/2 POST https://localhost:5004/api/v1/tenant/produtosalmoxarifados application/json 138
+2023-07-19 16:44:16.284 -03:00 [DBG] POST requests are not supported
+2023-07-19 16:44:16.290 -03:00 [DBG] 1 candidate(s) found for the request path '/api/v1/tenant/produtosalmoxarifados'
+2023-07-19 16:44:16.292 -03:00 [DBG] Endpoint 'Concent.Athena.Services.API.Controllers.ProdutosAlmoxarifadosController.Create (Concent.Athena.Services.API)' with route pattern 'api/v1/tenant/ProdutosAlmoxarifados' is valid for the request path '/api/v1/tenant/produtosalmoxarifados'
+2023-07-19 16:44:16.296 -03:00 [DBG] Request matched endpoint 'Concent.Athena.Services.API.Controllers.ProdutosAlmoxarifadosController.Create (Concent.Athena.Services.API)'
+2023-07-19 16:44:16.300 -03:00 [DBG] The request has an origin header: 'https://localhost:5004'.
+2023-07-19 16:44:16.304 -03:00 [INF] CORS policy execution successful.
+2023-07-19 16:44:16.307 -03:00 [INF] Executing endpoint 'Concent.Athena.Services.API.Controllers.ProdutosAlmoxarifadosController.Create (Concent.Athena.Services.API)'
+2023-07-19 16:44:16.311 -03:00 [INF] Route matched with {action = "Create", controller = "ProdutosAlmoxarifados"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(Concent.Athena.Domain.Core.Requests.ProdutosAlmoxarifadosRequest.CreateProdutosAlmoxarifadosRequest, System.Threading.CancellationToken) on controller Concent.Athena.Services.API.Controllers.ProdutosAlmoxarifadosController (Concent.Athena.Services.API).
+2023-07-19 16:44:16.315 -03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-07-19 16:44:16.319 -03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-07-19 16:44:16.322 -03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-07-19 16:44:16.326 -03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-07-19 16:44:16.330 -03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-07-19 16:44:16.334 -03:00 [DBG] Executing controller factory for controller Concent.Athena.Services.API.Controllers.ProdutosAlmoxarifadosController (Concent.Athena.Services.API)
+2023-07-19 16:44:16.338 -03:00 [DBG] Executed controller factory for controller Concent.Athena.Services.API.Controllers.ProdutosAlmoxarifadosController (Concent.Athena.Services.API)
+2023-07-19 16:44:16.342 -03:00 [DBG] Attempting to bind parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.ProdutosAlmoxarifadosRequest.CreateProdutosAlmoxarifadosRequest' ...
+2023-07-19 16:44:16.345 -03:00 [DBG] Attempting to bind parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.ProdutosAlmoxarifadosRequest.CreateProdutosAlmoxarifadosRequest' using the name '' in request data ...
+2023-07-19 16:44:16.347 -03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2023-07-19 16:44:16.352 -03:00 [DBG] Connection id "0HMS8HU3FLK07", Request id "0HMS8HU3FLK07:00000001": started reading request body.
+2023-07-19 16:44:16.355 -03:00 [DBG] Connection id "0HMS8HU3FLK07", Request id "0HMS8HU3FLK07:00000001": done reading request body.
+2023-07-19 16:44:16.358 -03:00 [DBG] JSON input formatter succeeded, deserializing to type 'Concent.Athena.Domain.Core.Requests.ProdutosAlmoxarifadosRequest.CreateProdutosAlmoxarifadosRequest'
+2023-07-19 16:44:16.360 -03:00 [DBG] Done attempting to bind parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.ProdutosAlmoxarifadosRequest.CreateProdutosAlmoxarifadosRequest'.
+2023-07-19 16:44:16.363 -03:00 [DBG] Done attempting to bind parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.ProdutosAlmoxarifadosRequest.CreateProdutosAlmoxarifadosRequest'.
+2023-07-19 16:44:16.365 -03:00 [DBG] Attempting to validate the bound parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.ProdutosAlmoxarifadosRequest.CreateProdutosAlmoxarifadosRequest' ...
+2023-07-19 16:44:16.370 -03:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.ProdutosAlmoxarifadosRequest.CreateProdutosAlmoxarifadosRequest'.
+2023-07-19 16:44:16.375 -03:00 [DBG] Attempting to bind parameter 'cancellationToken' of type 'System.Threading.CancellationToken' ...
+2023-07-19 16:44:16.377 -03:00 [DBG] Done attempting to bind parameter 'cancellationToken' of type 'System.Threading.CancellationToken'.
+2023-07-19 16:44:16.380 -03:00 [DBG] Attempting to validate the bound parameter 'cancellationToken' of type 'System.Threading.CancellationToken' ...
+2023-07-19 16:44:16.382 -03:00 [DBG] Done attempting to validate the bound parameter 'cancellationToken' of type 'System.Threading.CancellationToken'.
+2023-07-19 16:44:16.389 -03:00 [INF] Entity Framework Core 5.0.16 initialized 'AthenaContext' using provider 'Pomelo.EntityFrameworkCore.MySql' with options: ServerVersion 8.0.21-mysql 
+2023-07-19 16:44:16.394 -03:00 [DBG] Opening connection to database '' on server 'localhost'.
+2023-07-19 16:44:16.407 -03:00 [DBG] Opened connection to database '' on server 'localhost'.
+2023-07-19 16:44:16.418 -03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-07-19 16:44:16.421 -03:00 [DBG] Created DbCommand for 'ExecuteScalar' (3ms).
+2023-07-19 16:44:16.423 -03:00 [DBG] Opening connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:44:16.429 -03:00 [DBG] Opened connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:44:16.432 -03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+FROM information_schema.tables
+WHERE table_type = 'BASE TABLE' AND table_schema = 'Athenadb'
+2023-07-19 16:44:16.452 -03:00 [INF] Executed DbCommand (20ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+FROM information_schema.tables
+WHERE table_type = 'BASE TABLE' AND table_schema = 'Athenadb'
+2023-07-19 16:44:16.456 -03:00 [DBG] Closing connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:44:16.459 -03:00 [DBG] Closed connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:44:40.131 -03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-07-19 16:44:40.135 -03:00 [DBG] Created DbCommand for 'ExecuteReader' (3ms).
+2023-07-19 16:44:40.138 -03:00 [DBG] Opening connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:44:40.144 -03:00 [DBG] Opened connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:44:40.266 -03:00 [DBG] Executing DbCommand [Parameters=[@__request_AlmoxarifadoId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM `TB_ProdutosAlmoxatrifados` AS `t`
+    WHERE `t`.`ID_alMOXarIFADO` = @__request_AlmoxarifadoId_0)
+2023-07-19 16:44:40.277 -03:00 [INF] Executed DbCommand (11ms) [Parameters=[@__request_AlmoxarifadoId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM `TB_ProdutosAlmoxatrifados` AS `t`
+    WHERE `t`.`ID_alMOXarIFADO` = @__request_AlmoxarifadoId_0)
+2023-07-19 16:44:40.286 -03:00 [DBG] A data reader was disposed.
+2023-07-19 16:44:40.288 -03:00 [DBG] Closing connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:44:40.291 -03:00 [DBG] Closed connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:44:45.500 -03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-07-19 16:44:45.502 -03:00 [DBG] Created DbCommand for 'ExecuteReader' (2ms).
+2023-07-19 16:44:45.507 -03:00 [DBG] Opening connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:44:45.513 -03:00 [DBG] Opened connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:44:45.590 -03:00 [DBG] Executing DbCommand [Parameters=[@__request_ProdutosId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM `TB_ProdutosAlmoxatrifados` AS `t`
+    WHERE `t`.`ID_PRODUTO` = @__request_ProdutosId_0)
+2023-07-19 16:44:45.596 -03:00 [INF] Executed DbCommand (6ms) [Parameters=[@__request_ProdutosId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM `TB_ProdutosAlmoxatrifados` AS `t`
+    WHERE `t`.`ID_PRODUTO` = @__request_ProdutosId_0)
+2023-07-19 16:44:45.602 -03:00 [DBG] A data reader was disposed.
+2023-07-19 16:44:45.604 -03:00 [DBG] Closing connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:44:45.607 -03:00 [DBG] Closed connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:46:24.373 -03:00 [DBG] Hosting starting
+2023-07-19 16:46:24.940 -03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 1ED06961E04A72F7E2C9617C51B22CBBFE7472A4)
+2023-07-19 16:46:25.059 -03:00 [INF] Now listening on: https://localhost:5004
+2023-07-19 16:46:25.062 -03:00 [DBG] Loaded hosting startup assembly Concent.Athena.Services.API
+2023-07-19 16:46:25.064 -03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-07-19 16:46:25.068 -03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-07-19 16:46:25.071 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-19 16:46:25.073 -03:00 [INF] Hosting environment: Local
+2023-07-19 16:46:25.076 -03:00 [INF] Content root path: C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API
+2023-07-19 16:46:25.079 -03:00 [DBG] Hosting started
+2023-07-19 16:47:14.037 -03:00 [DBG] Connection id "0HMS8I3PJGFGS" accepted.
+2023-07-19 16:47:14.042 -03:00 [DBG] Connection id "0HMS8I3PJGFGS" started.
+2023-07-19 16:47:14.143 -03:00 [DBG] Connection "0HMS8I3PJGFGS" established using the following protocol: "Tls12"
+2023-07-19 16:47:14.194 -03:00 [INF] Request starting HTTP/2 POST https://localhost:5004/api/v1/tenant/produtosalmoxarifados application/json 138
+2023-07-19 16:47:14.220 -03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-07-19 16:47:14.250 -03:00 [DBG] POST requests are not supported
+2023-07-19 16:47:14.299 -03:00 [DBG] 1 candidate(s) found for the request path '/api/v1/tenant/produtosalmoxarifados'
+2023-07-19 16:47:14.307 -03:00 [DBG] Endpoint 'Concent.Athena.Services.API.Controllers.ProdutosAlmoxarifadosController.Create (Concent.Athena.Services.API)' with route pattern 'api/v1/tenant/ProdutosAlmoxarifados' is valid for the request path '/api/v1/tenant/produtosalmoxarifados'
+2023-07-19 16:47:14.310 -03:00 [DBG] Request matched endpoint 'Concent.Athena.Services.API.Controllers.ProdutosAlmoxarifadosController.Create (Concent.Athena.Services.API)'
+2023-07-19 16:47:14.322 -03:00 [DBG] The request has an origin header: 'https://localhost:5004'.
+2023-07-19 16:47:14.324 -03:00 [INF] CORS policy execution successful.
+2023-07-19 16:47:14.328 -03:00 [INF] Executing endpoint 'Concent.Athena.Services.API.Controllers.ProdutosAlmoxarifadosController.Create (Concent.Athena.Services.API)'
+2023-07-19 16:47:14.341 -03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-07-19 16:47:14.396 -03:00 [INF] Route matched with {action = "Create", controller = "ProdutosAlmoxarifados"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(Concent.Athena.Domain.Core.Requests.ProdutosAlmoxarifadosRequest.CreateProdutosAlmoxarifadosRequest, System.Threading.CancellationToken) on controller Concent.Athena.Services.API.Controllers.ProdutosAlmoxarifadosController (Concent.Athena.Services.API).
+2023-07-19 16:47:14.401 -03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-07-19 16:47:14.404 -03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-07-19 16:47:14.407 -03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-07-19 16:47:14.411 -03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-07-19 16:47:14.418 -03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-07-19 16:47:14.421 -03:00 [DBG] Executing controller factory for controller Concent.Athena.Services.API.Controllers.ProdutosAlmoxarifadosController (Concent.Athena.Services.API)
+2023-07-19 16:47:14.425 -03:00 [DBG] Executed controller factory for controller Concent.Athena.Services.API.Controllers.ProdutosAlmoxarifadosController (Concent.Athena.Services.API)
+2023-07-19 16:47:14.450 -03:00 [DBG] Attempting to bind parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.ProdutosAlmoxarifadosRequest.CreateProdutosAlmoxarifadosRequest' ...
+2023-07-19 16:47:14.457 -03:00 [DBG] Attempting to bind parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.ProdutosAlmoxarifadosRequest.CreateProdutosAlmoxarifadosRequest' using the name '' in request data ...
+2023-07-19 16:47:14.462 -03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2023-07-19 16:47:14.477 -03:00 [DBG] Connection id "0HMS8I3PJGFGS", Request id "0HMS8I3PJGFGS:00000001": started reading request body.
+2023-07-19 16:47:14.482 -03:00 [DBG] Connection id "0HMS8I3PJGFGS", Request id "0HMS8I3PJGFGS:00000001": done reading request body.
+2023-07-19 16:47:14.488 -03:00 [DBG] JSON input formatter succeeded, deserializing to type 'Concent.Athena.Domain.Core.Requests.ProdutosAlmoxarifadosRequest.CreateProdutosAlmoxarifadosRequest'
+2023-07-19 16:47:14.492 -03:00 [DBG] Done attempting to bind parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.ProdutosAlmoxarifadosRequest.CreateProdutosAlmoxarifadosRequest'.
+2023-07-19 16:47:14.496 -03:00 [DBG] Done attempting to bind parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.ProdutosAlmoxarifadosRequest.CreateProdutosAlmoxarifadosRequest'.
+2023-07-19 16:47:14.499 -03:00 [DBG] Attempting to validate the bound parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.ProdutosAlmoxarifadosRequest.CreateProdutosAlmoxarifadosRequest' ...
+2023-07-19 16:47:14.506 -03:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.ProdutosAlmoxarifadosRequest.CreateProdutosAlmoxarifadosRequest'.
+2023-07-19 16:47:14.510 -03:00 [DBG] Attempting to bind parameter 'cancellationToken' of type 'System.Threading.CancellationToken' ...
+2023-07-19 16:47:14.515 -03:00 [DBG] Done attempting to bind parameter 'cancellationToken' of type 'System.Threading.CancellationToken'.
+2023-07-19 16:47:14.517 -03:00 [DBG] Attempting to validate the bound parameter 'cancellationToken' of type 'System.Threading.CancellationToken' ...
+2023-07-19 16:47:14.521 -03:00 [DBG] Done attempting to validate the bound parameter 'cancellationToken' of type 'System.Threading.CancellationToken'.
+2023-07-19 16:47:14.704 -03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-07-19 16:47:15.559 -03:00 [INF] Entity Framework Core 5.0.16 initialized 'AthenaContext' using provider 'Pomelo.EntityFrameworkCore.MySql' with options: ServerVersion 8.0.21-mysql 
+2023-07-19 16:47:15.584 -03:00 [DBG] Opening connection to database '' on server 'localhost'.
+2023-07-19 16:47:15.709 -03:00 [DBG] Opened connection to database '' on server 'localhost'.
+2023-07-19 16:47:15.806 -03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-07-19 16:47:15.814 -03:00 [DBG] Created DbCommand for 'ExecuteScalar' (3ms).
+2023-07-19 16:47:15.817 -03:00 [DBG] Opening connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:47:15.834 -03:00 [DBG] Opened connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:47:15.845 -03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+FROM information_schema.tables
+WHERE table_type = 'BASE TABLE' AND table_schema = 'Athenadb'
+2023-07-19 16:47:15.891 -03:00 [INF] Executed DbCommand (47ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+FROM information_schema.tables
+WHERE table_type = 'BASE TABLE' AND table_schema = 'Athenadb'
+2023-07-19 16:47:15.899 -03:00 [DBG] Closing connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:47:15.905 -03:00 [DBG] Closed connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:47:16.235 -03:00 [DBG] Compiling query expression: 
+'DbSet<Almoxarifados>()
+    .Any(x => x.Id == __request_AlmoxarifadoId_0)'
+2023-07-19 16:47:16.455 -03:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleAsync<bool>(
+    asyncEnumerable: new SingleQueryingEnumerable<bool>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.SelectExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> 0
+            SELECT EXISTS (
+                Projection Mapping:
+                SELECT 1
+                FROM TB_ALMOXARIFADO AS t
+                WHERE t.ID == @__request_AlmoxarifadoId_0)), 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, bool>, 
+        Concent.Athena.Infrastructure.Data.Contexts.AthenaContext, 
+        False, 
+        False
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2023-07-19 16:47:16.492 -03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-07-19 16:47:16.495 -03:00 [DBG] Created DbCommand for 'ExecuteReader' (2ms).
+2023-07-19 16:47:16.520 -03:00 [DBG] Opening connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:47:16.531 -03:00 [DBG] Opened connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:47:16.537 -03:00 [DBG] Executing DbCommand [Parameters=[@__request_AlmoxarifadoId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM `TB_ALMOXARIFADO` AS `t`
+    WHERE `t`.`ID` = @__request_AlmoxarifadoId_0)
+2023-07-19 16:47:16.573 -03:00 [INF] Executed DbCommand (38ms) [Parameters=[@__request_AlmoxarifadoId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM `TB_ALMOXARIFADO` AS `t`
+    WHERE `t`.`ID` = @__request_AlmoxarifadoId_0)
+2023-07-19 16:47:16.585 -03:00 [DBG] A data reader was disposed.
+2023-07-19 16:47:16.589 -03:00 [DBG] Closing connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:47:16.593 -03:00 [DBG] Closed connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:47:16.599 -03:00 [DBG] Compiling query expression: 
+'DbSet<Produtos>()
+    .Any(x => x.Id == __request_ProdutosId_0)'
+2023-07-19 16:47:16.604 -03:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleAsync<bool>(
+    asyncEnumerable: new SingleQueryingEnumerable<bool>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.SelectExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> 0
+            SELECT EXISTS (
+                Projection Mapping:
+                SELECT 1
+                FROM TB_Produtos AS t
+                WHERE t.ID == @__request_ProdutosId_0)), 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, bool>, 
+        Concent.Athena.Infrastructure.Data.Contexts.AthenaContext, 
+        False, 
+        False
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2023-07-19 16:47:16.610 -03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-07-19 16:47:16.614 -03:00 [DBG] Created DbCommand for 'ExecuteReader' (3ms).
+2023-07-19 16:47:16.617 -03:00 [DBG] Opening connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:47:16.632 -03:00 [DBG] Opened connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:47:16.638 -03:00 [DBG] Executing DbCommand [Parameters=[@__request_ProdutosId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM `TB_Produtos` AS `t`
+    WHERE `t`.`ID` = @__request_ProdutosId_0)
+2023-07-19 16:47:16.652 -03:00 [INF] Executed DbCommand (14ms) [Parameters=[@__request_ProdutosId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM `TB_Produtos` AS `t`
+    WHERE `t`.`ID` = @__request_ProdutosId_0)
+2023-07-19 16:47:16.661 -03:00 [DBG] A data reader was disposed.
+2023-07-19 16:47:16.665 -03:00 [DBG] Closing connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:47:16.670 -03:00 [DBG] Closed connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:47:17.028 -03:00 [INF] Executed action Concent.Athena.Services.API.Controllers.ProdutosAlmoxarifadosController.Create (Concent.Athena.Services.API) in 2603.701ms
+2023-07-19 16:47:17.037 -03:00 [INF] Executed endpoint 'Concent.Athena.Services.API.Controllers.ProdutosAlmoxarifadosController.Create (Concent.Athena.Services.API)'
+2023-07-19 16:47:17.066 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Object -> ProdutosAlmoxarifados
+System.Object -> Concent.Athena.Domain.Core.Entities.ProdutosAlmoxarifados
+   at lambda_method37(Closure , Object , ProdutosAlmoxarifados , ResolutionContext )
+   at Concent.Athena.Application.Commands.ProdutosAlmoxarifadosCommands.CreateProdutosAlmoxarifadosCommand.Changes(CreateProdutosAlmoxarifadosRequest request) in C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Application\Commands\ProdutosAlmoxarifadosCommands\CreateProdutosAlmoxarifadosCommand.cs:line 34
+   at Concent.Athena.Application.Common.Command`4.Handle(TRequest request, CancellationToken cancellationToken) in C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Application\Common\Command.cs:line 52
+   at Concent.Athena.Application.Behaviors.ValidationBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next) in C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Application\Behaviors\ValidationBehavior.cs:line 33
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at Concent.Athena.Services.API.Controllers.ProdutosAlmoxarifadosController.Create(CreateProdutosAlmoxarifadosRequest request, CancellationToken cancellationToken) in C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\Controllers\ProdutosAlmoxarifadosController.cs:line 22
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.Invoke(HttpContext context)
+   at Prometheus.HttpMetrics.HttpRequestDurationMiddleware.Invoke(HttpContext context)
+   at Prometheus.HttpMetrics.HttpRequestCountMiddleware.Invoke(HttpContext context)
+   at Prometheus.HttpMetrics.HttpInProgressMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-07-19 16:47:17.240 -03:00 [DBG] 'AthenaContext' disposed.
+2023-07-19 16:47:17.250 -03:00 [INF] Request finished HTTP/2 POST https://localhost:5004/api/v1/tenant/produtosalmoxarifados application/json 138 - 500 - text/plain 3058.3287ms
+2023-07-19 16:47:23.867 -03:00 [DBG] Connection id "0HMS8I3PJGFGS" received FIN.
+2023-07-19 16:47:23.872 -03:00 [DBG] Connection id "0HMS8I3PJGFGS" is closed. The last processed stream ID was 1.
+2023-07-19 16:47:23.875 -03:00 [DBG] Connection id "0HMS8I3PJGFGS" sending FIN because: "The client closed the connection."
+2023-07-19 16:47:23.884 -03:00 [DBG] Connection id "0HMS8I3PJGFGS" stopped.
+2023-07-19 16:53:36.467 -03:00 [DBG] Hosting starting
+2023-07-19 16:53:37.081 -03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 1ED06961E04A72F7E2C9617C51B22CBBFE7472A4)
+2023-07-19 16:53:37.196 -03:00 [INF] Now listening on: https://localhost:5004
+2023-07-19 16:53:37.199 -03:00 [DBG] Loaded hosting startup assembly Concent.Athena.Services.API
+2023-07-19 16:53:37.201 -03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-07-19 16:53:37.204 -03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-07-19 16:53:37.207 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-19 16:53:37.210 -03:00 [INF] Hosting environment: Local
+2023-07-19 16:53:37.212 -03:00 [INF] Content root path: C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API
+2023-07-19 16:53:37.215 -03:00 [DBG] Hosting started
+2023-07-19 16:53:41.378 -03:00 [DBG] Connection id "0HMS8I7D1EJ29" accepted.
+2023-07-19 16:53:41.381 -03:00 [DBG] Connection id "0HMS8I7D1EJ29" started.
+2023-07-19 16:53:41.482 -03:00 [DBG] Connection "0HMS8I7D1EJ29" established using the following protocol: "Tls12"
+2023-07-19 16:53:41.553 -03:00 [INF] Request starting HTTP/2 POST https://localhost:5004/api/v1/tenant/produtosalmoxarifados application/json 138
+2023-07-19 16:53:41.578 -03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-07-19 16:53:41.600 -03:00 [DBG] POST requests are not supported
+2023-07-19 16:53:41.651 -03:00 [DBG] 1 candidate(s) found for the request path '/api/v1/tenant/produtosalmoxarifados'
+2023-07-19 16:53:41.660 -03:00 [DBG] Endpoint 'Concent.Athena.Services.API.Controllers.ProdutosAlmoxarifadosController.Create (Concent.Athena.Services.API)' with route pattern 'api/v1/tenant/ProdutosAlmoxarifados' is valid for the request path '/api/v1/tenant/produtosalmoxarifados'
+2023-07-19 16:53:41.664 -03:00 [DBG] Request matched endpoint 'Concent.Athena.Services.API.Controllers.ProdutosAlmoxarifadosController.Create (Concent.Athena.Services.API)'
+2023-07-19 16:53:41.677 -03:00 [DBG] The request has an origin header: 'https://localhost:5004'.
+2023-07-19 16:53:41.681 -03:00 [INF] CORS policy execution successful.
+2023-07-19 16:53:41.687 -03:00 [INF] Executing endpoint 'Concent.Athena.Services.API.Controllers.ProdutosAlmoxarifadosController.Create (Concent.Athena.Services.API)'
+2023-07-19 16:53:41.700 -03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-07-19 16:53:41.772 -03:00 [INF] Route matched with {action = "Create", controller = "ProdutosAlmoxarifados"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(Concent.Athena.Domain.Core.Requests.ProdutosAlmoxarifadosRequest.CreateProdutosAlmoxarifadosRequest, System.Threading.CancellationToken) on controller Concent.Athena.Services.API.Controllers.ProdutosAlmoxarifadosController (Concent.Athena.Services.API).
+2023-07-19 16:53:41.778 -03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-07-19 16:53:41.780 -03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-07-19 16:53:41.783 -03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-07-19 16:53:41.788 -03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-07-19 16:53:41.793 -03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-07-19 16:53:41.799 -03:00 [DBG] Executing controller factory for controller Concent.Athena.Services.API.Controllers.ProdutosAlmoxarifadosController (Concent.Athena.Services.API)
+2023-07-19 16:53:41.809 -03:00 [DBG] Executed controller factory for controller Concent.Athena.Services.API.Controllers.ProdutosAlmoxarifadosController (Concent.Athena.Services.API)
+2023-07-19 16:53:41.838 -03:00 [DBG] Attempting to bind parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.ProdutosAlmoxarifadosRequest.CreateProdutosAlmoxarifadosRequest' ...
+2023-07-19 16:53:41.844 -03:00 [DBG] Attempting to bind parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.ProdutosAlmoxarifadosRequest.CreateProdutosAlmoxarifadosRequest' using the name '' in request data ...
+2023-07-19 16:53:41.849 -03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2023-07-19 16:53:41.879 -03:00 [DBG] Connection id "0HMS8I7D1EJ29", Request id "0HMS8I7D1EJ29:00000001": started reading request body.
+2023-07-19 16:53:41.884 -03:00 [DBG] Connection id "0HMS8I7D1EJ29", Request id "0HMS8I7D1EJ29:00000001": done reading request body.
+2023-07-19 16:53:41.892 -03:00 [DBG] JSON input formatter succeeded, deserializing to type 'Concent.Athena.Domain.Core.Requests.ProdutosAlmoxarifadosRequest.CreateProdutosAlmoxarifadosRequest'
+2023-07-19 16:53:41.896 -03:00 [DBG] Done attempting to bind parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.ProdutosAlmoxarifadosRequest.CreateProdutosAlmoxarifadosRequest'.
+2023-07-19 16:53:41.900 -03:00 [DBG] Done attempting to bind parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.ProdutosAlmoxarifadosRequest.CreateProdutosAlmoxarifadosRequest'.
+2023-07-19 16:53:41.906 -03:00 [DBG] Attempting to validate the bound parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.ProdutosAlmoxarifadosRequest.CreateProdutosAlmoxarifadosRequest' ...
+2023-07-19 16:53:41.911 -03:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.ProdutosAlmoxarifadosRequest.CreateProdutosAlmoxarifadosRequest'.
+2023-07-19 16:53:41.921 -03:00 [DBG] Attempting to bind parameter 'cancellationToken' of type 'System.Threading.CancellationToken' ...
+2023-07-19 16:53:41.925 -03:00 [DBG] Done attempting to bind parameter 'cancellationToken' of type 'System.Threading.CancellationToken'.
+2023-07-19 16:53:41.929 -03:00 [DBG] Attempting to validate the bound parameter 'cancellationToken' of type 'System.Threading.CancellationToken' ...
+2023-07-19 16:53:41.933 -03:00 [DBG] Done attempting to validate the bound parameter 'cancellationToken' of type 'System.Threading.CancellationToken'.
+2023-07-19 16:53:42.263 -03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-07-19 16:53:43.234 -03:00 [INF] Entity Framework Core 5.0.16 initialized 'AthenaContext' using provider 'Pomelo.EntityFrameworkCore.MySql' with options: ServerVersion 8.0.21-mysql 
+2023-07-19 16:53:43.270 -03:00 [DBG] Opening connection to database '' on server 'localhost'.
+2023-07-19 16:53:43.412 -03:00 [DBG] Opened connection to database '' on server 'localhost'.
+2023-07-19 16:53:43.568 -03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-07-19 16:53:43.577 -03:00 [DBG] Created DbCommand for 'ExecuteScalar' (5ms).
+2023-07-19 16:53:43.580 -03:00 [DBG] Opening connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:53:43.599 -03:00 [DBG] Opened connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:53:43.616 -03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+FROM information_schema.tables
+WHERE table_type = 'BASE TABLE' AND table_schema = 'Athenadb'
+2023-07-19 16:53:43.652 -03:00 [INF] Executed DbCommand (39ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+FROM information_schema.tables
+WHERE table_type = 'BASE TABLE' AND table_schema = 'Athenadb'
+2023-07-19 16:53:43.664 -03:00 [DBG] Closing connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:53:43.678 -03:00 [DBG] Closed connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:53:44.079 -03:00 [DBG] Compiling query expression: 
+'DbSet<Almoxarifados>()
+    .Any(x => x.Id == __request_AlmoxarifadoId_0)'
+2023-07-19 16:53:44.235 -03:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleAsync<bool>(
+    asyncEnumerable: new SingleQueryingEnumerable<bool>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.SelectExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> 0
+            SELECT EXISTS (
+                Projection Mapping:
+                SELECT 1
+                FROM TB_ALMOXARIFADO AS t
+                WHERE t.ID == @__request_AlmoxarifadoId_0)), 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, bool>, 
+        Concent.Athena.Infrastructure.Data.Contexts.AthenaContext, 
+        False, 
+        False
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2023-07-19 16:53:44.281 -03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-07-19 16:53:44.283 -03:00 [DBG] Created DbCommand for 'ExecuteReader' (2ms).
+2023-07-19 16:53:44.310 -03:00 [DBG] Opening connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:53:44.329 -03:00 [DBG] Opened connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:53:44.339 -03:00 [DBG] Executing DbCommand [Parameters=[@__request_AlmoxarifadoId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM `TB_ALMOXARIFADO` AS `t`
+    WHERE `t`.`ID` = @__request_AlmoxarifadoId_0)
+2023-07-19 16:53:44.388 -03:00 [INF] Executed DbCommand (55ms) [Parameters=[@__request_AlmoxarifadoId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM `TB_ALMOXARIFADO` AS `t`
+    WHERE `t`.`ID` = @__request_AlmoxarifadoId_0)
+2023-07-19 16:53:44.397 -03:00 [DBG] A data reader was disposed.
+2023-07-19 16:53:44.401 -03:00 [DBG] Closing connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:53:44.405 -03:00 [DBG] Closed connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:53:44.408 -03:00 [DBG] Compiling query expression: 
+'DbSet<Produtos>()
+    .Any(x => x.Id == __request_ProdutosId_0)'
+2023-07-19 16:53:44.412 -03:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleAsync<bool>(
+    asyncEnumerable: new SingleQueryingEnumerable<bool>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.SelectExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> 0
+            SELECT EXISTS (
+                Projection Mapping:
+                SELECT 1
+                FROM TB_Produtos AS t
+                WHERE t.ID == @__request_ProdutosId_0)), 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, bool>, 
+        Concent.Athena.Infrastructure.Data.Contexts.AthenaContext, 
+        False, 
+        False
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2023-07-19 16:53:44.424 -03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-07-19 16:53:44.426 -03:00 [DBG] Created DbCommand for 'ExecuteReader' (2ms).
+2023-07-19 16:53:44.430 -03:00 [DBG] Opening connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:53:44.447 -03:00 [DBG] Opened connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:53:44.454 -03:00 [DBG] Executing DbCommand [Parameters=[@__request_ProdutosId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM `TB_Produtos` AS `t`
+    WHERE `t`.`ID` = @__request_ProdutosId_0)
+2023-07-19 16:53:44.471 -03:00 [INF] Executed DbCommand (17ms) [Parameters=[@__request_ProdutosId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM `TB_Produtos` AS `t`
+    WHERE `t`.`ID` = @__request_ProdutosId_0)
+2023-07-19 16:53:44.481 -03:00 [DBG] A data reader was disposed.
+2023-07-19 16:53:44.484 -03:00 [DBG] Closing connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:53:44.488 -03:00 [DBG] Closed connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:53:44.563 -03:00 [DBG] 'AthenaContext' generated a value for the property 'Id.ProdutosAlmoxarifados'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-07-19 16:53:44.639 -03:00 [DBG] Context 'AthenaContext' started tracking 'ProdutosAlmoxarifados' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-07-19 16:53:44.649 -03:00 [DBG] DetectChanges starting for 'AthenaContext'.
+2023-07-19 16:53:44.666 -03:00 [DBG] DetectChanges completed for 'AthenaContext'.
+2023-07-19 16:53:44.669 -03:00 [DBG] DetectChanges starting for 'AthenaContext'.
+2023-07-19 16:53:44.674 -03:00 [DBG] DetectChanges completed for 'AthenaContext'.
+2023-07-19 16:53:44.682 -03:00 [DBG] SaveChanges starting for 'AthenaContext'.
+2023-07-19 16:53:44.686 -03:00 [DBG] DetectChanges starting for 'AthenaContext'.
+2023-07-19 16:53:44.690 -03:00 [DBG] DetectChanges completed for 'AthenaContext'.
+2023-07-19 16:53:44.712 -03:00 [DBG] Opening connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:53:44.722 -03:00 [DBG] Opened connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:53:44.728 -03:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-07-19 16:53:44.747 -03:00 [DBG] Began transaction with isolation level 'Unspecified'.
+2023-07-19 16:53:44.816 -03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-07-19 16:53:44.818 -03:00 [DBG] Created DbCommand for 'ExecuteReader' (2ms).
+2023-07-19 16:53:44.823 -03:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Guid), @p2='?' (DbType = DateTime), @p3='?' (DbType = Boolean), @p4='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `TB_ProdutosAlmoxatrifados` (`ID`, `ID_alMOXarIFADO`, `CREATED_AT`, `ST_ACTIVE`, `ID_PRODUTO`)
+VALUES (@p0, @p1, @p2, @p3, @p4);
+SELECT `UPDATED_AT`
+FROM `TB_ProdutosAlmoxatrifados`
+WHERE ROW_COUNT() = 1 AND `ID` = @p0;
+2023-07-19 16:53:44.868 -03:00 [ERR] Failed executing DbCommand (44ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Guid), @p2='?' (DbType = DateTime), @p3='?' (DbType = Boolean), @p4='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `TB_ProdutosAlmoxatrifados` (`ID`, `ID_alMOXarIFADO`, `CREATED_AT`, `ST_ACTIVE`, `ID_PRODUTO`)
+VALUES (@p0, @p1, @p2, @p3, @p4);
+SELECT `UPDATED_AT`
+FROM `TB_ProdutosAlmoxatrifados`
+WHERE ROW_COUNT() = 1 AND `ID` = @p0;
+2023-07-19 16:53:44.905 -03:00 [DBG] Disposing transaction.
+2023-07-19 16:53:44.910 -03:00 [DBG] Closing connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:53:44.913 -03:00 [DBG] Closed connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:53:45.059 -03:00 [ERR] An exception occurred in the database while saving changes for context type 'Concent.Athena.Infrastructure.Data.Contexts.AthenaContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> MySqlConnector.MySqlException (0x80004005): Cannot add or update a child row: a foreign key constraint fails (`athenadb`.`tb_produtosalmoxatrifados`, CONSTRAINT `FK_TB_ProdutosAlmoxatrifados_TB_ALMOXARIFADO_ID_alMOXarIFADO` FOREIGN KEY (`ID_alMOXarIFADO`) REFERENCES `tb_almoxarifado` (`ID`) ON DELETE )
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsyncAwaited(ValueTask`1 task) in /_/src/MySqlConnector/Core/ServerSession.cs:line 888
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 50
+   at MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 135
+   at MySqlConnector.MySqlDataReader.CreateAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary`2 cachedProcedures, IMySqlCommand command, CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 444
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(IReadOnlyList`1 commands, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 60
+   at MySqlConnector.MySqlCommand.ExecuteReaderAsync(CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 319
+   at MySqlConnector.MySqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 312
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> MySqlConnector.MySqlException (0x80004005): Cannot add or update a child row: a foreign key constraint fails (`athenadb`.`tb_produtosalmoxatrifados`, CONSTRAINT `FK_TB_ProdutosAlmoxatrifados_TB_ALMOXARIFADO_ID_alMOXarIFADO` FOREIGN KEY (`ID_alMOXarIFADO`) REFERENCES `tb_almoxarifado` (`ID`) ON DELETE )
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsyncAwaited(ValueTask`1 task) in /_/src/MySqlConnector/Core/ServerSession.cs:line 888
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 50
+   at MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 135
+   at MySqlConnector.MySqlDataReader.CreateAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary`2 cachedProcedures, IMySqlCommand command, CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 444
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(IReadOnlyList`1 commands, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 60
+   at MySqlConnector.MySqlCommand.ExecuteReaderAsync(CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 319
+   at MySqlConnector.MySqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 312
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2023-07-19 16:53:45.474 -03:00 [INF] Executed action Concent.Athena.Services.API.Controllers.ProdutosAlmoxarifadosController.Create (Concent.Athena.Services.API) in 3668.2525ms
+2023-07-19 16:53:45.484 -03:00 [INF] Executed endpoint 'Concent.Athena.Services.API.Controllers.ProdutosAlmoxarifadosController.Create (Concent.Athena.Services.API)'
+2023-07-19 16:53:45.508 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> MySqlConnector.MySqlException (0x80004005): Cannot add or update a child row: a foreign key constraint fails (`athenadb`.`tb_produtosalmoxatrifados`, CONSTRAINT `FK_TB_ProdutosAlmoxatrifados_TB_ALMOXARIFADO_ID_alMOXarIFADO` FOREIGN KEY (`ID_alMOXarIFADO`) REFERENCES `tb_almoxarifado` (`ID`) ON DELETE )
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsyncAwaited(ValueTask`1 task) in /_/src/MySqlConnector/Core/ServerSession.cs:line 888
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 50
+   at MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 135
+   at MySqlConnector.MySqlDataReader.CreateAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary`2 cachedProcedures, IMySqlCommand command, CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 444
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(IReadOnlyList`1 commands, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 60
+   at MySqlConnector.MySqlCommand.ExecuteReaderAsync(CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 319
+   at MySqlConnector.MySqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 312
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Concent.Athena.Infrastructure.Data.Transactions.UnityOfWork.Commit() in C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Infrastructure.Data\Transactions\UnityOfWork.cs:line 22
+   at Concent.Athena.Application.Common.Command`4.Handle(TRequest request, CancellationToken cancellationToken) in C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Application\Common\Command.cs:line 56
+   at Concent.Athena.Application.Behaviors.ValidationBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next) in C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Application\Behaviors\ValidationBehavior.cs:line 33
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at Concent.Athena.Services.API.Controllers.ProdutosAlmoxarifadosController.Create(CreateProdutosAlmoxarifadosRequest request, CancellationToken cancellationToken) in C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\Controllers\ProdutosAlmoxarifadosController.cs:line 22
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.Invoke(HttpContext context)
+   at Prometheus.HttpMetrics.HttpRequestDurationMiddleware.Invoke(HttpContext context)
+   at Prometheus.HttpMetrics.HttpRequestCountMiddleware.Invoke(HttpContext context)
+   at Prometheus.HttpMetrics.HttpInProgressMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-07-19 16:53:45.594 -03:00 [DBG] 'AthenaContext' disposed.
+2023-07-19 16:53:45.622 -03:00 [INF] Request finished HTTP/2 POST https://localhost:5004/api/v1/tenant/produtosalmoxarifados application/json 138 - 500 - text/plain 4074.2826ms
+2023-07-19 16:53:49.480 -03:00 [DBG] Connection id "0HMS8I7D1EJ29" received FIN.
+2023-07-19 16:53:49.485 -03:00 [DBG] Connection id "0HMS8I7D1EJ29" is closed. The last processed stream ID was 1.
+2023-07-19 16:53:49.489 -03:00 [DBG] Connection id "0HMS8I7D1EJ29" sending FIN because: "The client closed the connection."
+2023-07-19 16:53:49.514 -03:00 [DBG] Connection id "0HMS8I7D1EJ29" stopped.
+2023-07-19 16:55:11.623 -03:00 [DBG] Hosting starting
+2023-07-19 16:55:12.402 -03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 1ED06961E04A72F7E2C9617C51B22CBBFE7472A4)
+2023-07-19 16:55:12.560 -03:00 [INF] Now listening on: https://localhost:5004
+2023-07-19 16:55:12.562 -03:00 [DBG] Loaded hosting startup assembly Concent.Athena.Services.API
+2023-07-19 16:55:12.565 -03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-07-19 16:55:12.568 -03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-07-19 16:55:12.571 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-19 16:55:12.573 -03:00 [INF] Hosting environment: Local
+2023-07-19 16:55:12.576 -03:00 [INF] Content root path: C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API
+2023-07-19 16:55:12.579 -03:00 [DBG] Hosting started
+2023-07-19 16:55:42.084 -03:00 [DBG] Connection id "0HMS8I8H0JO26" accepted.
+2023-07-19 16:55:42.090 -03:00 [DBG] Connection id "0HMS8I8H0JO26" started.
+2023-07-19 16:55:42.198 -03:00 [DBG] Connection "0HMS8I8H0JO26" established using the following protocol: "Tls12"
+2023-07-19 16:55:42.272 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5004/api/v1/tenant/produtos - -
+2023-07-19 16:55:42.300 -03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-07-19 16:55:42.333 -03:00 [DBG] The request path  does not match the path filter
+2023-07-19 16:55:42.391 -03:00 [DBG] 1 candidate(s) found for the request path '/api/v1/tenant/produtos'
+2023-07-19 16:55:42.399 -03:00 [DBG] Endpoint 'Concent.Athena.Services.API.Controllers.ProdutosController.GetAll (Concent.Athena.Services.API)' with route pattern 'api/v1/tenant/Produtos' is valid for the request path '/api/v1/tenant/produtos'
+2023-07-19 16:55:42.402 -03:00 [DBG] Request matched endpoint 'Concent.Athena.Services.API.Controllers.ProdutosController.GetAll (Concent.Athena.Services.API)'
+2023-07-19 16:55:42.413 -03:00 [INF] Executing endpoint 'Concent.Athena.Services.API.Controllers.ProdutosController.GetAll (Concent.Athena.Services.API)'
+2023-07-19 16:55:42.432 -03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-07-19 16:55:42.504 -03:00 [INF] Route matched with {action = "GetAll", controller = "Produtos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.String, Concent.Athena.Domain.Core.Requests.ProdutosRequests.GetProdutosRequest, Int32, Int32, System.Threading.CancellationToken) on controller Concent.Athena.Services.API.Controllers.ProdutosController (Concent.Athena.Services.API).
+2023-07-19 16:55:42.511 -03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-07-19 16:55:42.514 -03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-07-19 16:55:42.517 -03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-07-19 16:55:42.520 -03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-07-19 16:55:42.526 -03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-07-19 16:55:42.531 -03:00 [DBG] Executing controller factory for controller Concent.Athena.Services.API.Controllers.ProdutosController (Concent.Athena.Services.API)
+2023-07-19 16:55:42.535 -03:00 [DBG] Executed controller factory for controller Concent.Athena.Services.API.Controllers.ProdutosController (Concent.Athena.Services.API)
+2023-07-19 16:55:42.561 -03:00 [DBG] Attempting to bind parameter 'NomeProduto' of type 'System.String' ...
+2023-07-19 16:55:42.565 -03:00 [DBG] Attempting to bind parameter 'NomeProduto' of type 'System.String' using the name '' in request data ...
+2023-07-19 16:55:42.569 -03:00 [DBG] Could not find a value in the request with name '' for binding parameter 'NomeProduto' of type 'System.String'.
+2023-07-19 16:55:42.577 -03:00 [DBG] Done attempting to bind parameter 'NomeProduto' of type 'System.String'.
+2023-07-19 16:55:42.580 -03:00 [DBG] Done attempting to bind parameter 'NomeProduto' of type 'System.String'.
+2023-07-19 16:55:42.583 -03:00 [DBG] Attempting to validate the bound parameter 'NomeProduto' of type 'System.String' ...
+2023-07-19 16:55:42.593 -03:00 [DBG] Done attempting to validate the bound parameter 'NomeProduto' of type 'System.String'.
+2023-07-19 16:55:42.598 -03:00 [DBG] Attempting to bind parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.ProdutosRequests.GetProdutosRequest' ...
+2023-07-19 16:55:42.602 -03:00 [DBG] Attempting to bind parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.ProdutosRequests.GetProdutosRequest' using the name '' in request data ...
+2023-07-19 16:55:42.613 -03:00 [DBG] Attempting to bind property 'Concent.Athena.Domain.Core.Requests.ProdutosRequests.GetProdutosRequest.NomeProduto' of type 'System.String' using the name 'NomeProduto' in request data ...
+2023-07-19 16:55:42.618 -03:00 [DBG] Could not find a value in the request with name 'NomeProduto' for binding property 'Concent.Athena.Domain.Core.Requests.ProdutosRequests.GetProdutosRequest.NomeProduto' of type 'System.String'.
+2023-07-19 16:55:42.626 -03:00 [DBG] Done attempting to bind property 'Concent.Athena.Domain.Core.Requests.ProdutosRequests.GetProdutosRequest.NomeProduto' of type 'System.String'.
+2023-07-19 16:55:42.630 -03:00 [DBG] Attempting to bind property 'Concent.Athena.Domain.Core.Requests.ProdutosRequests.GetProdutosRequest.IsActive' of type 'System.Boolean' using the name 'IsActive' in request data ...
+2023-07-19 16:55:42.636 -03:00 [DBG] Could not find a value in the request with name 'IsActive' for binding property 'Concent.Athena.Domain.Core.Requests.ProdutosRequests.GetProdutosRequest.IsActive' of type 'System.Boolean'.
+2023-07-19 16:55:42.644 -03:00 [DBG] Done attempting to bind property 'Concent.Athena.Domain.Core.Requests.ProdutosRequests.GetProdutosRequest.IsActive' of type 'System.Boolean'.
+2023-07-19 16:55:42.651 -03:00 [DBG] Done attempting to bind parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.ProdutosRequests.GetProdutosRequest'.
+2023-07-19 16:55:42.655 -03:00 [DBG] Done attempting to bind parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.ProdutosRequests.GetProdutosRequest'.
+2023-07-19 16:55:42.659 -03:00 [DBG] Attempting to validate the bound parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.ProdutosRequests.GetProdutosRequest' ...
+2023-07-19 16:55:42.664 -03:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.ProdutosRequests.GetProdutosRequest'.
+2023-07-19 16:55:42.667 -03:00 [DBG] Attempting to bind parameter 'page' of type 'System.Int32' ...
+2023-07-19 16:55:42.670 -03:00 [DBG] Attempting to bind parameter 'page' of type 'System.Int32' using the name '' in request data ...
+2023-07-19 16:55:42.675 -03:00 [DBG] Could not find a value in the request with name '' for binding parameter 'page' of type 'System.Int32'.
+2023-07-19 16:55:42.678 -03:00 [DBG] Done attempting to bind parameter 'page' of type 'System.Int32'.
+2023-07-19 16:55:42.681 -03:00 [DBG] Done attempting to bind parameter 'page' of type 'System.Int32'.
+2023-07-19 16:55:42.683 -03:00 [DBG] Attempting to validate the bound parameter 'page' of type 'System.Int32' ...
+2023-07-19 16:55:42.686 -03:00 [DBG] Done attempting to validate the bound parameter 'page' of type 'System.Int32'.
+2023-07-19 16:55:42.691 -03:00 [DBG] Attempting to bind parameter 'index' of type 'System.Int32' ...
+2023-07-19 16:55:42.695 -03:00 [DBG] Attempting to bind parameter 'index' of type 'System.Int32' using the name '' in request data ...
+2023-07-19 16:55:42.698 -03:00 [DBG] Could not find a value in the request with name '' for binding parameter 'index' of type 'System.Int32'.
+2023-07-19 16:55:42.701 -03:00 [DBG] Done attempting to bind parameter 'index' of type 'System.Int32'.
+2023-07-19 16:55:42.703 -03:00 [DBG] Done attempting to bind parameter 'index' of type 'System.Int32'.
+2023-07-19 16:55:42.710 -03:00 [DBG] Attempting to validate the bound parameter 'index' of type 'System.Int32' ...
+2023-07-19 16:55:42.713 -03:00 [DBG] Done attempting to validate the bound parameter 'index' of type 'System.Int32'.
+2023-07-19 16:55:42.715 -03:00 [DBG] Attempting to bind parameter 'cancellationToken' of type 'System.Threading.CancellationToken' ...
+2023-07-19 16:55:42.718 -03:00 [DBG] Done attempting to bind parameter 'cancellationToken' of type 'System.Threading.CancellationToken'.
+2023-07-19 16:55:42.721 -03:00 [DBG] Attempting to validate the bound parameter 'cancellationToken' of type 'System.Threading.CancellationToken' ...
+2023-07-19 16:55:42.734 -03:00 [DBG] Done attempting to validate the bound parameter 'cancellationToken' of type 'System.Threading.CancellationToken'.
+2023-07-19 16:55:43.020 -03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-07-19 16:55:43.927 -03:00 [INF] Entity Framework Core 5.0.16 initialized 'AthenaContext' using provider 'Pomelo.EntityFrameworkCore.MySql' with options: ServerVersion 8.0.21-mysql 
+2023-07-19 16:55:43.967 -03:00 [DBG] Opening connection to database '' on server 'localhost'.
+2023-07-19 16:55:44.107 -03:00 [DBG] Opened connection to database '' on server 'localhost'.
+2023-07-19 16:55:44.226 -03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-07-19 16:55:44.234 -03:00 [DBG] Created DbCommand for 'ExecuteScalar' (4ms).
+2023-07-19 16:55:44.237 -03:00 [DBG] Opening connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:55:44.254 -03:00 [DBG] Opened connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:55:44.268 -03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+FROM information_schema.tables
+WHERE table_type = 'BASE TABLE' AND table_schema = 'Athenadb'
+2023-07-19 16:55:44.301 -03:00 [INF] Executed DbCommand (37ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+FROM information_schema.tables
+WHERE table_type = 'BASE TABLE' AND table_schema = 'Athenadb'
+2023-07-19 16:55:44.309 -03:00 [DBG] Closing connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:55:44.314 -03:00 [DBG] Closed connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:55:44.382 -03:00 [DBG] Compiling query expression: 
+'DbSet<Produtos>()
+    .AsNoTracking()
+    .Where(f => True && Invoke(x => x.IsActive, f)
+    )
+    .Count()'
+2023-07-19 16:55:44.561 -03:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<int>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> 0
+        SELECT COUNT(*)
+        FROM TB_Produtos AS t
+        WHERE TRUE && t.ST_ACTIVE), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, int>, 
+    Concent.Athena.Infrastructure.Data.Contexts.AthenaContext, 
+    False, 
+    False
+)
+    .Single()'
+2023-07-19 16:55:44.593 -03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-07-19 16:55:44.596 -03:00 [DBG] Created DbCommand for 'ExecuteReader' (3ms).
+2023-07-19 16:55:44.600 -03:00 [DBG] Opening connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:55:44.610 -03:00 [DBG] Opened connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:55:44.613 -03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM `TB_Produtos` AS `t`
+WHERE `t`.`ST_ACTIVE`
+2023-07-19 16:55:44.643 -03:00 [INF] Executed DbCommand (30ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM `TB_Produtos` AS `t`
+WHERE `t`.`ST_ACTIVE`
+2023-07-19 16:55:44.652 -03:00 [DBG] A data reader was disposed.
+2023-07-19 16:55:44.654 -03:00 [DBG] Closing connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:55:44.659 -03:00 [DBG] Closed connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:55:44.694 -03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2023-07-19 16:55:44.701 -03:00 [DBG] No information found on request to perform content negotiation.
+2023-07-19 16:55:44.703 -03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-07-19 16:55:44.705 -03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-07-19 16:55:44.708 -03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-07-19 16:55:44.712 -03:00 [INF] Executing ObjectResult, writing value of type 'Concent.Athena.Domain.Core.Responses.ProdutosResponses.GetProdutosResponse'.
+2023-07-19 16:55:44.761 -03:00 [DBG] Compiling query expression: 
+'DbSet<Produtos>()
+    .AsNoTracking()
+    .Where(f => True && Invoke(x => x.IsActive, f)
+    )
+    .Select(x => new { 
+        Id = x.Id, 
+        NomeProduto = x.NomeProduto
+     })
+    .OrderBy(x => x.NomeProduto)
+    .Skip(__p_0)
+    .Take(__p_1)'
+2023-07-19 16:55:44.783 -03:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<<>f__AnonymousType9<Guid, string>>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            Id -> 0
+            NomeProduto -> 1
+        SELECT t.ID AS Id, t.DS_NOME_PRODUTO AS NomeProduto
+        FROM TB_Produtos AS t
+        WHERE TRUE && t.ST_ACTIVE
+        ORDER BY t.DS_NOME_PRODUTO ASC
+        OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, <>f__AnonymousType9<Guid, string>>, 
+    Concent.Athena.Infrastructure.Data.Contexts.AthenaContext, 
+    False, 
+    False
+)'
+2023-07-19 16:55:44.793 -03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-07-19 16:55:44.796 -03:00 [DBG] Created DbCommand for 'ExecuteReader' (3ms).
+2023-07-19 16:55:44.827 -03:00 [DBG] Opening connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:55:44.831 -03:00 [DBG] Opened connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:55:44.837 -03:00 [DBG] Executing DbCommand [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT `t`.`ID` AS `Id`, `t`.`DS_NOME_PRODUTO` AS `NomeProduto`
+FROM `TB_Produtos` AS `t`
+WHERE `t`.`ST_ACTIVE`
+ORDER BY `t`.`DS_NOME_PRODUTO`
+LIMIT @__p_1 OFFSET @__p_0
+2023-07-19 16:55:44.867 -03:00 [INF] Executed DbCommand (32ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT `t`.`ID` AS `Id`, `t`.`DS_NOME_PRODUTO` AS `NomeProduto`
+FROM `TB_Produtos` AS `t`
+WHERE `t`.`ST_ACTIVE`
+ORDER BY `t`.`DS_NOME_PRODUTO`
+LIMIT @__p_1 OFFSET @__p_0
+2023-07-19 16:55:44.899 -03:00 [INF] Executed action Concent.Athena.Services.API.Controllers.ProdutosController.GetAll (Concent.Athena.Services.API) in 2364.0455ms
+2023-07-19 16:55:44.903 -03:00 [INF] Executed endpoint 'Concent.Athena.Services.API.Controllers.ProdutosController.GetAll (Concent.Athena.Services.API)'
+2023-07-19 16:55:44.915 -03:00 [DBG] 'AthenaContext' disposed.
+2023-07-19 16:55:44.930 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5004/api/v1/tenant/produtos - - - 200 - application/json;+charset=utf-8 2660.5125ms
+2023-07-19 16:55:50.965 -03:00 [INF] Request starting HTTP/2 POST https://localhost:5004/api/v1/tenant/produtosalmoxarifados application/json 138
+2023-07-19 16:55:50.968 -03:00 [DBG] POST requests are not supported
+2023-07-19 16:55:50.978 -03:00 [DBG] 1 candidate(s) found for the request path '/api/v1/tenant/produtosalmoxarifados'
+2023-07-19 16:55:50.981 -03:00 [DBG] Endpoint 'Concent.Athena.Services.API.Controllers.ProdutosAlmoxarifadosController.Create (Concent.Athena.Services.API)' with route pattern 'api/v1/tenant/ProdutosAlmoxarifados' is valid for the request path '/api/v1/tenant/produtosalmoxarifados'
+2023-07-19 16:55:50.984 -03:00 [DBG] Request matched endpoint 'Concent.Athena.Services.API.Controllers.ProdutosAlmoxarifadosController.Create (Concent.Athena.Services.API)'
+2023-07-19 16:55:50.987 -03:00 [DBG] The request has an origin header: 'https://localhost:5004'.
+2023-07-19 16:55:50.989 -03:00 [INF] CORS policy execution successful.
+2023-07-19 16:55:50.996 -03:00 [INF] Executing endpoint 'Concent.Athena.Services.API.Controllers.ProdutosAlmoxarifadosController.Create (Concent.Athena.Services.API)'
+2023-07-19 16:55:51.003 -03:00 [INF] Route matched with {action = "Create", controller = "ProdutosAlmoxarifados"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(Concent.Athena.Domain.Core.Requests.ProdutosAlmoxarifadosRequest.CreateProdutosAlmoxarifadosRequest, System.Threading.CancellationToken) on controller Concent.Athena.Services.API.Controllers.ProdutosAlmoxarifadosController (Concent.Athena.Services.API).
+2023-07-19 16:55:51.009 -03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-07-19 16:55:51.014 -03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-07-19 16:55:51.017 -03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-07-19 16:55:51.020 -03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-07-19 16:55:51.023 -03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-07-19 16:55:51.029 -03:00 [DBG] Executing controller factory for controller Concent.Athena.Services.API.Controllers.ProdutosAlmoxarifadosController (Concent.Athena.Services.API)
+2023-07-19 16:55:51.032 -03:00 [DBG] Executed controller factory for controller Concent.Athena.Services.API.Controllers.ProdutosAlmoxarifadosController (Concent.Athena.Services.API)
+2023-07-19 16:55:51.035 -03:00 [DBG] Attempting to bind parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.ProdutosAlmoxarifadosRequest.CreateProdutosAlmoxarifadosRequest' ...
+2023-07-19 16:55:51.039 -03:00 [DBG] Attempting to bind parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.ProdutosAlmoxarifadosRequest.CreateProdutosAlmoxarifadosRequest' using the name '' in request data ...
+2023-07-19 16:55:51.046 -03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2023-07-19 16:55:51.055 -03:00 [DBG] Connection id "0HMS8I8H0JO26", Request id "0HMS8I8H0JO26:00000003": started reading request body.
+2023-07-19 16:55:51.059 -03:00 [DBG] Connection id "0HMS8I8H0JO26", Request id "0HMS8I8H0JO26:00000003": done reading request body.
+2023-07-19 16:55:51.067 -03:00 [DBG] JSON input formatter succeeded, deserializing to type 'Concent.Athena.Domain.Core.Requests.ProdutosAlmoxarifadosRequest.CreateProdutosAlmoxarifadosRequest'
+2023-07-19 16:55:51.071 -03:00 [DBG] Done attempting to bind parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.ProdutosAlmoxarifadosRequest.CreateProdutosAlmoxarifadosRequest'.
+2023-07-19 16:55:51.074 -03:00 [DBG] Done attempting to bind parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.ProdutosAlmoxarifadosRequest.CreateProdutosAlmoxarifadosRequest'.
+2023-07-19 16:55:51.081 -03:00 [DBG] Attempting to validate the bound parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.ProdutosAlmoxarifadosRequest.CreateProdutosAlmoxarifadosRequest' ...
+2023-07-19 16:55:51.085 -03:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.ProdutosAlmoxarifadosRequest.CreateProdutosAlmoxarifadosRequest'.
+2023-07-19 16:55:51.088 -03:00 [DBG] Attempting to bind parameter 'cancellationToken' of type 'System.Threading.CancellationToken' ...
+2023-07-19 16:55:51.091 -03:00 [DBG] Done attempting to bind parameter 'cancellationToken' of type 'System.Threading.CancellationToken'.
+2023-07-19 16:55:51.095 -03:00 [DBG] Attempting to validate the bound parameter 'cancellationToken' of type 'System.Threading.CancellationToken' ...
+2023-07-19 16:55:51.098 -03:00 [DBG] Done attempting to validate the bound parameter 'cancellationToken' of type 'System.Threading.CancellationToken'.
+2023-07-19 16:55:51.105 -03:00 [INF] Entity Framework Core 5.0.16 initialized 'AthenaContext' using provider 'Pomelo.EntityFrameworkCore.MySql' with options: ServerVersion 8.0.21-mysql 
+2023-07-19 16:55:51.116 -03:00 [DBG] Opening connection to database '' on server 'localhost'.
+2023-07-19 16:55:51.123 -03:00 [DBG] Opened connection to database '' on server 'localhost'.
+2023-07-19 16:55:51.128 -03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-07-19 16:55:51.132 -03:00 [DBG] Created DbCommand for 'ExecuteScalar' (3ms).
+2023-07-19 16:55:51.134 -03:00 [DBG] Opening connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:55:51.137 -03:00 [DBG] Opened connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:55:51.140 -03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+FROM information_schema.tables
+WHERE table_type = 'BASE TABLE' AND table_schema = 'Athenadb'
+2023-07-19 16:55:51.147 -03:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+FROM information_schema.tables
+WHERE table_type = 'BASE TABLE' AND table_schema = 'Athenadb'
+2023-07-19 16:55:51.151 -03:00 [DBG] Closing connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:55:51.154 -03:00 [DBG] Closed connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:55:51.401 -03:00 [DBG] Compiling query expression: 
+'DbSet<Almoxarifados>()
+    .Any(x => x.Id == __request_AlmoxarifadoId_0)'
+2023-07-19 16:55:51.415 -03:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleAsync<bool>(
+    asyncEnumerable: new SingleQueryingEnumerable<bool>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.SelectExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> 0
+            SELECT EXISTS (
+                Projection Mapping:
+                SELECT 1
+                FROM TB_ALMOXARIFADO AS t
+                WHERE t.ID == @__request_AlmoxarifadoId_0)), 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, bool>, 
+        Concent.Athena.Infrastructure.Data.Contexts.AthenaContext, 
+        False, 
+        False
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2023-07-19 16:55:51.433 -03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-07-19 16:55:51.436 -03:00 [DBG] Created DbCommand for 'ExecuteReader' (3ms).
+2023-07-19 16:55:51.444 -03:00 [DBG] Opening connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:55:51.456 -03:00 [DBG] Opened connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:55:51.463 -03:00 [DBG] Executing DbCommand [Parameters=[@__request_AlmoxarifadoId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM `TB_ALMOXARIFADO` AS `t`
+    WHERE `t`.`ID` = @__request_AlmoxarifadoId_0)
+2023-07-19 16:55:51.475 -03:00 [INF] Executed DbCommand (12ms) [Parameters=[@__request_AlmoxarifadoId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM `TB_ALMOXARIFADO` AS `t`
+    WHERE `t`.`ID` = @__request_AlmoxarifadoId_0)
+2023-07-19 16:55:51.487 -03:00 [DBG] A data reader was disposed.
+2023-07-19 16:55:51.491 -03:00 [DBG] Closing connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:55:51.495 -03:00 [DBG] Closed connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:55:51.498 -03:00 [DBG] Compiling query expression: 
+'DbSet<Produtos>()
+    .Any(x => x.Id == __request_ProdutosId_0)'
+2023-07-19 16:55:51.504 -03:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleAsync<bool>(
+    asyncEnumerable: new SingleQueryingEnumerable<bool>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.SelectExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> 0
+            SELECT EXISTS (
+                Projection Mapping:
+                SELECT 1
+                FROM TB_Produtos AS t
+                WHERE t.ID == @__request_ProdutosId_0)), 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, bool>, 
+        Concent.Athena.Infrastructure.Data.Contexts.AthenaContext, 
+        False, 
+        False
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2023-07-19 16:55:51.508 -03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-07-19 16:55:51.512 -03:00 [DBG] Created DbCommand for 'ExecuteReader' (3ms).
+2023-07-19 16:55:51.514 -03:00 [DBG] Opening connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:55:51.528 -03:00 [DBG] Opened connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:55:51.535 -03:00 [DBG] Executing DbCommand [Parameters=[@__request_ProdutosId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM `TB_Produtos` AS `t`
+    WHERE `t`.`ID` = @__request_ProdutosId_0)
+2023-07-19 16:55:51.553 -03:00 [INF] Executed DbCommand (18ms) [Parameters=[@__request_ProdutosId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM `TB_Produtos` AS `t`
+    WHERE `t`.`ID` = @__request_ProdutosId_0)
+2023-07-19 16:55:51.564 -03:00 [DBG] A data reader was disposed.
+2023-07-19 16:55:51.566 -03:00 [DBG] Closing connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:55:51.570 -03:00 [DBG] Closed connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:55:51.647 -03:00 [DBG] 'AthenaContext' generated a value for the property 'Id.ProdutosAlmoxarifados'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-07-19 16:55:51.715 -03:00 [DBG] Context 'AthenaContext' started tracking 'ProdutosAlmoxarifados' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-07-19 16:55:51.727 -03:00 [DBG] DetectChanges starting for 'AthenaContext'.
+2023-07-19 16:55:51.743 -03:00 [DBG] DetectChanges completed for 'AthenaContext'.
+2023-07-19 16:55:51.746 -03:00 [DBG] DetectChanges starting for 'AthenaContext'.
+2023-07-19 16:55:51.751 -03:00 [DBG] DetectChanges completed for 'AthenaContext'.
+2023-07-19 16:55:51.757 -03:00 [DBG] SaveChanges starting for 'AthenaContext'.
+2023-07-19 16:55:51.761 -03:00 [DBG] DetectChanges starting for 'AthenaContext'.
+2023-07-19 16:55:51.764 -03:00 [DBG] DetectChanges completed for 'AthenaContext'.
+2023-07-19 16:55:51.788 -03:00 [DBG] Opening connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:55:51.795 -03:00 [DBG] Opened connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:55:51.801 -03:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-07-19 16:55:51.813 -03:00 [DBG] Began transaction with isolation level 'Unspecified'.
+2023-07-19 16:55:51.875 -03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-07-19 16:55:51.878 -03:00 [DBG] Created DbCommand for 'ExecuteReader' (3ms).
+2023-07-19 16:55:51.881 -03:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Guid), @p2='?' (DbType = DateTime), @p3='?' (DbType = Boolean), @p4='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `TB_ProdutosAlmoxarifados` (`ID`, `ID_ALMOXARIFADO`, `CREATED_AT`, `ST_ACTIVE`, `ID_PRODUTO`)
+VALUES (@p0, @p1, @p2, @p3, @p4);
+SELECT `UPDATED_AT`
+FROM `TB_ProdutosAlmoxarifados`
+WHERE ROW_COUNT() = 1 AND `ID` = @p0;
+2023-07-19 16:55:51.901 -03:00 [ERR] Failed executing DbCommand (19ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Guid), @p2='?' (DbType = DateTime), @p3='?' (DbType = Boolean), @p4='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `TB_ProdutosAlmoxarifados` (`ID`, `ID_ALMOXARIFADO`, `CREATED_AT`, `ST_ACTIVE`, `ID_PRODUTO`)
+VALUES (@p0, @p1, @p2, @p3, @p4);
+SELECT `UPDATED_AT`
+FROM `TB_ProdutosAlmoxarifados`
+WHERE ROW_COUNT() = 1 AND `ID` = @p0;
+2023-07-19 16:55:51.927 -03:00 [DBG] Disposing transaction.
+2023-07-19 16:55:51.931 -03:00 [DBG] Closing connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:55:51.936 -03:00 [DBG] Closed connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:55:52.069 -03:00 [ERR] An exception occurred in the database while saving changes for context type 'Concent.Athena.Infrastructure.Data.Contexts.AthenaContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> MySqlConnector.MySqlException (0x80004005): Table 'athenadb.tb_produtosalmoxarifados' doesn't exist
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsyncAwaited(ValueTask`1 task) in /_/src/MySqlConnector/Core/ServerSession.cs:line 888
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 50
+   at MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 135
+   at MySqlConnector.MySqlDataReader.CreateAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary`2 cachedProcedures, IMySqlCommand command, CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 444
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(IReadOnlyList`1 commands, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 60
+   at MySqlConnector.MySqlCommand.ExecuteReaderAsync(CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 319
+   at MySqlConnector.MySqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 312
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> MySqlConnector.MySqlException (0x80004005): Table 'athenadb.tb_produtosalmoxarifados' doesn't exist
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsyncAwaited(ValueTask`1 task) in /_/src/MySqlConnector/Core/ServerSession.cs:line 888
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 50
+   at MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 135
+   at MySqlConnector.MySqlDataReader.CreateAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary`2 cachedProcedures, IMySqlCommand command, CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 444
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(IReadOnlyList`1 commands, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 60
+   at MySqlConnector.MySqlCommand.ExecuteReaderAsync(CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 319
+   at MySqlConnector.MySqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 312
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2023-07-19 16:55:52.484 -03:00 [INF] Executed action Concent.Athena.Services.API.Controllers.ProdutosAlmoxarifadosController.Create (Concent.Athena.Services.API) in 1454.3833ms
+2023-07-19 16:55:52.491 -03:00 [INF] Executed endpoint 'Concent.Athena.Services.API.Controllers.ProdutosAlmoxarifadosController.Create (Concent.Athena.Services.API)'
+2023-07-19 16:55:52.514 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> MySqlConnector.MySqlException (0x80004005): Table 'athenadb.tb_produtosalmoxarifados' doesn't exist
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsyncAwaited(ValueTask`1 task) in /_/src/MySqlConnector/Core/ServerSession.cs:line 888
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 50
+   at MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 135
+   at MySqlConnector.MySqlDataReader.CreateAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary`2 cachedProcedures, IMySqlCommand command, CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 444
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(IReadOnlyList`1 commands, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 60
+   at MySqlConnector.MySqlCommand.ExecuteReaderAsync(CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 319
+   at MySqlConnector.MySqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 312
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Concent.Athena.Infrastructure.Data.Transactions.UnityOfWork.Commit() in C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Infrastructure.Data\Transactions\UnityOfWork.cs:line 22
+   at Concent.Athena.Application.Common.Command`4.Handle(TRequest request, CancellationToken cancellationToken) in C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Application\Common\Command.cs:line 56
+   at Concent.Athena.Application.Behaviors.ValidationBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next) in C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Application\Behaviors\ValidationBehavior.cs:line 33
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at Concent.Athena.Services.API.Controllers.ProdutosAlmoxarifadosController.Create(CreateProdutosAlmoxarifadosRequest request, CancellationToken cancellationToken) in C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\Controllers\ProdutosAlmoxarifadosController.cs:line 22
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.Invoke(HttpContext context)
+   at Prometheus.HttpMetrics.HttpRequestDurationMiddleware.Invoke(HttpContext context)
+   at Prometheus.HttpMetrics.HttpRequestCountMiddleware.Invoke(HttpContext context)
+   at Prometheus.HttpMetrics.HttpInProgressMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-07-19 16:55:52.604 -03:00 [DBG] 'AthenaContext' disposed.
+2023-07-19 16:55:52.608 -03:00 [INF] Request finished HTTP/2 POST https://localhost:5004/api/v1/tenant/produtosalmoxarifados application/json 138 - 500 - text/plain 1642.6082ms
+2023-07-19 16:55:54.728 -03:00 [DBG] Connection id "0HMS8I8H0JO26" received FIN.
+2023-07-19 16:55:54.734 -03:00 [DBG] Connection id "0HMS8I8H0JO26" is closed. The last processed stream ID was 3.
+2023-07-19 16:55:54.734 -03:00 [DBG] Connection id "0HMS8I8H0JO26" sending FIN because: "The client closed the connection."
+2023-07-19 16:55:54.748 -03:00 [DBG] Connection id "0HMS8I8H0JO26" stopped.
+2023-07-19 16:58:43.605 -03:00 [DBG] Connection id "0HMS8I8H0JO27" accepted.
+2023-07-19 16:58:43.612 -03:00 [DBG] Connection id "0HMS8I8H0JO27" started.
+2023-07-19 16:58:43.660 -03:00 [DBG] Connection "0HMS8I8H0JO27" established using the following protocol: "Tls12"
+2023-07-19 16:58:43.665 -03:00 [INF] Request starting HTTP/2 POST https://localhost:5004/api/v1/tenant/produtosalmoxarifados application/json 138
+2023-07-19 16:58:43.674 -03:00 [DBG] POST requests are not supported
+2023-07-19 16:58:43.676 -03:00 [DBG] 1 candidate(s) found for the request path '/api/v1/tenant/produtosalmoxarifados'
+2023-07-19 16:58:43.679 -03:00 [DBG] Endpoint 'Concent.Athena.Services.API.Controllers.ProdutosAlmoxarifadosController.Create (Concent.Athena.Services.API)' with route pattern 'api/v1/tenant/ProdutosAlmoxarifados' is valid for the request path '/api/v1/tenant/produtosalmoxarifados'
+2023-07-19 16:58:43.682 -03:00 [DBG] Request matched endpoint 'Concent.Athena.Services.API.Controllers.ProdutosAlmoxarifadosController.Create (Concent.Athena.Services.API)'
+2023-07-19 16:58:43.688 -03:00 [DBG] The request has an origin header: 'https://localhost:5004'.
+2023-07-19 16:58:43.691 -03:00 [INF] CORS policy execution successful.
+2023-07-19 16:58:43.694 -03:00 [INF] Executing endpoint 'Concent.Athena.Services.API.Controllers.ProdutosAlmoxarifadosController.Create (Concent.Athena.Services.API)'
+2023-07-19 16:58:43.697 -03:00 [INF] Route matched with {action = "Create", controller = "ProdutosAlmoxarifados"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(Concent.Athena.Domain.Core.Requests.ProdutosAlmoxarifadosRequest.CreateProdutosAlmoxarifadosRequest, System.Threading.CancellationToken) on controller Concent.Athena.Services.API.Controllers.ProdutosAlmoxarifadosController (Concent.Athena.Services.API).
+2023-07-19 16:58:43.703 -03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-07-19 16:58:43.706 -03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-07-19 16:58:43.708 -03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-07-19 16:58:43.711 -03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-07-19 16:58:43.714 -03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-07-19 16:58:43.720 -03:00 [DBG] Executing controller factory for controller Concent.Athena.Services.API.Controllers.ProdutosAlmoxarifadosController (Concent.Athena.Services.API)
+2023-07-19 16:58:43.723 -03:00 [DBG] Executed controller factory for controller Concent.Athena.Services.API.Controllers.ProdutosAlmoxarifadosController (Concent.Athena.Services.API)
+2023-07-19 16:58:43.726 -03:00 [DBG] Attempting to bind parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.ProdutosAlmoxarifadosRequest.CreateProdutosAlmoxarifadosRequest' ...
+2023-07-19 16:58:43.728 -03:00 [DBG] Attempting to bind parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.ProdutosAlmoxarifadosRequest.CreateProdutosAlmoxarifadosRequest' using the name '' in request data ...
+2023-07-19 16:58:43.732 -03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2023-07-19 16:58:43.737 -03:00 [DBG] Connection id "0HMS8I8H0JO27", Request id "0HMS8I8H0JO27:00000001": started reading request body.
+2023-07-19 16:58:43.740 -03:00 [DBG] Connection id "0HMS8I8H0JO27", Request id "0HMS8I8H0JO27:00000001": done reading request body.
+2023-07-19 16:58:43.742 -03:00 [DBG] JSON input formatter succeeded, deserializing to type 'Concent.Athena.Domain.Core.Requests.ProdutosAlmoxarifadosRequest.CreateProdutosAlmoxarifadosRequest'
+2023-07-19 16:58:43.744 -03:00 [DBG] Done attempting to bind parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.ProdutosAlmoxarifadosRequest.CreateProdutosAlmoxarifadosRequest'.
+2023-07-19 16:58:43.746 -03:00 [DBG] Done attempting to bind parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.ProdutosAlmoxarifadosRequest.CreateProdutosAlmoxarifadosRequest'.
+2023-07-19 16:58:43.750 -03:00 [DBG] Attempting to validate the bound parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.ProdutosAlmoxarifadosRequest.CreateProdutosAlmoxarifadosRequest' ...
+2023-07-19 16:58:43.754 -03:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.ProdutosAlmoxarifadosRequest.CreateProdutosAlmoxarifadosRequest'.
+2023-07-19 16:58:43.756 -03:00 [DBG] Attempting to bind parameter 'cancellationToken' of type 'System.Threading.CancellationToken' ...
+2023-07-19 16:58:43.759 -03:00 [DBG] Done attempting to bind parameter 'cancellationToken' of type 'System.Threading.CancellationToken'.
+2023-07-19 16:58:43.761 -03:00 [DBG] Attempting to validate the bound parameter 'cancellationToken' of type 'System.Threading.CancellationToken' ...
+2023-07-19 16:58:43.764 -03:00 [DBG] Done attempting to validate the bound parameter 'cancellationToken' of type 'System.Threading.CancellationToken'.
+2023-07-19 16:58:43.817 -03:00 [INF] Entity Framework Core 5.0.16 initialized 'AthenaContext' using provider 'Pomelo.EntityFrameworkCore.MySql' with options: ServerVersion 8.0.21-mysql 
+2023-07-19 16:58:43.827 -03:00 [DBG] Opening connection to database '' on server 'localhost'.
+2023-07-19 16:58:43.835 -03:00 [DBG] Opened connection to database '' on server 'localhost'.
+2023-07-19 16:58:43.848 -03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-07-19 16:58:43.852 -03:00 [DBG] Created DbCommand for 'ExecuteScalar' (4ms).
+2023-07-19 16:58:43.855 -03:00 [DBG] Opening connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:58:43.859 -03:00 [DBG] Opened connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:58:43.861 -03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+FROM information_schema.tables
+WHERE table_type = 'BASE TABLE' AND table_schema = 'Athenadb'
+2023-07-19 16:58:43.867 -03:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+FROM information_schema.tables
+WHERE table_type = 'BASE TABLE' AND table_schema = 'Athenadb'
+2023-07-19 16:58:43.872 -03:00 [DBG] Closing connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:58:43.875 -03:00 [DBG] Closed connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:58:43.881 -03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-07-19 16:58:43.884 -03:00 [DBG] Created DbCommand for 'ExecuteReader' (2ms).
+2023-07-19 16:58:43.889 -03:00 [DBG] Opening connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:58:43.894 -03:00 [DBG] Opened connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:58:43.897 -03:00 [DBG] Executing DbCommand [Parameters=[@__request_AlmoxarifadoId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM `TB_ALMOXARIFADO` AS `t`
+    WHERE `t`.`ID` = @__request_AlmoxarifadoId_0)
+2023-07-19 16:58:43.906 -03:00 [INF] Executed DbCommand (8ms) [Parameters=[@__request_AlmoxarifadoId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM `TB_ALMOXARIFADO` AS `t`
+    WHERE `t`.`ID` = @__request_AlmoxarifadoId_0)
+2023-07-19 16:58:43.910 -03:00 [DBG] A data reader was disposed.
+2023-07-19 16:58:43.912 -03:00 [DBG] Closing connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:58:43.914 -03:00 [DBG] Closed connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:58:43.924 -03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-07-19 16:58:43.927 -03:00 [DBG] Created DbCommand for 'ExecuteReader' (3ms).
+2023-07-19 16:58:43.930 -03:00 [DBG] Opening connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:58:43.936 -03:00 [DBG] Opened connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:58:43.939 -03:00 [DBG] Executing DbCommand [Parameters=[@__request_ProdutosId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM `TB_Produtos` AS `t`
+    WHERE `t`.`ID` = @__request_ProdutosId_0)
+2023-07-19 16:58:43.945 -03:00 [INF] Executed DbCommand (6ms) [Parameters=[@__request_ProdutosId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM `TB_Produtos` AS `t`
+    WHERE `t`.`ID` = @__request_ProdutosId_0)
+2023-07-19 16:58:43.952 -03:00 [DBG] A data reader was disposed.
+2023-07-19 16:58:43.955 -03:00 [DBG] Closing connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:58:43.958 -03:00 [DBG] Closed connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:58:43.961 -03:00 [DBG] 'AthenaContext' generated a value for the property 'Id.ProdutosAlmoxarifados'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-07-19 16:58:43.965 -03:00 [DBG] Context 'AthenaContext' started tracking 'ProdutosAlmoxarifados' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-07-19 16:58:43.969 -03:00 [DBG] DetectChanges starting for 'AthenaContext'.
+2023-07-19 16:58:43.972 -03:00 [DBG] DetectChanges completed for 'AthenaContext'.
+2023-07-19 16:58:43.975 -03:00 [DBG] DetectChanges starting for 'AthenaContext'.
+2023-07-19 16:58:43.978 -03:00 [DBG] DetectChanges completed for 'AthenaContext'.
+2023-07-19 16:58:43.982 -03:00 [DBG] SaveChanges starting for 'AthenaContext'.
+2023-07-19 16:58:43.987 -03:00 [DBG] DetectChanges starting for 'AthenaContext'.
+2023-07-19 16:58:43.990 -03:00 [DBG] DetectChanges completed for 'AthenaContext'.
+2023-07-19 16:58:43.995 -03:00 [DBG] Opening connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:58:44.000 -03:00 [DBG] Opened connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:58:44.004 -03:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-07-19 16:58:44.011 -03:00 [DBG] Began transaction with isolation level 'Unspecified'.
+2023-07-19 16:58:44.013 -03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-07-19 16:58:44.015 -03:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2023-07-19 16:58:44.020 -03:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Guid), @p2='?' (DbType = DateTime), @p3='?' (DbType = Boolean), @p4='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `TB_ProdutosAlmoxarifados` (`ID`, `ID_ALMOXARIFADO`, `CREATED_AT`, `ST_ACTIVE`, `ID_PRODUTO`)
+VALUES (@p0, @p1, @p2, @p3, @p4);
+SELECT `UPDATED_AT`
+FROM `TB_ProdutosAlmoxarifados`
+WHERE ROW_COUNT() = 1 AND `ID` = @p0;
+2023-07-19 16:58:44.044 -03:00 [ERR] Failed executing DbCommand (24ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Guid), @p2='?' (DbType = DateTime), @p3='?' (DbType = Boolean), @p4='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `TB_ProdutosAlmoxarifados` (`ID`, `ID_ALMOXARIFADO`, `CREATED_AT`, `ST_ACTIVE`, `ID_PRODUTO`)
+VALUES (@p0, @p1, @p2, @p3, @p4);
+SELECT `UPDATED_AT`
+FROM `TB_ProdutosAlmoxarifados`
+WHERE ROW_COUNT() = 1 AND `ID` = @p0;
+2023-07-19 16:58:44.054 -03:00 [DBG] Disposing transaction.
+2023-07-19 16:58:44.057 -03:00 [DBG] Closing connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:58:44.060 -03:00 [DBG] Closed connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 16:58:44.066 -03:00 [ERR] An exception occurred in the database while saving changes for context type 'Concent.Athena.Infrastructure.Data.Contexts.AthenaContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> MySqlConnector.MySqlException (0x80004005): Table 'athenadb.tb_produtosalmoxarifados' doesn't exist
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsyncAwaited(ValueTask`1 task) in /_/src/MySqlConnector/Core/ServerSession.cs:line 888
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 50
+   at MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 135
+   at MySqlConnector.MySqlDataReader.CreateAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary`2 cachedProcedures, IMySqlCommand command, CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 444
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(IReadOnlyList`1 commands, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 60
+   at MySqlConnector.MySqlCommand.ExecuteReaderAsync(CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 319
+   at MySqlConnector.MySqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 312
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> MySqlConnector.MySqlException (0x80004005): Table 'athenadb.tb_produtosalmoxarifados' doesn't exist
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsyncAwaited(ValueTask`1 task) in /_/src/MySqlConnector/Core/ServerSession.cs:line 888
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 50
+   at MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 135
+   at MySqlConnector.MySqlDataReader.CreateAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary`2 cachedProcedures, IMySqlCommand command, CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 444
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(IReadOnlyList`1 commands, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 60
+   at MySqlConnector.MySqlCommand.ExecuteReaderAsync(CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 319
+   at MySqlConnector.MySqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 312
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2023-07-19 16:58:44.378 -03:00 [INF] Executed action Concent.Athena.Services.API.Controllers.ProdutosAlmoxarifadosController.Create (Concent.Athena.Services.API) in 658.8805ms
+2023-07-19 16:58:44.385 -03:00 [INF] Executed endpoint 'Concent.Athena.Services.API.Controllers.ProdutosAlmoxarifadosController.Create (Concent.Athena.Services.API)'
+2023-07-19 16:58:44.404 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> MySqlConnector.MySqlException (0x80004005): Table 'athenadb.tb_produtosalmoxarifados' doesn't exist
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsyncAwaited(ValueTask`1 task) in /_/src/MySqlConnector/Core/ServerSession.cs:line 888
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 50
+   at MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 135
+   at MySqlConnector.MySqlDataReader.CreateAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary`2 cachedProcedures, IMySqlCommand command, CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 444
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(IReadOnlyList`1 commands, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 60
+   at MySqlConnector.MySqlCommand.ExecuteReaderAsync(CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 319
+   at MySqlConnector.MySqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 312
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Concent.Athena.Infrastructure.Data.Transactions.UnityOfWork.Commit() in C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Infrastructure.Data\Transactions\UnityOfWork.cs:line 22
+   at Concent.Athena.Application.Common.Command`4.Handle(TRequest request, CancellationToken cancellationToken) in C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Application\Common\Command.cs:line 56
+   at Concent.Athena.Application.Behaviors.ValidationBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next) in C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Application\Behaviors\ValidationBehavior.cs:line 33
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at Concent.Athena.Services.API.Controllers.ProdutosAlmoxarifadosController.Create(CreateProdutosAlmoxarifadosRequest request, CancellationToken cancellationToken) in C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API\Controllers\ProdutosAlmoxarifadosController.cs:line 22
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.Invoke(HttpContext context)
+   at Prometheus.HttpMetrics.HttpRequestDurationMiddleware.Invoke(HttpContext context)
+   at Prometheus.HttpMetrics.HttpRequestCountMiddleware.Invoke(HttpContext context)
+   at Prometheus.HttpMetrics.HttpInProgressMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-07-19 16:58:44.462 -03:00 [DBG] 'AthenaContext' disposed.
+2023-07-19 16:58:44.466 -03:00 [INF] Request finished HTTP/2 POST https://localhost:5004/api/v1/tenant/produtosalmoxarifados application/json 138 - 500 - text/plain 801.7889ms
+2023-07-19 16:58:45.124 -03:00 [DBG] Connection id "0HMS8I8H0JO27" received FIN.
+2023-07-19 16:58:45.129 -03:00 [DBG] Connection id "0HMS8I8H0JO27" is closed. The last processed stream ID was 1.
+2023-07-19 16:58:45.133 -03:00 [DBG] Connection id "0HMS8I8H0JO27" sending FIN because: "The client closed the connection."
+2023-07-19 16:58:45.153 -03:00 [DBG] Connection id "0HMS8I8H0JO27" stopped.

@@ -1,0 +1,759 @@
+2023-07-19 15:00:44.867 -03:00 [DBG] Connection id "0HMS8G05A6KPI" accepted.
+2023-07-19 15:00:44.889 -03:00 [DBG] Connection id "0HMS8G05A6KPI" started.
+2023-07-19 15:00:44.906 -03:00 [DBG] Connection "0HMS8G05A6KPI" established using the following protocol: "Tls12"
+2023-07-19 15:00:44.915 -03:00 [INF] Request starting HTTP/2 POST https://localhost:5004/api/v1/person/person application/json 148
+2023-07-19 15:00:44.918 -03:00 [DBG] POST requests are not supported
+2023-07-19 15:00:44.920 -03:00 [DBG] 1 candidate(s) found for the request path '/api/v1/person/person'
+2023-07-19 15:00:44.923 -03:00 [DBG] Endpoint 'Concent.Athena.Services.API.Controllers.PersonController.Create (Concent.Athena.Services.API)' with route pattern 'api/v1/Person/Person' is valid for the request path '/api/v1/person/person'
+2023-07-19 15:00:44.929 -03:00 [DBG] Request matched endpoint 'Concent.Athena.Services.API.Controllers.PersonController.Create (Concent.Athena.Services.API)'
+2023-07-19 15:00:44.933 -03:00 [DBG] The request has an origin header: 'https://localhost:5004'.
+2023-07-19 15:00:44.936 -03:00 [INF] CORS policy execution successful.
+2023-07-19 15:00:44.938 -03:00 [INF] Executing endpoint 'Concent.Athena.Services.API.Controllers.PersonController.Create (Concent.Athena.Services.API)'
+2023-07-19 15:00:44.949 -03:00 [INF] Route matched with {action = "Create", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(Concent.Athena.Domain.Core.Requests.PersonRequests.CreatePersonRequest, System.Threading.CancellationToken) on controller Concent.Athena.Services.API.Controllers.PersonController (Concent.Athena.Services.API).
+2023-07-19 15:00:44.955 -03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-07-19 15:00:44.959 -03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-07-19 15:00:44.964 -03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-07-19 15:00:44.968 -03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-07-19 15:00:44.971 -03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-07-19 15:00:44.975 -03:00 [DBG] Executing controller factory for controller Concent.Athena.Services.API.Controllers.PersonController (Concent.Athena.Services.API)
+2023-07-19 15:00:44.981 -03:00 [DBG] Executed controller factory for controller Concent.Athena.Services.API.Controllers.PersonController (Concent.Athena.Services.API)
+2023-07-19 15:00:44.984 -03:00 [DBG] Attempting to bind parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.PersonRequests.CreatePersonRequest' ...
+2023-07-19 15:00:44.987 -03:00 [DBG] Attempting to bind parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.PersonRequests.CreatePersonRequest' using the name '' in request data ...
+2023-07-19 15:00:44.990 -03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2023-07-19 15:00:44.994 -03:00 [DBG] Connection id "0HMS8G05A6KPI", Request id "0HMS8G05A6KPI:00000001": started reading request body.
+2023-07-19 15:00:44.998 -03:00 [DBG] Connection id "0HMS8G05A6KPI", Request id "0HMS8G05A6KPI:00000001": done reading request body.
+2023-07-19 15:00:45.003 -03:00 [DBG] JSON input formatter succeeded, deserializing to type 'Concent.Athena.Domain.Core.Requests.PersonRequests.CreatePersonRequest'
+2023-07-19 15:00:45.006 -03:00 [DBG] Done attempting to bind parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.PersonRequests.CreatePersonRequest'.
+2023-07-19 15:00:45.009 -03:00 [DBG] Done attempting to bind parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.PersonRequests.CreatePersonRequest'.
+2023-07-19 15:00:45.013 -03:00 [DBG] Attempting to validate the bound parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.PersonRequests.CreatePersonRequest' ...
+2023-07-19 15:00:45.016 -03:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.PersonRequests.CreatePersonRequest'.
+2023-07-19 15:00:45.019 -03:00 [DBG] Attempting to bind parameter 'cancellationToken' of type 'System.Threading.CancellationToken' ...
+2023-07-19 15:00:45.022 -03:00 [DBG] Done attempting to bind parameter 'cancellationToken' of type 'System.Threading.CancellationToken'.
+2023-07-19 15:00:45.025 -03:00 [DBG] Attempting to validate the bound parameter 'cancellationToken' of type 'System.Threading.CancellationToken' ...
+2023-07-19 15:00:45.030 -03:00 [DBG] Done attempting to validate the bound parameter 'cancellationToken' of type 'System.Threading.CancellationToken'.
+2023-07-19 15:00:45.091 -03:00 [INF] Entity Framework Core 5.0.16 initialized 'AthenaContext' using provider 'Pomelo.EntityFrameworkCore.MySql' with options: ServerVersion 8.0.21-mysql 
+2023-07-19 15:00:45.102 -03:00 [DBG] Opening connection to database '' on server 'localhost'.
+2023-07-19 15:00:45.113 -03:00 [DBG] Opened connection to database '' on server 'localhost'.
+2023-07-19 15:00:45.119 -03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-07-19 15:00:45.122 -03:00 [DBG] Created DbCommand for 'ExecuteScalar' (2ms).
+2023-07-19 15:00:45.124 -03:00 [DBG] Opening connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 15:00:45.132 -03:00 [DBG] Opened connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 15:00:45.136 -03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+FROM information_schema.tables
+WHERE table_type = 'BASE TABLE' AND table_schema = 'Athenadb'
+2023-07-19 15:00:45.152 -03:00 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+FROM information_schema.tables
+WHERE table_type = 'BASE TABLE' AND table_schema = 'Athenadb'
+2023-07-19 15:00:45.157 -03:00 [DBG] Closing connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 15:00:45.163 -03:00 [DBG] Closed connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 15:00:45.170 -03:00 [DBG] Compiling query expression: 
+'DbSet<Person>()
+    .Any(x => x.CPF == __request_CPF_0)'
+2023-07-19 15:00:45.175 -03:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleAsync<bool>(
+    asyncEnumerable: new SingleQueryingEnumerable<bool>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.SelectExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> 0
+            SELECT EXISTS (
+                Projection Mapping:
+                SELECT 1
+                FROM TB_PERSON AS t
+                WHERE t.DS_CPF == @__request_CPF_0)), 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, bool>, 
+        Concent.Athena.Infrastructure.Data.Contexts.AthenaContext, 
+        False, 
+        False
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2023-07-19 15:00:45.183 -03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-07-19 15:00:45.186 -03:00 [DBG] Created DbCommand for 'ExecuteReader' (2ms).
+2023-07-19 15:00:45.188 -03:00 [DBG] Opening connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 15:00:45.193 -03:00 [DBG] Opened connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 15:00:45.200 -03:00 [DBG] Executing DbCommand [Parameters=[@__request_CPF_0='?' (Size = 400)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM `TB_PERSON` AS `t`
+    WHERE `t`.`DS_CPF` = @__request_CPF_0)
+2023-07-19 15:00:45.206 -03:00 [INF] Executed DbCommand (6ms) [Parameters=[@__request_CPF_0='?' (Size = 400)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM `TB_PERSON` AS `t`
+    WHERE `t`.`DS_CPF` = @__request_CPF_0)
+2023-07-19 15:00:45.214 -03:00 [DBG] A data reader was disposed.
+2023-07-19 15:00:45.216 -03:00 [DBG] Closing connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 15:00:45.218 -03:00 [DBG] Closed connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 15:00:45.225 -03:00 [DBG] 'AthenaContext' generated a value for the property 'Id.Person'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-07-19 15:00:45.252 -03:00 [DBG] Context 'AthenaContext' started tracking 'Person' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-07-19 15:00:45.257 -03:00 [DBG] DetectChanges starting for 'AthenaContext'.
+2023-07-19 15:00:45.264 -03:00 [DBG] DetectChanges completed for 'AthenaContext'.
+2023-07-19 15:00:45.267 -03:00 [DBG] DetectChanges starting for 'AthenaContext'.
+2023-07-19 15:00:45.269 -03:00 [DBG] DetectChanges completed for 'AthenaContext'.
+2023-07-19 15:00:45.275 -03:00 [DBG] SaveChanges starting for 'AthenaContext'.
+2023-07-19 15:00:45.279 -03:00 [DBG] DetectChanges starting for 'AthenaContext'.
+2023-07-19 15:00:45.281 -03:00 [DBG] DetectChanges completed for 'AthenaContext'.
+2023-07-19 15:00:45.283 -03:00 [DBG] Opening connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 15:00:45.291 -03:00 [DBG] Opened connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 15:00:45.295 -03:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-07-19 15:00:45.300 -03:00 [DBG] Began transaction with isolation level 'Unspecified'.
+2023-07-19 15:00:45.303 -03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-07-19 15:00:45.305 -03:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2023-07-19 15:00:45.307 -03:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 400), @p2='?' (DbType = DateTime), @p3='?' (DbType = Boolean), @p4='?' (Size = 400)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `TB_PERSON` (`ID`, `DS_CPF`, `CREATED_AT`, `ST_ACTIVE`, `DS_PERSON_NAME`)
+VALUES (@p0, @p1, @p2, @p3, @p4);
+SELECT `UPDATED_AT`
+FROM `TB_PERSON`
+WHERE ROW_COUNT() = 1 AND `ID` = @p0;
+2023-07-19 15:00:45.314 -03:00 [INF] Executed DbCommand (7ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 400), @p2='?' (DbType = DateTime), @p3='?' (DbType = Boolean), @p4='?' (Size = 400)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `TB_PERSON` (`ID`, `DS_CPF`, `CREATED_AT`, `ST_ACTIVE`, `DS_PERSON_NAME`)
+VALUES (@p0, @p1, @p2, @p3, @p4);
+SELECT `UPDATED_AT`
+FROM `TB_PERSON`
+WHERE ROW_COUNT() = 1 AND `ID` = @p0;
+2023-07-19 15:00:45.321 -03:00 [DBG] A data reader was disposed.
+2023-07-19 15:00:45.322 -03:00 [DBG] Committing transaction.
+2023-07-19 15:00:45.326 -03:00 [DBG] Committed transaction.
+2023-07-19 15:00:45.330 -03:00 [DBG] Closing connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 15:00:45.332 -03:00 [DBG] Closed connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 15:00:45.336 -03:00 [DBG] Disposing transaction.
+2023-07-19 15:00:45.339 -03:00 [DBG] An entity of type 'Person' tracked by 'AthenaContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-07-19 15:00:45.342 -03:00 [DBG] SaveChanges completed for 'AthenaContext' with 1 entities written to the database.
+2023-07-19 15:00:45.354 -03:00 [DBG] Compiling query expression: 
+'DbSet<User>()
+    .Any(x => x.UserLogin.ToUpper().Trim() == __Trim_0)'
+2023-07-19 15:00:45.370 -03:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleAsync<bool>(
+    asyncEnumerable: new SingleQueryingEnumerable<bool>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.SelectExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> 0
+            SELECT EXISTS (
+                Projection Mapping:
+                SELECT 1
+                FROM TB_USER AS t
+                WHERE TRIM([SqlExpressions.SqlFunctionExpression]) == @__Trim_0)), 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, bool>, 
+        Concent.Athena.Infrastructure.Data.Contexts.AthenaContext, 
+        False, 
+        False
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2023-07-19 15:00:45.388 -03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-07-19 15:00:45.391 -03:00 [DBG] Created DbCommand for 'ExecuteReader' (2ms).
+2023-07-19 15:00:45.395 -03:00 [DBG] Opening connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 15:00:45.401 -03:00 [DBG] Opened connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 15:00:45.404 -03:00 [DBG] Executing DbCommand [Parameters=[@__Trim_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM `TB_USER` AS `t`
+    WHERE TRIM(UPPER(`t`.`DS_USER_LOGIN`)) = @__Trim_0)
+2023-07-19 15:00:45.409 -03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__Trim_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM `TB_USER` AS `t`
+    WHERE TRIM(UPPER(`t`.`DS_USER_LOGIN`)) = @__Trim_0)
+2023-07-19 15:00:45.415 -03:00 [DBG] A data reader was disposed.
+2023-07-19 15:00:45.417 -03:00 [DBG] Closing connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 15:00:45.420 -03:00 [DBG] Closed connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 15:00:45.634 -03:00 [DBG] 'AthenaContext' generated a value for the property 'Id.User'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-07-19 15:00:45.672 -03:00 [DBG] Context 'AthenaContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-07-19 15:00:45.675 -03:00 [DBG] DetectChanges starting for 'AthenaContext'.
+2023-07-19 15:00:45.687 -03:00 [DBG] DetectChanges completed for 'AthenaContext'.
+2023-07-19 15:00:45.690 -03:00 [DBG] DetectChanges starting for 'AthenaContext'.
+2023-07-19 15:00:45.692 -03:00 [DBG] DetectChanges completed for 'AthenaContext'.
+2023-07-19 15:00:45.702 -03:00 [DBG] SaveChanges starting for 'AthenaContext'.
+2023-07-19 15:00:45.705 -03:00 [DBG] DetectChanges starting for 'AthenaContext'.
+2023-07-19 15:00:45.707 -03:00 [DBG] DetectChanges completed for 'AthenaContext'.
+2023-07-19 15:00:45.713 -03:00 [DBG] Opening connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 15:00:45.723 -03:00 [DBG] Opened connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 15:00:45.729 -03:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-07-19 15:00:45.736 -03:00 [DBG] Began transaction with isolation level 'Unspecified'.
+2023-07-19 15:00:45.741 -03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-07-19 15:00:45.746 -03:00 [DBG] Created DbCommand for 'ExecuteReader' (5ms).
+2023-07-19 15:00:45.749 -03:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime), @p2='?' (DbType = Boolean), @p3='?' (DbType = Boolean), @p4='?' (DbType = Guid), @p5='?' (Size = 400), @p6='?' (Size = 400), @p7='?' (Size = 400)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `TB_USER` (`ID`, `CREATED_AT`, `ST_ACTIVE`, `IE_ISLOGED`, `ID_PERSON`, `DS_SALT`, `DS_USER_LOGIN`, `DS_USER_PASSWORD`)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);
+SELECT `UPDATED_AT`
+FROM `TB_USER`
+WHERE ROW_COUNT() = 1 AND `ID` = @p0;
+2023-07-19 15:00:45.759 -03:00 [INF] Executed DbCommand (10ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime), @p2='?' (DbType = Boolean), @p3='?' (DbType = Boolean), @p4='?' (DbType = Guid), @p5='?' (Size = 400), @p6='?' (Size = 400), @p7='?' (Size = 400)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `TB_USER` (`ID`, `CREATED_AT`, `ST_ACTIVE`, `IE_ISLOGED`, `ID_PERSON`, `DS_SALT`, `DS_USER_LOGIN`, `DS_USER_PASSWORD`)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);
+SELECT `UPDATED_AT`
+FROM `TB_USER`
+WHERE ROW_COUNT() = 1 AND `ID` = @p0;
+2023-07-19 15:00:45.768 -03:00 [DBG] A data reader was disposed.
+2023-07-19 15:00:45.769 -03:00 [DBG] Committing transaction.
+2023-07-19 15:00:45.774 -03:00 [DBG] Committed transaction.
+2023-07-19 15:00:45.775 -03:00 [DBG] Closing connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 15:00:45.778 -03:00 [DBG] Closed connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 15:00:45.782 -03:00 [DBG] Disposing transaction.
+2023-07-19 15:00:45.785 -03:00 [DBG] An entity of type 'User' tracked by 'AthenaContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-07-19 15:00:45.790 -03:00 [DBG] SaveChanges completed for 'AthenaContext' with 1 entities written to the database.
+2023-07-19 15:00:45.801 -03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2023-07-19 15:00:45.806 -03:00 [DBG] No information found on request to perform content negotiation.
+2023-07-19 15:00:45.808 -03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-07-19 15:00:45.809 -03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-07-19 15:00:45.812 -03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-07-19 15:00:45.816 -03:00 [INF] Executing ObjectResult, writing value of type 'Concent.Athena.Domain.Core.Responses.Person.CreatePersonResponse'.
+2023-07-19 15:00:45.822 -03:00 [INF] Executed action Concent.Athena.Services.API.Controllers.PersonController.Create (Concent.Athena.Services.API) in 846.5136ms
+2023-07-19 15:00:45.826 -03:00 [INF] Executed endpoint 'Concent.Athena.Services.API.Controllers.PersonController.Create (Concent.Athena.Services.API)'
+2023-07-19 15:00:45.830 -03:00 [DBG] 'AthenaContext' disposed.
+2023-07-19 15:00:45.834 -03:00 [INF] Request finished HTTP/2 POST https://localhost:5004/api/v1/person/person application/json 148 - 201 - application/json;+charset=utf-8 918.7575ms
+2023-07-19 15:00:53.772 -03:00 [DBG] Connection id "0HMS8G05A6KPI" received FIN.
+2023-07-19 15:00:53.775 -03:00 [DBG] Connection id "0HMS8G05A6KPI" is closed. The last processed stream ID was 1.
+2023-07-19 15:00:53.779 -03:00 [DBG] Connection id "0HMS8G05A6KPI" sending FIN because: "The client closed the connection."
+2023-07-19 15:00:53.789 -03:00 [DBG] Connection id "0HMS8G05A6KPI" stopped.
+2023-07-19 15:01:18.499 -03:00 [DBG] Connection id "0HMS8G05A6KPJ" accepted.
+2023-07-19 15:01:18.502 -03:00 [DBG] Connection id "0HMS8G05A6KPJ" started.
+2023-07-19 15:01:18.525 -03:00 [DBG] Connection "0HMS8G05A6KPJ" established using the following protocol: "Tls12"
+2023-07-19 15:01:18.535 -03:00 [INF] Request starting HTTP/2 POST https://localhost:5004/api/v1/tenant/almoxarifados application/json 125
+2023-07-19 15:01:18.547 -03:00 [DBG] POST requests are not supported
+2023-07-19 15:01:18.550 -03:00 [DBG] 1 candidate(s) found for the request path '/api/v1/tenant/almoxarifados'
+2023-07-19 15:01:18.553 -03:00 [DBG] Endpoint 'Concent.Athena.Services.API.Controllers.AlmoxarifadosController.Create (Concent.Athena.Services.API)' with route pattern 'api/v1/tenant/Almoxarifados' is valid for the request path '/api/v1/tenant/almoxarifados'
+2023-07-19 15:01:18.557 -03:00 [DBG] Request matched endpoint 'Concent.Athena.Services.API.Controllers.AlmoxarifadosController.Create (Concent.Athena.Services.API)'
+2023-07-19 15:01:18.566 -03:00 [DBG] The request has an origin header: 'https://localhost:5004'.
+2023-07-19 15:01:18.569 -03:00 [INF] CORS policy execution successful.
+2023-07-19 15:01:18.571 -03:00 [INF] Executing endpoint 'Concent.Athena.Services.API.Controllers.AlmoxarifadosController.Create (Concent.Athena.Services.API)'
+2023-07-19 15:01:18.579 -03:00 [INF] Route matched with {action = "Create", controller = "Almoxarifados"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(Concent.Athena.Domain.Core.Requests.AlmoxarifadosRequests.CreateAlmoxarifadosRequest, System.Threading.CancellationToken) on controller Concent.Athena.Services.API.Controllers.AlmoxarifadosController (Concent.Athena.Services.API).
+2023-07-19 15:01:18.585 -03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-07-19 15:01:18.590 -03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-07-19 15:01:18.596 -03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-07-19 15:01:18.600 -03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-07-19 15:01:18.602 -03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-07-19 15:01:18.605 -03:00 [DBG] Executing controller factory for controller Concent.Athena.Services.API.Controllers.AlmoxarifadosController (Concent.Athena.Services.API)
+2023-07-19 15:01:18.609 -03:00 [DBG] Executed controller factory for controller Concent.Athena.Services.API.Controllers.AlmoxarifadosController (Concent.Athena.Services.API)
+2023-07-19 15:01:18.613 -03:00 [DBG] Attempting to bind parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.AlmoxarifadosRequests.CreateAlmoxarifadosRequest' ...
+2023-07-19 15:01:18.616 -03:00 [DBG] Attempting to bind parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.AlmoxarifadosRequests.CreateAlmoxarifadosRequest' using the name '' in request data ...
+2023-07-19 15:01:18.619 -03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2023-07-19 15:01:18.623 -03:00 [DBG] Connection id "0HMS8G05A6KPJ", Request id "0HMS8G05A6KPJ:00000001": started reading request body.
+2023-07-19 15:01:18.629 -03:00 [DBG] Connection id "0HMS8G05A6KPJ", Request id "0HMS8G05A6KPJ:00000001": done reading request body.
+2023-07-19 15:01:18.633 -03:00 [DBG] JSON input formatter succeeded, deserializing to type 'Concent.Athena.Domain.Core.Requests.AlmoxarifadosRequests.CreateAlmoxarifadosRequest'
+2023-07-19 15:01:18.635 -03:00 [DBG] Done attempting to bind parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.AlmoxarifadosRequests.CreateAlmoxarifadosRequest'.
+2023-07-19 15:01:18.638 -03:00 [DBG] Done attempting to bind parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.AlmoxarifadosRequests.CreateAlmoxarifadosRequest'.
+2023-07-19 15:01:18.641 -03:00 [DBG] Attempting to validate the bound parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.AlmoxarifadosRequests.CreateAlmoxarifadosRequest' ...
+2023-07-19 15:01:18.647 -03:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.AlmoxarifadosRequests.CreateAlmoxarifadosRequest'.
+2023-07-19 15:01:18.649 -03:00 [DBG] Attempting to bind parameter 'cancellationToken' of type 'System.Threading.CancellationToken' ...
+2023-07-19 15:01:18.652 -03:00 [DBG] Done attempting to bind parameter 'cancellationToken' of type 'System.Threading.CancellationToken'.
+2023-07-19 15:01:18.657 -03:00 [DBG] Attempting to validate the bound parameter 'cancellationToken' of type 'System.Threading.CancellationToken' ...
+2023-07-19 15:01:18.661 -03:00 [DBG] Done attempting to validate the bound parameter 'cancellationToken' of type 'System.Threading.CancellationToken'.
+2023-07-19 15:01:18.682 -03:00 [INF] Entity Framework Core 5.0.16 initialized 'AthenaContext' using provider 'Pomelo.EntityFrameworkCore.MySql' with options: ServerVersion 8.0.21-mysql 
+2023-07-19 15:01:18.686 -03:00 [DBG] Opening connection to database '' on server 'localhost'.
+2023-07-19 15:01:18.693 -03:00 [DBG] Opened connection to database '' on server 'localhost'.
+2023-07-19 15:01:18.697 -03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-07-19 15:01:18.699 -03:00 [DBG] Created DbCommand for 'ExecuteScalar' (1ms).
+2023-07-19 15:01:18.702 -03:00 [DBG] Opening connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 15:01:18.705 -03:00 [DBG] Opened connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 15:01:18.708 -03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+FROM information_schema.tables
+WHERE table_type = 'BASE TABLE' AND table_schema = 'Athenadb'
+2023-07-19 15:01:18.714 -03:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+FROM information_schema.tables
+WHERE table_type = 'BASE TABLE' AND table_schema = 'Athenadb'
+2023-07-19 15:01:18.718 -03:00 [DBG] Closing connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 15:01:18.721 -03:00 [DBG] Closed connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 15:01:18.730 -03:00 [DBG] Compiling query expression: 
+'DbSet<Almoxarifados>()
+    .SingleOrDefault(x => x.Id == __GetId_0 && x.PersonId == __request_PersonId_1)'
+2023-07-19 15:01:18.766 -03:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<Almoxarifados>(
+    asyncEnumerable: new SingleQueryingEnumerable<Almoxarifados>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.SelectExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Almoxarifados.Id (Guid) Required PK Concurrency AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Almoxarifados.CreatedAt (DateTime) Required, 1], [Property: Almoxarifados.DescricaoAlmoxarifado (string) Required, 2], [Property: Almoxarifados.IsActive (bool) Required, 3], [Property: Almoxarifados.PersonId (Guid) Required FK Index, 4], [Property: Almoxarifados.Sigla (string) Required, 5], [Property: Almoxarifados.UpdatedAt (DateTime) Required Concurrency BeforeSave:Ignore AfterSave:Ignore ValueGenerated.OnAddOrUpdate, 6], }
+            SELECT TOP(2) t.ID, t.CREATED_AT, t.DS_DESCRICAO, t.ST_ACTIVE, t.ID_PERSON, t.DS_SIGLA, t.UPDATED_AT
+            FROM TB_ALMOXARIFADO AS t
+            WHERE (t.ID == @__GetId_0) && (t.ID_PERSON == @__request_PersonId_1)), 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Almoxarifados>, 
+        Concent.Athena.Infrastructure.Data.Contexts.AthenaContext, 
+        False, 
+        False
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2023-07-19 15:01:18.781 -03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-07-19 15:01:18.783 -03:00 [DBG] Created DbCommand for 'ExecuteReader' (2ms).
+2023-07-19 15:01:18.785 -03:00 [DBG] Opening connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 15:01:18.789 -03:00 [DBG] Opened connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 15:01:18.798 -03:00 [DBG] Executing DbCommand [Parameters=[@__GetId_0='?' (DbType = Guid), @__request_PersonId_1='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT `t`.`ID`, `t`.`CREATED_AT`, `t`.`DS_DESCRICAO`, `t`.`ST_ACTIVE`, `t`.`ID_PERSON`, `t`.`DS_SIGLA`, `t`.`UPDATED_AT`
+FROM `TB_ALMOXARIFADO` AS `t`
+WHERE (`t`.`ID` = @__GetId_0) AND (`t`.`ID_PERSON` = @__request_PersonId_1)
+LIMIT 2
+2023-07-19 15:01:18.807 -03:00 [INF] Executed DbCommand (9ms) [Parameters=[@__GetId_0='?' (DbType = Guid), @__request_PersonId_1='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT `t`.`ID`, `t`.`CREATED_AT`, `t`.`DS_DESCRICAO`, `t`.`ST_ACTIVE`, `t`.`ID_PERSON`, `t`.`DS_SIGLA`, `t`.`UPDATED_AT`
+FROM `TB_ALMOXARIFADO` AS `t`
+WHERE (`t`.`ID` = @__GetId_0) AND (`t`.`ID_PERSON` = @__request_PersonId_1)
+LIMIT 2
+2023-07-19 15:01:18.818 -03:00 [DBG] A data reader was disposed.
+2023-07-19 15:01:18.819 -03:00 [DBG] Closing connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 15:01:18.822 -03:00 [DBG] Closed connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 15:01:18.826 -03:00 [DBG] Compiling query expression: 
+'DbSet<Almoxarifados>()
+    .Any(x => x.Sigla.ToUpper() == __ToUpper_0)'
+2023-07-19 15:01:18.833 -03:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleAsync<bool>(
+    asyncEnumerable: new SingleQueryingEnumerable<bool>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.SelectExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> 0
+            SELECT EXISTS (
+                Projection Mapping:
+                SELECT 1
+                FROM TB_ALMOXARIFADO AS t
+                WHERE UPPER(t.DS_SIGLA) == @__ToUpper_0)), 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, bool>, 
+        Concent.Athena.Infrastructure.Data.Contexts.AthenaContext, 
+        False, 
+        False
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2023-07-19 15:01:18.838 -03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-07-19 15:01:18.840 -03:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2023-07-19 15:01:18.844 -03:00 [DBG] Opening connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 15:01:18.849 -03:00 [DBG] Opened connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 15:01:18.851 -03:00 [DBG] Executing DbCommand [Parameters=[@__ToUpper_0='?' (Size = 400)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM `TB_ALMOXARIFADO` AS `t`
+    WHERE UPPER(`t`.`DS_SIGLA`) = @__ToUpper_0)
+2023-07-19 15:01:18.856 -03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__ToUpper_0='?' (Size = 400)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM `TB_ALMOXARIFADO` AS `t`
+    WHERE UPPER(`t`.`DS_SIGLA`) = @__ToUpper_0)
+2023-07-19 15:01:18.862 -03:00 [DBG] A data reader was disposed.
+2023-07-19 15:01:18.865 -03:00 [DBG] Closing connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 15:01:18.867 -03:00 [DBG] Closed connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 15:01:18.870 -03:00 [DBG] Compiling query expression: 
+'DbSet<Person>()
+    .Any(x => x.Id == __request_PersonId_0)'
+2023-07-19 15:01:18.874 -03:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleAsync<bool>(
+    asyncEnumerable: new SingleQueryingEnumerable<bool>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.SelectExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> 0
+            SELECT EXISTS (
+                Projection Mapping:
+                SELECT 1
+                FROM TB_PERSON AS t
+                WHERE t.ID == @__request_PersonId_0)), 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, bool>, 
+        Concent.Athena.Infrastructure.Data.Contexts.AthenaContext, 
+        False, 
+        False
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2023-07-19 15:01:18.881 -03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-07-19 15:01:18.883 -03:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2023-07-19 15:01:18.885 -03:00 [DBG] Opening connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 15:01:18.891 -03:00 [DBG] Opened connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 15:01:18.895 -03:00 [DBG] Executing DbCommand [Parameters=[@__request_PersonId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM `TB_PERSON` AS `t`
+    WHERE `t`.`ID` = @__request_PersonId_0)
+2023-07-19 15:01:18.900 -03:00 [INF] Executed DbCommand (5ms) [Parameters=[@__request_PersonId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM `TB_PERSON` AS `t`
+    WHERE `t`.`ID` = @__request_PersonId_0)
+2023-07-19 15:01:18.907 -03:00 [DBG] A data reader was disposed.
+2023-07-19 15:01:18.909 -03:00 [DBG] Closing connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 15:01:18.912 -03:00 [DBG] Closed connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 15:01:18.920 -03:00 [DBG] 'AthenaContext' generated a value for the property 'Id.Almoxarifados'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-07-19 15:01:18.939 -03:00 [DBG] Context 'AthenaContext' started tracking 'Almoxarifados' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-07-19 15:01:18.943 -03:00 [DBG] DetectChanges starting for 'AthenaContext'.
+2023-07-19 15:01:18.947 -03:00 [DBG] DetectChanges completed for 'AthenaContext'.
+2023-07-19 15:01:18.949 -03:00 [DBG] DetectChanges starting for 'AthenaContext'.
+2023-07-19 15:01:18.952 -03:00 [DBG] DetectChanges completed for 'AthenaContext'.
+2023-07-19 15:01:18.955 -03:00 [DBG] SaveChanges starting for 'AthenaContext'.
+2023-07-19 15:01:18.957 -03:00 [DBG] DetectChanges starting for 'AthenaContext'.
+2023-07-19 15:01:18.961 -03:00 [DBG] DetectChanges completed for 'AthenaContext'.
+2023-07-19 15:01:18.963 -03:00 [DBG] Opening connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 15:01:18.969 -03:00 [DBG] Opened connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 15:01:18.972 -03:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-07-19 15:01:18.976 -03:00 [DBG] Began transaction with isolation level 'Unspecified'.
+2023-07-19 15:01:18.980 -03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-07-19 15:01:18.982 -03:00 [DBG] Created DbCommand for 'ExecuteReader' (2ms).
+2023-07-19 15:01:18.985 -03:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime), @p2='?' (Size = 400), @p3='?' (DbType = Boolean), @p4='?' (DbType = Guid), @p5='?' (Size = 400)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `TB_ALMOXARIFADO` (`ID`, `CREATED_AT`, `DS_DESCRICAO`, `ST_ACTIVE`, `ID_PERSON`, `DS_SIGLA`)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+SELECT `UPDATED_AT`
+FROM `TB_ALMOXARIFADO`
+WHERE ROW_COUNT() = 1 AND `ID` = @p0;
+2023-07-19 15:01:18.991 -03:00 [INF] Executed DbCommand (6ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime), @p2='?' (Size = 400), @p3='?' (DbType = Boolean), @p4='?' (DbType = Guid), @p5='?' (Size = 400)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `TB_ALMOXARIFADO` (`ID`, `CREATED_AT`, `DS_DESCRICAO`, `ST_ACTIVE`, `ID_PERSON`, `DS_SIGLA`)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+SELECT `UPDATED_AT`
+FROM `TB_ALMOXARIFADO`
+WHERE ROW_COUNT() = 1 AND `ID` = @p0;
+2023-07-19 15:01:18.999 -03:00 [DBG] A data reader was disposed.
+2023-07-19 15:01:19.001 -03:00 [DBG] Committing transaction.
+2023-07-19 15:01:19.004 -03:00 [DBG] Committed transaction.
+2023-07-19 15:01:19.006 -03:00 [DBG] Closing connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 15:01:19.008 -03:00 [DBG] Closed connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 15:01:19.013 -03:00 [DBG] Disposing transaction.
+2023-07-19 15:01:19.016 -03:00 [DBG] An entity of type 'Almoxarifados' tracked by 'AthenaContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-07-19 15:01:19.020 -03:00 [DBG] SaveChanges completed for 'AthenaContext' with 1 entities written to the database.
+2023-07-19 15:01:19.028 -03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2023-07-19 15:01:19.032 -03:00 [DBG] No information found on request to perform content negotiation.
+2023-07-19 15:01:19.034 -03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-07-19 15:01:19.036 -03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-07-19 15:01:19.037 -03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-07-19 15:01:19.040 -03:00 [INF] Executing ObjectResult, writing value of type 'Concent.Athena.Domain.Core.Responses.AlmoxarifadoResponses.CreateAlmoxarifadoResponse'.
+2023-07-19 15:01:19.046 -03:00 [INF] Executed action Concent.Athena.Services.API.Controllers.AlmoxarifadosController.Create (Concent.Athena.Services.API) in 441.636ms
+2023-07-19 15:01:19.049 -03:00 [INF] Executed endpoint 'Concent.Athena.Services.API.Controllers.AlmoxarifadosController.Create (Concent.Athena.Services.API)'
+2023-07-19 15:01:19.052 -03:00 [DBG] 'AthenaContext' disposed.
+2023-07-19 15:01:19.054 -03:00 [INF] Request finished HTTP/2 POST https://localhost:5004/api/v1/tenant/almoxarifados application/json 125 - 201 - application/json;+charset=utf-8 519.3779ms
+2023-07-19 15:01:23.828 -03:00 [DBG] Connection id "0HMS8G05A6KPJ" received FIN.
+2023-07-19 15:01:23.831 -03:00 [DBG] Connection id "0HMS8G05A6KPJ" is closed. The last processed stream ID was 1.
+2023-07-19 15:01:23.835 -03:00 [DBG] Connection id "0HMS8G05A6KPJ" sending FIN because: "The client closed the connection."
+2023-07-19 15:01:23.843 -03:00 [DBG] Connection id "0HMS8G05A6KPJ" stopped.
+2023-07-19 15:01:46.682 -03:00 [DBG] Connection id "0HMS8G05A6KPK" accepted.
+2023-07-19 15:01:46.690 -03:00 [DBG] Connection id "0HMS8G05A6KPK" started.
+2023-07-19 15:01:46.708 -03:00 [DBG] Connection "0HMS8G05A6KPK" established using the following protocol: "Tls12"
+2023-07-19 15:01:46.715 -03:00 [INF] Request starting HTTP/2 POST https://localhost:5004/api/v1/tenant/produtosalmoxarifados application/json 138
+2023-07-19 15:01:46.717 -03:00 [DBG] POST requests are not supported
+2023-07-19 15:01:46.720 -03:00 [DBG] 1 candidate(s) found for the request path '/api/v1/tenant/produtosalmoxarifados'
+2023-07-19 15:01:46.724 -03:00 [DBG] Endpoint 'Concent.Athena.Services.API.Controllers.ProdutosAlmoxarifadosController.Create (Concent.Athena.Services.API)' with route pattern 'api/v1/tenant/ProdutosAlmoxarifados' is valid for the request path '/api/v1/tenant/produtosalmoxarifados'
+2023-07-19 15:01:46.731 -03:00 [DBG] Request matched endpoint 'Concent.Athena.Services.API.Controllers.ProdutosAlmoxarifadosController.Create (Concent.Athena.Services.API)'
+2023-07-19 15:01:46.734 -03:00 [DBG] The request has an origin header: 'https://localhost:5004'.
+2023-07-19 15:01:46.736 -03:00 [INF] CORS policy execution successful.
+2023-07-19 15:01:46.739 -03:00 [INF] Executing endpoint 'Concent.Athena.Services.API.Controllers.ProdutosAlmoxarifadosController.Create (Concent.Athena.Services.API)'
+2023-07-19 15:01:46.747 -03:00 [INF] Route matched with {action = "Create", controller = "ProdutosAlmoxarifados"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(Concent.Athena.Domain.Core.Requests.ProdutosAlmoxarifadosRequest.CreateProdutosAlmoxarifadosRequest, System.Threading.CancellationToken) on controller Concent.Athena.Services.API.Controllers.ProdutosAlmoxarifadosController (Concent.Athena.Services.API).
+2023-07-19 15:01:46.752 -03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-07-19 15:01:46.757 -03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-07-19 15:01:46.760 -03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-07-19 15:01:46.765 -03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-07-19 15:01:46.768 -03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-07-19 15:01:46.771 -03:00 [DBG] Executing controller factory for controller Concent.Athena.Services.API.Controllers.ProdutosAlmoxarifadosController (Concent.Athena.Services.API)
+2023-07-19 15:01:46.777 -03:00 [DBG] Executed controller factory for controller Concent.Athena.Services.API.Controllers.ProdutosAlmoxarifadosController (Concent.Athena.Services.API)
+2023-07-19 15:01:46.782 -03:00 [DBG] Attempting to bind parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.ProdutosAlmoxarifadosRequest.CreateProdutosAlmoxarifadosRequest' ...
+2023-07-19 15:01:46.784 -03:00 [DBG] Attempting to bind parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.ProdutosAlmoxarifadosRequest.CreateProdutosAlmoxarifadosRequest' using the name '' in request data ...
+2023-07-19 15:01:46.787 -03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2023-07-19 15:01:46.796 -03:00 [DBG] Connection id "0HMS8G05A6KPK", Request id "0HMS8G05A6KPK:00000001": started reading request body.
+2023-07-19 15:01:46.799 -03:00 [DBG] Connection id "0HMS8G05A6KPK", Request id "0HMS8G05A6KPK:00000001": done reading request body.
+2023-07-19 15:01:46.803 -03:00 [DBG] JSON input formatter succeeded, deserializing to type 'Concent.Athena.Domain.Core.Requests.ProdutosAlmoxarifadosRequest.CreateProdutosAlmoxarifadosRequest'
+2023-07-19 15:01:46.808 -03:00 [DBG] Done attempting to bind parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.ProdutosAlmoxarifadosRequest.CreateProdutosAlmoxarifadosRequest'.
+2023-07-19 15:01:46.813 -03:00 [DBG] Done attempting to bind parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.ProdutosAlmoxarifadosRequest.CreateProdutosAlmoxarifadosRequest'.
+2023-07-19 15:01:46.815 -03:00 [DBG] Attempting to validate the bound parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.ProdutosAlmoxarifadosRequest.CreateProdutosAlmoxarifadosRequest' ...
+2023-07-19 15:01:46.818 -03:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.ProdutosAlmoxarifadosRequest.CreateProdutosAlmoxarifadosRequest'.
+2023-07-19 15:01:46.824 -03:00 [DBG] Attempting to bind parameter 'cancellationToken' of type 'System.Threading.CancellationToken' ...
+2023-07-19 15:01:46.828 -03:00 [DBG] Done attempting to bind parameter 'cancellationToken' of type 'System.Threading.CancellationToken'.
+2023-07-19 15:01:46.831 -03:00 [DBG] Attempting to validate the bound parameter 'cancellationToken' of type 'System.Threading.CancellationToken' ...
+2023-07-19 15:01:46.833 -03:00 [DBG] Done attempting to validate the bound parameter 'cancellationToken' of type 'System.Threading.CancellationToken'.
+2023-07-19 15:01:46.841 -03:00 [INF] Entity Framework Core 5.0.16 initialized 'AthenaContext' using provider 'Pomelo.EntityFrameworkCore.MySql' with options: ServerVersion 8.0.21-mysql 
+2023-07-19 15:01:46.846 -03:00 [DBG] Opening connection to database '' on server 'localhost'.
+2023-07-19 15:01:46.851 -03:00 [DBG] Opened connection to database '' on server 'localhost'.
+2023-07-19 15:01:46.858 -03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-07-19 15:01:46.861 -03:00 [DBG] Created DbCommand for 'ExecuteScalar' (2ms).
+2023-07-19 15:01:46.865 -03:00 [DBG] Opening connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 15:01:46.869 -03:00 [DBG] Opened connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 15:01:46.874 -03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+FROM information_schema.tables
+WHERE table_type = 'BASE TABLE' AND table_schema = 'Athenadb'
+2023-07-19 15:01:46.879 -03:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+FROM information_schema.tables
+WHERE table_type = 'BASE TABLE' AND table_schema = 'Athenadb'
+2023-07-19 15:01:46.884 -03:00 [DBG] Closing connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 15:01:46.886 -03:00 [DBG] Closed connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 15:01:46.899 -03:00 [DBG] Compiling query expression: 
+'DbSet<Almoxarifados>()
+    .Include(x => x.ProdutosAlmoxarifados
+        .Where(x => x.ProdutosId == __request_ProdutosId_0))
+    .SingleOrDefault(x => x.Id == __GetId_1 && x.Id == __request_AlmoxarifadoId_2)'
+2023-07-19 15:01:46.917 -03:00 [DBG] Including navigation: 'Almoxarifados.ProdutosAlmoxarifados'.
+2023-07-19 15:01:46.989 -03:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<Almoxarifados>(
+    asyncEnumerable: new SingleQueryingEnumerable<Almoxarifados>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.SelectExpression(
+            Projection Mapping:
+            SELECT t0.ID, t0.CREATED_AT, t0.DS_DESCRICAO, t0.ST_ACTIVE, t0.ID_PERSON, t0.DS_SIGLA, t0.UPDATED_AT, t2.ID, t2.ID_alMOXarIFADO, t2.CREATED_AT, t2.ST_ACTIVE, t2.ID_PRODUTO, t2.UPDATED_AT
+            FROM Projection Mapping:
+            (
+                SELECT TOP(2) t.ID, t.CREATED_AT, t.DS_DESCRICAO, t.ST_ACTIVE, t.ID_PERSON, t.DS_SIGLA, t.UPDATED_AT
+                FROM TB_ALMOXARIFADO AS t
+                WHERE (t.ID == @__GetId_1) && (t.ID == @__request_AlmoxarifadoId_2)
+            ) AS t0
+            LEFT JOIN Projection Mapping:
+            (
+                SELECT t1.ID, t1.ID_alMOXarIFADO, t1.CREATED_AT, t1.ST_ACTIVE, t1.ID_PRODUTO, t1.UPDATED_AT
+                FROM TB_ProdutosAlmoxatrifados AS t1
+                WHERE t1.ID_PRODUTO == @__request_ProdutosId_0
+            ) AS t2 ON t0.ID == t2.ID_alMOXarIFADO
+            ORDER BY t0.ID ASC, t2.ID ASC), 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Almoxarifados>, 
+        Concent.Athena.Infrastructure.Data.Contexts.AthenaContext, 
+        False, 
+        False
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2023-07-19 15:01:46.999 -03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-07-19 15:01:47.001 -03:00 [DBG] Created DbCommand for 'ExecuteReader' (2ms).
+2023-07-19 15:01:47.003 -03:00 [DBG] Opening connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 15:01:47.011 -03:00 [DBG] Opened connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 15:01:47.016 -03:00 [DBG] Executing DbCommand [Parameters=[@__GetId_1='?' (DbType = Guid), @__request_AlmoxarifadoId_2='?' (DbType = Guid), @__request_ProdutosId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT `t0`.`ID`, `t0`.`CREATED_AT`, `t0`.`DS_DESCRICAO`, `t0`.`ST_ACTIVE`, `t0`.`ID_PERSON`, `t0`.`DS_SIGLA`, `t0`.`UPDATED_AT`, `t2`.`ID`, `t2`.`ID_alMOXarIFADO`, `t2`.`CREATED_AT`, `t2`.`ST_ACTIVE`, `t2`.`ID_PRODUTO`, `t2`.`UPDATED_AT`
+FROM (
+    SELECT `t`.`ID`, `t`.`CREATED_AT`, `t`.`DS_DESCRICAO`, `t`.`ST_ACTIVE`, `t`.`ID_PERSON`, `t`.`DS_SIGLA`, `t`.`UPDATED_AT`
+    FROM `TB_ALMOXARIFADO` AS `t`
+    WHERE (`t`.`ID` = @__GetId_1) AND (`t`.`ID` = @__request_AlmoxarifadoId_2)
+    LIMIT 2
+) AS `t0`
+LEFT JOIN (
+    SELECT `t1`.`ID`, `t1`.`ID_alMOXarIFADO`, `t1`.`CREATED_AT`, `t1`.`ST_ACTIVE`, `t1`.`ID_PRODUTO`, `t1`.`UPDATED_AT`
+    FROM `TB_ProdutosAlmoxatrifados` AS `t1`
+    WHERE `t1`.`ID_PRODUTO` = @__request_ProdutosId_0
+) AS `t2` ON `t0`.`ID` = `t2`.`ID_alMOXarIFADO`
+ORDER BY `t0`.`ID`, `t2`.`ID`
+2023-07-19 15:01:47.030 -03:00 [INF] Executed DbCommand (14ms) [Parameters=[@__GetId_1='?' (DbType = Guid), @__request_AlmoxarifadoId_2='?' (DbType = Guid), @__request_ProdutosId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT `t0`.`ID`, `t0`.`CREATED_AT`, `t0`.`DS_DESCRICAO`, `t0`.`ST_ACTIVE`, `t0`.`ID_PERSON`, `t0`.`DS_SIGLA`, `t0`.`UPDATED_AT`, `t2`.`ID`, `t2`.`ID_alMOXarIFADO`, `t2`.`CREATED_AT`, `t2`.`ST_ACTIVE`, `t2`.`ID_PRODUTO`, `t2`.`UPDATED_AT`
+FROM (
+    SELECT `t`.`ID`, `t`.`CREATED_AT`, `t`.`DS_DESCRICAO`, `t`.`ST_ACTIVE`, `t`.`ID_PERSON`, `t`.`DS_SIGLA`, `t`.`UPDATED_AT`
+    FROM `TB_ALMOXARIFADO` AS `t`
+    WHERE (`t`.`ID` = @__GetId_1) AND (`t`.`ID` = @__request_AlmoxarifadoId_2)
+    LIMIT 2
+) AS `t0`
+LEFT JOIN (
+    SELECT `t1`.`ID`, `t1`.`ID_alMOXarIFADO`, `t1`.`CREATED_AT`, `t1`.`ST_ACTIVE`, `t1`.`ID_PRODUTO`, `t1`.`UPDATED_AT`
+    FROM `TB_ProdutosAlmoxatrifados` AS `t1`
+    WHERE `t1`.`ID_PRODUTO` = @__request_ProdutosId_0
+) AS `t2` ON `t0`.`ID` = `t2`.`ID_alMOXarIFADO`
+ORDER BY `t0`.`ID`, `t2`.`ID`
+2023-07-19 15:01:47.036 -03:00 [DBG] A data reader was disposed.
+2023-07-19 15:01:47.037 -03:00 [DBG] Closing connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 15:01:47.041 -03:00 [DBG] Closed connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 15:01:47.047 -03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2023-07-19 15:01:47.051 -03:00 [DBG] No information found on request to perform content negotiation.
+2023-07-19 15:01:47.052 -03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-07-19 15:01:47.054 -03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-07-19 15:01:47.061 -03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-07-19 15:01:47.065 -03:00 [INF] Executing ObjectResult, writing value of type 'Concent.Athena.Domain.Core.Responses.ProdutisAlmoxarifadosResponses.CreateProdutosAlmoxarifadosResponse'.
+2023-07-19 15:01:47.070 -03:00 [INF] Executed action Concent.Athena.Services.API.Controllers.ProdutosAlmoxarifadosController.Create (Concent.Athena.Services.API) in 299.2277ms
+2023-07-19 15:01:47.076 -03:00 [INF] Executed endpoint 'Concent.Athena.Services.API.Controllers.ProdutosAlmoxarifadosController.Create (Concent.Athena.Services.API)'
+2023-07-19 15:01:47.079 -03:00 [DBG] 'AthenaContext' disposed.
+2023-07-19 15:01:47.082 -03:00 [INF] Request finished HTTP/2 POST https://localhost:5004/api/v1/tenant/produtosalmoxarifados application/json 138 - 400 - application/json;+charset=utf-8 366.9196ms
+2023-07-19 15:01:53.854 -03:00 [DBG] Connection id "0HMS8G05A6KPK" received FIN.
+2023-07-19 15:01:53.857 -03:00 [DBG] Connection id "0HMS8G05A6KPK" is closed. The last processed stream ID was 1.
+2023-07-19 15:01:53.861 -03:00 [DBG] Connection id "0HMS8G05A6KPK" sending FIN because: "The client closed the connection."
+2023-07-19 15:01:53.873 -03:00 [DBG] Connection id "0HMS8G05A6KPK" stopped.
+2023-07-19 15:06:41.679 -03:00 [DBG] Hosting starting
+2023-07-19 15:06:42.290 -03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 1ED06961E04A72F7E2C9617C51B22CBBFE7472A4)
+2023-07-19 15:06:42.411 -03:00 [INF] Now listening on: https://localhost:5004
+2023-07-19 15:06:42.413 -03:00 [DBG] Loaded hosting startup assembly Concent.Athena.Services.API
+2023-07-19 15:06:42.415 -03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-07-19 15:06:42.418 -03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-07-19 15:06:42.423 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-19 15:06:42.426 -03:00 [INF] Hosting environment: Local
+2023-07-19 15:06:42.428 -03:00 [INF] Content root path: C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API
+2023-07-19 15:06:42.431 -03:00 [DBG] Hosting started
+2023-07-19 15:06:42.622 -03:00 [DBG] Connection id "0HMS8GBK3EK3U" accepted.
+2023-07-19 15:06:42.626 -03:00 [DBG] Connection id "0HMS8GBK3EK3U" started.
+2023-07-19 15:06:42.714 -03:00 [DBG] Connection "0HMS8GBK3EK3U" established using the following protocol: "Tls12"
+2023-07-19 15:06:42.777 -03:00 [INF] Request starting HTTP/2 POST https://localhost:5004/api/v1/tenant/produtosalmoxarifados application/json 138
+2023-07-19 15:06:42.799 -03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-07-19 15:06:42.821 -03:00 [DBG] POST requests are not supported
+2023-07-19 15:06:42.872 -03:00 [DBG] 1 candidate(s) found for the request path '/api/v1/tenant/produtosalmoxarifados'
+2023-07-19 15:06:42.882 -03:00 [DBG] Endpoint 'Concent.Athena.Services.API.Controllers.ProdutosAlmoxarifadosController.Create (Concent.Athena.Services.API)' with route pattern 'api/v1/tenant/ProdutosAlmoxarifados' is valid for the request path '/api/v1/tenant/produtosalmoxarifados'
+2023-07-19 15:06:42.885 -03:00 [DBG] Request matched endpoint 'Concent.Athena.Services.API.Controllers.ProdutosAlmoxarifadosController.Create (Concent.Athena.Services.API)'
+2023-07-19 15:06:42.896 -03:00 [DBG] The request has an origin header: 'https://localhost:5004'.
+2023-07-19 15:06:42.899 -03:00 [INF] CORS policy execution successful.
+2023-07-19 15:06:42.902 -03:00 [INF] Executing endpoint 'Concent.Athena.Services.API.Controllers.ProdutosAlmoxarifadosController.Create (Concent.Athena.Services.API)'
+2023-07-19 15:06:42.914 -03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-07-19 15:06:42.976 -03:00 [INF] Route matched with {action = "Create", controller = "ProdutosAlmoxarifados"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(Concent.Athena.Domain.Core.Requests.ProdutosAlmoxarifadosRequest.CreateProdutosAlmoxarifadosRequest, System.Threading.CancellationToken) on controller Concent.Athena.Services.API.Controllers.ProdutosAlmoxarifadosController (Concent.Athena.Services.API).
+2023-07-19 15:06:42.981 -03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-07-19 15:06:42.984 -03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-07-19 15:06:42.988 -03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-07-19 15:06:42.991 -03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-07-19 15:06:42.994 -03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-07-19 15:06:42.998 -03:00 [DBG] Executing controller factory for controller Concent.Athena.Services.API.Controllers.ProdutosAlmoxarifadosController (Concent.Athena.Services.API)
+2023-07-19 15:06:43.003 -03:00 [DBG] Executed controller factory for controller Concent.Athena.Services.API.Controllers.ProdutosAlmoxarifadosController (Concent.Athena.Services.API)
+2023-07-19 15:06:43.027 -03:00 [DBG] Attempting to bind parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.ProdutosAlmoxarifadosRequest.CreateProdutosAlmoxarifadosRequest' ...
+2023-07-19 15:06:43.032 -03:00 [DBG] Attempting to bind parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.ProdutosAlmoxarifadosRequest.CreateProdutosAlmoxarifadosRequest' using the name '' in request data ...
+2023-07-19 15:06:43.035 -03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2023-07-19 15:06:43.052 -03:00 [DBG] Connection id "0HMS8GBK3EK3U", Request id "0HMS8GBK3EK3U:00000001": started reading request body.
+2023-07-19 15:06:43.058 -03:00 [DBG] Connection id "0HMS8GBK3EK3U", Request id "0HMS8GBK3EK3U:00000001": done reading request body.
+2023-07-19 15:06:43.068 -03:00 [DBG] JSON input formatter succeeded, deserializing to type 'Concent.Athena.Domain.Core.Requests.ProdutosAlmoxarifadosRequest.CreateProdutosAlmoxarifadosRequest'
+2023-07-19 15:06:43.072 -03:00 [DBG] Done attempting to bind parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.ProdutosAlmoxarifadosRequest.CreateProdutosAlmoxarifadosRequest'.
+2023-07-19 15:06:43.077 -03:00 [DBG] Done attempting to bind parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.ProdutosAlmoxarifadosRequest.CreateProdutosAlmoxarifadosRequest'.
+2023-07-19 15:06:43.079 -03:00 [DBG] Attempting to validate the bound parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.ProdutosAlmoxarifadosRequest.CreateProdutosAlmoxarifadosRequest' ...
+2023-07-19 15:06:43.084 -03:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.ProdutosAlmoxarifadosRequest.CreateProdutosAlmoxarifadosRequest'.
+2023-07-19 15:06:43.092 -03:00 [DBG] Attempting to bind parameter 'cancellationToken' of type 'System.Threading.CancellationToken' ...
+2023-07-19 15:06:43.095 -03:00 [DBG] Done attempting to bind parameter 'cancellationToken' of type 'System.Threading.CancellationToken'.
+2023-07-19 15:06:43.097 -03:00 [DBG] Attempting to validate the bound parameter 'cancellationToken' of type 'System.Threading.CancellationToken' ...
+2023-07-19 15:06:43.100 -03:00 [DBG] Done attempting to validate the bound parameter 'cancellationToken' of type 'System.Threading.CancellationToken'.
+2023-07-19 15:06:43.299 -03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-07-19 15:06:44.350 -03:00 [INF] Entity Framework Core 5.0.16 initialized 'AthenaContext' using provider 'Pomelo.EntityFrameworkCore.MySql' with options: ServerVersion 8.0.21-mysql 
+2023-07-19 15:06:44.373 -03:00 [DBG] Opening connection to database '' on server 'localhost'.
+2023-07-19 15:06:44.496 -03:00 [DBG] Opened connection to database '' on server 'localhost'.
+2023-07-19 15:06:44.600 -03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-07-19 15:06:44.610 -03:00 [DBG] Created DbCommand for 'ExecuteScalar' (4ms).
+2023-07-19 15:06:44.614 -03:00 [DBG] Opening connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 15:06:44.634 -03:00 [DBG] Opened connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 15:06:44.644 -03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+FROM information_schema.tables
+WHERE table_type = 'BASE TABLE' AND table_schema = 'Athenadb'
+2023-07-19 15:06:44.678 -03:00 [INF] Executed DbCommand (33ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+FROM information_schema.tables
+WHERE table_type = 'BASE TABLE' AND table_schema = 'Athenadb'
+2023-07-19 15:06:44.684 -03:00 [DBG] Closing connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 15:06:44.690 -03:00 [DBG] Closed connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 15:06:45.031 -03:00 [DBG] Compiling query expression: 
+'DbSet<Almoxarifados>()
+    .Include(x => x.ProdutosAlmoxarifados)
+    .SingleOrDefault(x => x.Id == __GetId_0 && x.Id == __request_AlmoxarifadoId_1)'
+2023-07-19 15:06:45.079 -03:00 [DBG] Including navigation: 'Almoxarifados.ProdutosAlmoxarifados'.
+2023-07-19 15:06:45.336 -03:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<Almoxarifados>(
+    asyncEnumerable: new SingleQueryingEnumerable<Almoxarifados>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.SelectExpression(
+            Projection Mapping:
+            SELECT t0.ID, t0.CREATED_AT, t0.DS_DESCRICAO, t0.ST_ACTIVE, t0.ID_PERSON, t0.DS_SIGLA, t0.UPDATED_AT, t1.ID, t1.ID_alMOXarIFADO, t1.CREATED_AT, t1.ST_ACTIVE, t1.ID_PRODUTO, t1.UPDATED_AT
+            FROM Projection Mapping:
+            (
+                SELECT TOP(2) t.ID, t.CREATED_AT, t.DS_DESCRICAO, t.ST_ACTIVE, t.ID_PERSON, t.DS_SIGLA, t.UPDATED_AT
+                FROM TB_ALMOXARIFADO AS t
+                WHERE (t.ID == @__GetId_0) && (t.ID == @__request_AlmoxarifadoId_1)
+            ) AS t0
+            LEFT JOIN TB_ProdutosAlmoxatrifados AS t1 ON t0.ID == t1.ID_alMOXarIFADO
+            ORDER BY t0.ID ASC, t1.ID ASC), 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Almoxarifados>, 
+        Concent.Athena.Infrastructure.Data.Contexts.AthenaContext, 
+        False, 
+        False
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2023-07-19 15:06:45.377 -03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-07-19 15:06:45.382 -03:00 [DBG] Created DbCommand for 'ExecuteReader' (4ms).
+2023-07-19 15:06:45.408 -03:00 [DBG] Opening connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 15:06:45.429 -03:00 [DBG] Opened connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 15:06:45.435 -03:00 [DBG] Executing DbCommand [Parameters=[@__GetId_0='?' (DbType = Guid), @__request_AlmoxarifadoId_1='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT `t0`.`ID`, `t0`.`CREATED_AT`, `t0`.`DS_DESCRICAO`, `t0`.`ST_ACTIVE`, `t0`.`ID_PERSON`, `t0`.`DS_SIGLA`, `t0`.`UPDATED_AT`, `t1`.`ID`, `t1`.`ID_alMOXarIFADO`, `t1`.`CREATED_AT`, `t1`.`ST_ACTIVE`, `t1`.`ID_PRODUTO`, `t1`.`UPDATED_AT`
+FROM (
+    SELECT `t`.`ID`, `t`.`CREATED_AT`, `t`.`DS_DESCRICAO`, `t`.`ST_ACTIVE`, `t`.`ID_PERSON`, `t`.`DS_SIGLA`, `t`.`UPDATED_AT`
+    FROM `TB_ALMOXARIFADO` AS `t`
+    WHERE (`t`.`ID` = @__GetId_0) AND (`t`.`ID` = @__request_AlmoxarifadoId_1)
+    LIMIT 2
+) AS `t0`
+LEFT JOIN `TB_ProdutosAlmoxatrifados` AS `t1` ON `t0`.`ID` = `t1`.`ID_alMOXarIFADO`
+ORDER BY `t0`.`ID`, `t1`.`ID`
+2023-07-19 15:06:45.467 -03:00 [INF] Executed DbCommand (33ms) [Parameters=[@__GetId_0='?' (DbType = Guid), @__request_AlmoxarifadoId_1='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT `t0`.`ID`, `t0`.`CREATED_AT`, `t0`.`DS_DESCRICAO`, `t0`.`ST_ACTIVE`, `t0`.`ID_PERSON`, `t0`.`DS_SIGLA`, `t0`.`UPDATED_AT`, `t1`.`ID`, `t1`.`ID_alMOXarIFADO`, `t1`.`CREATED_AT`, `t1`.`ST_ACTIVE`, `t1`.`ID_PRODUTO`, `t1`.`UPDATED_AT`
+FROM (
+    SELECT `t`.`ID`, `t`.`CREATED_AT`, `t`.`DS_DESCRICAO`, `t`.`ST_ACTIVE`, `t`.`ID_PERSON`, `t`.`DS_SIGLA`, `t`.`UPDATED_AT`
+    FROM `TB_ALMOXARIFADO` AS `t`
+    WHERE (`t`.`ID` = @__GetId_0) AND (`t`.`ID` = @__request_AlmoxarifadoId_1)
+    LIMIT 2
+) AS `t0`
+LEFT JOIN `TB_ProdutosAlmoxatrifados` AS `t1` ON `t0`.`ID` = `t1`.`ID_alMOXarIFADO`
+ORDER BY `t0`.`ID`, `t1`.`ID`
+2023-07-19 15:06:45.482 -03:00 [DBG] A data reader was disposed.
+2023-07-19 15:06:45.491 -03:00 [DBG] Closing connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 15:06:45.495 -03:00 [DBG] Closed connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 15:06:45.501 -03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2023-07-19 15:06:45.512 -03:00 [DBG] No information found on request to perform content negotiation.
+2023-07-19 15:06:45.514 -03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-07-19 15:06:45.516 -03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-07-19 15:06:45.518 -03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-07-19 15:06:45.527 -03:00 [INF] Executing ObjectResult, writing value of type 'Concent.Athena.Domain.Core.Responses.ProdutisAlmoxarifadosResponses.CreateProdutosAlmoxarifadosResponse'.
+2023-07-19 15:06:45.569 -03:00 [INF] Executed action Concent.Athena.Services.API.Controllers.ProdutosAlmoxarifadosController.Create (Concent.Athena.Services.API) in 2567.3877ms
+2023-07-19 15:06:45.576 -03:00 [INF] Executed endpoint 'Concent.Athena.Services.API.Controllers.ProdutosAlmoxarifadosController.Create (Concent.Athena.Services.API)'
+2023-07-19 15:06:45.585 -03:00 [DBG] 'AthenaContext' disposed.
+2023-07-19 15:06:45.595 -03:00 [INF] Request finished HTTP/2 POST https://localhost:5004/api/v1/tenant/produtosalmoxarifados application/json 138 - 400 - application/json;+charset=utf-8 2819.6108ms
+2023-07-19 15:06:54.359 -03:00 [DBG] Connection id "0HMS8GBK3EK3U" received FIN.
+2023-07-19 15:06:54.364 -03:00 [DBG] Connection id "0HMS8GBK3EK3U" is closed. The last processed stream ID was 1.
+2023-07-19 15:06:54.368 -03:00 [DBG] Connection id "0HMS8GBK3EK3U" sending FIN because: "The client closed the connection."
+2023-07-19 15:06:54.390 -03:00 [DBG] Connection id "0HMS8GBK3EK3U" stopped.
+2023-07-19 15:07:00.214 -03:00 [DBG] Connection id "0HMS8GBK3EK3V" accepted.
+2023-07-19 15:07:00.217 -03:00 [DBG] Connection id "0HMS8GBK3EK3V" started.
+2023-07-19 15:07:00.224 -03:00 [DBG] Connection "0HMS8GBK3EK3V" established using the following protocol: "Tls12"
+2023-07-19 15:07:00.231 -03:00 [INF] Request starting HTTP/2 POST https://localhost:5004/api/v1/tenant/produtosalmoxarifados application/json 138
+2023-07-19 15:07:00.235 -03:00 [DBG] POST requests are not supported
+2023-07-19 15:07:00.242 -03:00 [DBG] 1 candidate(s) found for the request path '/api/v1/tenant/produtosalmoxarifados'
+2023-07-19 15:07:00.245 -03:00 [DBG] Endpoint 'Concent.Athena.Services.API.Controllers.ProdutosAlmoxarifadosController.Create (Concent.Athena.Services.API)' with route pattern 'api/v1/tenant/ProdutosAlmoxarifados' is valid for the request path '/api/v1/tenant/produtosalmoxarifados'
+2023-07-19 15:07:00.253 -03:00 [DBG] Request matched endpoint 'Concent.Athena.Services.API.Controllers.ProdutosAlmoxarifadosController.Create (Concent.Athena.Services.API)'
+2023-07-19 15:07:00.257 -03:00 [DBG] The request has an origin header: 'https://localhost:5004'.
+2023-07-19 15:07:00.261 -03:00 [INF] CORS policy execution successful.
+2023-07-19 15:07:00.266 -03:00 [INF] Executing endpoint 'Concent.Athena.Services.API.Controllers.ProdutosAlmoxarifadosController.Create (Concent.Athena.Services.API)'
+2023-07-19 15:07:00.271 -03:00 [INF] Route matched with {action = "Create", controller = "ProdutosAlmoxarifados"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(Concent.Athena.Domain.Core.Requests.ProdutosAlmoxarifadosRequest.CreateProdutosAlmoxarifadosRequest, System.Threading.CancellationToken) on controller Concent.Athena.Services.API.Controllers.ProdutosAlmoxarifadosController (Concent.Athena.Services.API).
+2023-07-19 15:07:00.277 -03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-07-19 15:07:00.287 -03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-07-19 15:07:00.291 -03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-07-19 15:07:00.303 -03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-07-19 15:07:00.307 -03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-07-19 15:07:00.310 -03:00 [DBG] Executing controller factory for controller Concent.Athena.Services.API.Controllers.ProdutosAlmoxarifadosController (Concent.Athena.Services.API)
+2023-07-19 15:07:00.315 -03:00 [DBG] Executed controller factory for controller Concent.Athena.Services.API.Controllers.ProdutosAlmoxarifadosController (Concent.Athena.Services.API)
+2023-07-19 15:07:00.317 -03:00 [DBG] Attempting to bind parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.ProdutosAlmoxarifadosRequest.CreateProdutosAlmoxarifadosRequest' ...
+2023-07-19 15:07:00.320 -03:00 [DBG] Attempting to bind parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.ProdutosAlmoxarifadosRequest.CreateProdutosAlmoxarifadosRequest' using the name '' in request data ...
+2023-07-19 15:07:00.323 -03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2023-07-19 15:07:00.326 -03:00 [DBG] Connection id "0HMS8GBK3EK3V", Request id "0HMS8GBK3EK3V:00000001": started reading request body.
+2023-07-19 15:07:00.331 -03:00 [DBG] Connection id "0HMS8GBK3EK3V", Request id "0HMS8GBK3EK3V:00000001": done reading request body.
+2023-07-19 15:07:00.333 -03:00 [DBG] JSON input formatter succeeded, deserializing to type 'Concent.Athena.Domain.Core.Requests.ProdutosAlmoxarifadosRequest.CreateProdutosAlmoxarifadosRequest'
+2023-07-19 15:07:00.335 -03:00 [DBG] Done attempting to bind parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.ProdutosAlmoxarifadosRequest.CreateProdutosAlmoxarifadosRequest'.
+2023-07-19 15:07:00.338 -03:00 [DBG] Done attempting to bind parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.ProdutosAlmoxarifadosRequest.CreateProdutosAlmoxarifadosRequest'.
+2023-07-19 15:07:00.341 -03:00 [DBG] Attempting to validate the bound parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.ProdutosAlmoxarifadosRequest.CreateProdutosAlmoxarifadosRequest' ...
+2023-07-19 15:07:00.346 -03:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'Concent.Athena.Domain.Core.Requests.ProdutosAlmoxarifadosRequest.CreateProdutosAlmoxarifadosRequest'.
+2023-07-19 15:07:00.349 -03:00 [DBG] Attempting to bind parameter 'cancellationToken' of type 'System.Threading.CancellationToken' ...
+2023-07-19 15:07:00.351 -03:00 [DBG] Done attempting to bind parameter 'cancellationToken' of type 'System.Threading.CancellationToken'.
+2023-07-19 15:07:00.353 -03:00 [DBG] Attempting to validate the bound parameter 'cancellationToken' of type 'System.Threading.CancellationToken' ...
+2023-07-19 15:07:00.358 -03:00 [DBG] Done attempting to validate the bound parameter 'cancellationToken' of type 'System.Threading.CancellationToken'.
+2023-07-19 15:07:00.365 -03:00 [INF] Entity Framework Core 5.0.16 initialized 'AthenaContext' using provider 'Pomelo.EntityFrameworkCore.MySql' with options: ServerVersion 8.0.21-mysql 
+2023-07-19 15:07:00.369 -03:00 [DBG] Opening connection to database '' on server 'localhost'.
+2023-07-19 15:07:00.377 -03:00 [DBG] Opened connection to database '' on server 'localhost'.
+2023-07-19 15:07:00.382 -03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-07-19 15:07:00.384 -03:00 [DBG] Created DbCommand for 'ExecuteScalar' (2ms).
+2023-07-19 15:07:00.388 -03:00 [DBG] Opening connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 15:07:00.390 -03:00 [DBG] Opened connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 15:07:00.393 -03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+FROM information_schema.tables
+WHERE table_type = 'BASE TABLE' AND table_schema = 'Athenadb'
+2023-07-19 15:07:00.400 -03:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+FROM information_schema.tables
+WHERE table_type = 'BASE TABLE' AND table_schema = 'Athenadb'
+2023-07-19 15:07:00.406 -03:00 [DBG] Closing connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 15:07:00.409 -03:00 [DBG] Closed connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 15:07:00.416 -03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-07-19 15:07:00.419 -03:00 [DBG] Created DbCommand for 'ExecuteReader' (2ms).
+2023-07-19 15:07:00.421 -03:00 [DBG] Opening connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 15:07:00.434 -03:00 [DBG] Opened connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 15:07:00.438 -03:00 [DBG] Executing DbCommand [Parameters=[@__GetId_0='?' (DbType = Guid), @__request_AlmoxarifadoId_1='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT `t0`.`ID`, `t0`.`CREATED_AT`, `t0`.`DS_DESCRICAO`, `t0`.`ST_ACTIVE`, `t0`.`ID_PERSON`, `t0`.`DS_SIGLA`, `t0`.`UPDATED_AT`, `t1`.`ID`, `t1`.`ID_alMOXarIFADO`, `t1`.`CREATED_AT`, `t1`.`ST_ACTIVE`, `t1`.`ID_PRODUTO`, `t1`.`UPDATED_AT`
+FROM (
+    SELECT `t`.`ID`, `t`.`CREATED_AT`, `t`.`DS_DESCRICAO`, `t`.`ST_ACTIVE`, `t`.`ID_PERSON`, `t`.`DS_SIGLA`, `t`.`UPDATED_AT`
+    FROM `TB_ALMOXARIFADO` AS `t`
+    WHERE (`t`.`ID` = @__GetId_0) AND (`t`.`ID` = @__request_AlmoxarifadoId_1)
+    LIMIT 2
+) AS `t0`
+LEFT JOIN `TB_ProdutosAlmoxatrifados` AS `t1` ON `t0`.`ID` = `t1`.`ID_alMOXarIFADO`
+ORDER BY `t0`.`ID`, `t1`.`ID`
+2023-07-19 15:07:00.455 -03:00 [INF] Executed DbCommand (17ms) [Parameters=[@__GetId_0='?' (DbType = Guid), @__request_AlmoxarifadoId_1='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT `t0`.`ID`, `t0`.`CREATED_AT`, `t0`.`DS_DESCRICAO`, `t0`.`ST_ACTIVE`, `t0`.`ID_PERSON`, `t0`.`DS_SIGLA`, `t0`.`UPDATED_AT`, `t1`.`ID`, `t1`.`ID_alMOXarIFADO`, `t1`.`CREATED_AT`, `t1`.`ST_ACTIVE`, `t1`.`ID_PRODUTO`, `t1`.`UPDATED_AT`
+FROM (
+    SELECT `t`.`ID`, `t`.`CREATED_AT`, `t`.`DS_DESCRICAO`, `t`.`ST_ACTIVE`, `t`.`ID_PERSON`, `t`.`DS_SIGLA`, `t`.`UPDATED_AT`
+    FROM `TB_ALMOXARIFADO` AS `t`
+    WHERE (`t`.`ID` = @__GetId_0) AND (`t`.`ID` = @__request_AlmoxarifadoId_1)
+    LIMIT 2
+) AS `t0`
+LEFT JOIN `TB_ProdutosAlmoxatrifados` AS `t1` ON `t0`.`ID` = `t1`.`ID_alMOXarIFADO`
+ORDER BY `t0`.`ID`, `t1`.`ID`
+2023-07-19 15:07:00.468 -03:00 [DBG] A data reader was disposed.
+2023-07-19 15:07:00.470 -03:00 [DBG] Closing connection to database 'Athenadb' on server 'localhost'.
+2023-07-19 15:07:00.474 -03:00 [DBG] Closed connection to database 'Athenadb' on server 'localhost'.

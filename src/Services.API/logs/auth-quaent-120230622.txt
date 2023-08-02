@@ -1,0 +1,10 @@
+2023-06-22 12:19:09.243 -03:00 [DBG] Hosting starting
+2023-06-22 12:19:10.850 -03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 1ED06961E04A72F7E2C9617C51B22CBBFE7472A4)
+2023-06-22 12:19:11.328 -03:00 [INF] Now listening on: https://localhost:5002
+2023-06-22 12:19:11.405 -03:00 [DBG] Loaded hosting startup assembly Concent.Athena.Services.API
+2023-06-22 12:19:11.424 -03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-06-22 12:19:11.429 -03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-06-22 12:19:11.432 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-22 12:19:11.435 -03:00 [INF] Hosting environment: Local
+2023-06-22 12:19:11.437 -03:00 [INF] Content root path: C:\Users\concent\Desktop\Organizador\Projeto ATHENA\Athena\concent.athena\src\Services.API
+2023-06-22 12:19:11.441 -03:00 [DBG] Hosting started
